@@ -5,6 +5,7 @@ import { Surface } from './components/Surface'
 import { Button } from './components/Button'
 import { faAngleRight, faAngleDown, faAngleUp, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import { Post } from './components/Post/Post'
+import { BackToTop } from './components/BackToTop/BackToTop'
 
 import postsDefinition from '../assets/json/posts.json'
 import { uid } from 'uid'
@@ -53,13 +54,13 @@ function App() {
   return (
     <>
       <Header />
-      <div className='mt-20 p-8 flex gap-6'>
+      <BackToTop/>
+      <div className='mt-20 p-8 max-sm:p-4 flex gap-6 max-sm:gap-3 max-sm:flex-col'>
         <Surface 
           mx={{
-            width: '324px',
             height: 'fit-content'
           }}
-          className='sticky top-28'
+          className='sticky top-28 w-80 max-sm:static max-sm:w-auto'
         >
           <Button
             key={uid()}
@@ -92,7 +93,7 @@ function App() {
           }
         </Surface>
 
-        <div className='inline-flex flex-col gap-6 flex-grow'>
+        <div className='inline-flex flex-col gap-6 max-sm:gap-3 flex-grow'>
           {
             postsDefinition?.map(({ title, subTitle, paragraphs }, index) => {
               return (

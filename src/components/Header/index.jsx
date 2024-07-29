@@ -7,7 +7,7 @@ export const Header = () => {
         <div className="bg-white h-20 rounded-b-3xl flex items-center px-8 justify-between drop-shadow-lg fixed w-full top-0">
             <img 
                 src={logo}
-                width={180}
+                className='max-sm:w-32 w-44'
             />
             <Button variant={"solid"} color={"primary"} className={'font-bold'} rightIcon={faAngleRight} onClick={() => window.open("https://autosam.github.io/Tamaweb/", '_blank')}>
                 Play Tamaweb!

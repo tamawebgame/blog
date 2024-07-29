@@ -6,7 +6,7 @@ import { Button } from './components/Button'
 import { faAngleRight, faAngleDown, faAngleUp, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import { Post } from './components/Post/Post'
 
-import postsDefinition from './assets/json/posts.json'
+import postsDefinition from '../assets/json/posts.json'
 import { uid } from 'uid'
 import { useEffect, useState } from 'react'
 

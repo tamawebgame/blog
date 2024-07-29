@@ -11,7 +11,7 @@ export const PostParagraph = ({ text, images }) => {
                             return (
                                 <img 
                                     key={uid()} 
-                                    src={`/src/assets/${imgAddress}`}
+                                    src={`${imgAddress}`}
                                     className="w-24 h-24 rounded-lg object-cover"
                                 />
                             )

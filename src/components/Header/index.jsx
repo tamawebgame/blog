@@ -1,4 +1,4 @@
-import logo from '../../assets/images/logo_trans_01.png';
+import logo from '../../../assets/images/logo_trans_01.png';
 import { Button } from '../Button'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 

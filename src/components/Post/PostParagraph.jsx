@@ -5,7 +5,7 @@ export const PostParagraph = ({ text, images }) => {
         <div className="flex gap-2 max-sm:flex-col max-sm:gap-0">
             {
                 images && images.length ?
-                <div className="bg-white rounded-lg p-6 inline-flex gap-1 flex-shrink-0 items-center justify-center max-sm:rounded-b-none pb-0">
+                <div className="bg-white rounded-lg p-6 inline-flex gap-1 flex-shrink-0 items-center justify-center max-sm:rounded-b-none max-sm:pb-0">
                     {
                         images.map(imgAddress => {
                             return (

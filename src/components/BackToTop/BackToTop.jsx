@@ -21,8 +21,8 @@ export const BackToTop = () => {
         });
     }
 
-    return show && (
-        <div onClick={handleClick} className="cursor-pointer fixed bottom-6 right-6 bg-white w-16 h-16 rounded-full inline-flex justify-center items-center shadow-lg">
+    return (
+        <div onClick={handleClick} className={`cursor-pointer ${show ? "animate-[fadeIn_0.2s_ease-in-out_forwards]" : "animate-[fadeOut_0.2s_ease-in-out_forwards] pointer-events-none"} fixed bottom-6 right-6 bg-white w-16 h-16 rounded-full inline-flex justify-center items-center shadow-lg`}>
             <FontAwesomeIcon size="lg" icon={faArrowUp}></FontAwesomeIcon>
         </div>
     )

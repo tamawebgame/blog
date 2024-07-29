@@ -2,10 +2,10 @@ import { uid } from "uid"
 
 export const PostParagraph = ({ text, images }) => {
     return (
-        <div className="flex gap-2 max-sm:flex-col">
+        <div className="flex gap-2 max-sm:flex-col max-sm:gap-0">
             {
                 images && images.length ?
-                <div className="bg-white rounded-lg p-6 inline-flex gap-1 flex-shrink-0 items-center justify-center">
+                <div className="bg-white rounded-lg p-6 inline-flex gap-1 flex-shrink-0 items-center justify-center max-sm:rounded-b-none pb-0">
                     {
                         images.map(imgAddress => {
                             return (
@@ -20,7 +20,7 @@ export const PostParagraph = ({ text, images }) => {
                 </div>
                 : null
             }
-            <div style={{overflowWrap: 'anywhere'}} className="bg-white rounded-lg p-6 flex-grow inline-flex items-center whitespace-pre-wrap">
+            <div style={{overflowWrap: 'anywhere'}} className="bg-white rounded-lg p-6 flex-grow inline-flex items-center whitespace-pre-wrap max-sm:rounded-t-none">
                 {text}
             </div>
         </div>

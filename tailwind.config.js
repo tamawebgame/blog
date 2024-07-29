@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        fadeIn: {
+          'from': { opacity: 0 },
+          'to': { opacity: 1 }
+        },
+        fadeOut: {
+          'from': { opacity: 1 },
+          'to': { opacity: 0 }
+        }
+      }
+    },
   },
   plugins: [],
 }

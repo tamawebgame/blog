@@ -10,8 +10,10 @@ export const Post = (props) => {
         <Surface {...rest}>
           <PostTitle title={title} subTitle={subTitle} rightIcon={faAngleRight}/>
           {
-              paragraphs?.map(paragraph => {
-                return <PostParagraph key={uid()} text={paragraph.text} images={paragraph.images}/>
+              paragraphs?.map((paragraph, i) => {
+                return (
+                  <PostParagraph key={uid()} text={paragraph.text} images={paragraph.images}/>
+                )
               })
           }
         </Surface>

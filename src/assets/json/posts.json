@@ -1,0 +1,197 @@
+[
+    {
+        "title": "Hotfix 7/12/2024",
+        "subTitle": "12th July, 2024",
+        "paragraphs": [
+            {
+                "text": "Regarding the family tree feature added in the last update, now you'll able to see your past generations that have ended as well!",
+                "images": []
+            }
+        ]
+    },
+    {
+        "title": "Update 7/11/2024",
+        "subTitle": "11th July, 2024",
+        "paragraphs": [
+            {
+                "text": "Added a new cooking feature! \nThe cooking mini game has you take 3 pictures using your devices camera to use as ingredients in your dish! \nAfter you take the photos stir the dish until it's mixed!",
+                "images": [
+                    "images/cooking.png"
+                ]
+            },
+            {
+                "text": "Added family trees and generation tracking! \nCheckout your family tree from the newly added section in the stats menu! \nYou can also see your past generation pets from old runs that have ended. \nNote that only families played from this update onward will appear in the tree. Families from before this update will not be shown.",
+                "images": [
+                    "images/family_tree.png"
+                ]
+            },
+            {
+                "text": "You can now send your pet on a vacation! \nIf you want to take a break and not have to worry about taking 24/7 care of your pet send them on a vacation for only $250! While on a vacation, their needs will not be dropped and you can end their vacation at any time!",
+                "images": [
+                    "images/vacation_sea.png"
+                ]
+            },
+            {
+                "text": "Completely overhauled the UI design. \nCheck out the new design and share your feedback!",
+                "images": [
+                    "images/ui_1.png",
+                    "images/ui_2.png"
+                ]
+            },
+            {
+                "text": "Reworked Achievements! \nCollect all the recently added and revamped achievements to unlock rewards!",
+                "images": []
+            },
+            {
+                "text": "Many bugfixes and improvements!",
+                "images": []
+            }
+        ]
+    },
+    {
+        "title": "Update 6/13/2024",
+        "subTitle": "13th June, 2024",
+        "paragraphs": [
+            {
+                "text": "Added a new job: Work at Stand! \nIn addition to the office work, now you'll be able to send your adult pet to work at a stand. \nPay attention to the customers feelings, the happier they are, the more they'll want to spend money buying stuff! \nTake good care of your own pet to make sure they perform to their fullest on the stand, making their customers happy!",
+                "images": [
+                    "images/work_at_stand.png"
+                ]
+            },
+            {
+                "text": "Added Accessories! \nYou can now dress up your pets by putting accessories on them! \nYou can put on as many accessories as you want! Currently there are 4 accessory items available to purchase from the mall, with many more to come: Witch Hat, Crown, Wings, Frooties. Currently accessories are only available for adults.",
+                "images": [
+                    "images/accessories.png"
+                ]
+            },
+            {
+                "text": "You can now pet your digital friend! Just select the home icon from the main menu and select the Pet option! Petting will increase their fun stat. Tap the screen to show love to your digital friend and when you're done just don't touch anything to go back to normal mode!",
+                "images": [
+                    "images/petting.png"
+                ]
+            },
+            {
+                "text": "Added updated item sprites! (thanks/credits to @digiropa)",
+                "images": []
+            },
+            {
+                "text": "Added breathing animation to all characters!",
+                "images": []
+            },
+            {
+                "text": "Added jumping animation/sfx, now your pet may randomly jump when idling and taken care of!",
+                "images": []
+            },
+            {
+                "text": "Added shadows to characters!",
+                "images": []
+            },
+            {
+                "text": "Reworked and remade most sound effects",
+                "images": []
+            },
+            {
+                "text": "In the main menu, changed the sleep icon to home icon because now in addition to sleeping you can pet and dress your character in the same menu!",
+                "images": []
+            },
+            {
+                "text": "Fixed a lot of important bugs. Like the fact the since the care and neglect update your pet wasn't actually able to die if you left them alone for an extended period of time (the chances of them dying was only triggering if you were in-game all the time and not when offline progressing), so you need to take a better care of them now :)",
+                "images": [
+                    "images/petdeath.png"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Mod Support Update 6/3/2024",
+        "subTitle": "3rd June, 2024",
+        "paragraphs": [
+            {
+                "text": "Added Mod Support! \n\nMod support has been one of the most requested features for the game so now we are happy to announce you'll be able to replace assets and resources such as characters, food sprites, items, scene backgrounds and more in the game with your own ones and publish them as mod packages that can be easily installed by the players! \n\nFor mod creators: Head on over to https://autosam.github.io/Tamaweb/creator/ and start creating! \nIf you are just starting out, download the Example Mod from the creator dashboard, then click on 'Load from file' button and select The 'ExampleMod.rop' file that you've just downloaded to get familiar with how things work! \nIf you have any questions just ask on the Discord server! \n\nFor players: We recommend joining our Discord server to get notified when other players post new mods, if you already have a mod file, you can install it in-game by going to Settings > Mods > Add Mod. \nYou can also see or uninstall your active mods in the same page as well. \n\nThis is just the beginning and more features and possibilities will be added to the modding system in the future so stay tuned for more updates!",
+                "images": []
+            }
+        ]
+    },
+    {
+        "title": "Update 4/29/2024",
+        "subTitle": "29th April, 2024",
+        "paragraphs": [
+            {
+                "text": "Added the new Rainbow room background",
+                "images": []
+            },
+            {
+                "text": "Added a new walkway background when going to the mall and the ability to skip the walking to mall animation",
+                "images": []
+            },
+            {
+                "text": "Added 3 new food items: Spaghetti, Telesushi and S-Special dish",
+                "images": []
+            },
+            {
+                "text": "Added 3 new treats: Cream icepack, Bunny mooko and Paloodeh",
+                "images": []
+            }
+        ]
+    },
+    {
+        "title": "Update 3/24/2024",
+        "subTitle": "24th March, 2024",
+        "paragraphs": [
+            {
+                "text": "Added pet death scenario, make sure you are not neglecting your pet for too long, otherwise they might die! \n\nBaby: It will take around 24 Hours of neglect before they die. \nTeen: It will take around 40 Hours of neglect before they die. \nAdult: It will take around 54 Hours of neglect before they die.",
+                "images": []
+            },
+            {
+                "text": "Added the ability to leave your pet with their parents so that they'll take care of them while you're away. Your pets stats will not decrase while they are at their parents house, and they'll take care of them between 8am and 6pm. You can find the option in the App menu from the main menu (if your pet has parents)",
+                "images": [
+                    "images/stayparents_menu.png"
+                ]
+            },
+            {
+                "text": "Added a new room background; FUTURA, check it out in the mall!",
+                "images": []
+            },
+            {
+                "text": "Added a new egg spawn animation",
+                "images": []
+            }
+        ]
+    },
+    {
+        "title": "Update 3/22/2024",
+        "subTitle": "22nd March, 2024",
+        "paragraphs": [
+            {
+                "text": "Now your pet will get dirty over time and you'll have to give them a bath using the new Bathe option found in the cleaning menu!",
+                "images": [
+                    "images/screen_bathe.png"
+                ]
+            },
+            {
+                "text": "Now you have the ability to make your pet go to the toilet using the Use Toilet option found in the cleaning menu! \nWatch out for a symbol above their head, thats when their bladder is nearly full!",
+                "images": [
+                    "images/screen_toilet_menu.png"
+                ]
+            },
+            {
+                "text": "There is a new doctor in town! check out the hospital and Dr.Banzo's clinic from the activities menu if your pet feels sick!",
+                "images": [
+                    "images/hospital_01.png"
+                ]
+            },
+            {
+                "text": "You can now message your friends using the Social Media app found in the apps menu!",
+                "images": []
+            },
+            {
+                "text": "Tweaked and rebalanced some stat values",
+                "images": []
+            },
+            {
+                "text": "Bugfixes and other improvements",
+                "images": []
+            }
+        ]
+    }
+]

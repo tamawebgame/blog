@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Kumbh Sans Variable";
+  background-color: #FFCF9D;
+  font-size: 14px;
+}

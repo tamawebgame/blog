@@ -1,10 +1,26 @@
 [
     {
-        "title": "Hotfix 7/12/2024",
-        "subTitle": "12th July, 2024",
+        "title": "Small Update 7/20/2024",
+        "subTitle": "20th July, 2024",
         "paragraphs": [
             {
-                "text": "Regarding the family tree feature added in the last update, now you'll able to see your past generations that have ended as well!",
+                "text": "Changed the default generated names to be more playful",
+                "images": []
+            },
+            {
+                "text": "Added a small save indicator to the top right that shows up when the game is being saved",
+                "images": []
+            },
+            {
+                "text": "Fixed a bug causing the vacation state not getting saved on some devices",
+                "images": []
+            },
+            {
+                "text": "Fixed a bug related to all accessories appearing on top of the character if you put them on right after aging them up",
+                "images": []
+            },
+            {
+                "text": "Other small tweaks and bugfixes",
                 "images": []
             }
         ]

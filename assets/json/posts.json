@@ -1,5 +1,63 @@
 [
     {
+        "title": "Update 8/14/2024",
+        "subTitle": "14th August, 2024",
+        "paragraphs": [
+            {
+                "text": "Added dynamic day and night cycle! \nThere are currently 4 times of day: Morning, Afternoon, Evening and Night! \nTime of the day is determined by your device clock.",
+                "images": ["images/skies.png"]
+            },
+            {
+                "text": "Added weather system! \nThere is rain! Now you might randomly get a raining weather that lasts for an hour or two, the chance is based on the day of the month, with some days having a higher chance of raining than others!",
+                "images": ["images/mall_rainy_day.png"]
+            },
+            {
+                "text": "Added a new room background: Wooden! \nIt has big windows so that you can fully enjoy the new views!",
+                "images": ["images/night_sleep_wooden.png"]
+            },
+            {
+                "text": "Added automatic birthdays setting! \nIf you want your pet to automatically age up when they've reached their age up time (baby to teen: 24 hours / teen to adult: 48 hours) you can enable this feature in the new Gameplay Settings section of the settings menu!",
+                "images": ["images/gameplay_settings.png"]
+            },
+            {
+                "text": "Added ability to offset your pets bedtime! \nNow you'll be able to change which hours your pet will automatically sleep in the Gameplay Settings section!",
+                "images": ["images/sleep_hours_menu.png"]
+            },
+            {
+                "text": "Reworked the park background sprite!",
+                "images": ["images/new_park.png"]
+            },
+            {
+                "text": "Added 4 new shell shapes available in the Change Shell category of the settings!",
+                "images": ["images/new_shell_shape.png"]
+            },
+            {
+                "text": "Added 5 new shell backgrounds also available in the Change Shell category of the settings!",
+                "images": []
+            },
+            {
+                "text": "You can now always put your pet to sleep without them refusing during their bedtime (sleeping hours), and there is a new 'Bedtime' badge on the sleep button when its during their sleeping hours!",
+                "images": []
+            },
+            {
+                "text": "Decreased pets active sleep depletion rate significantly so now it takes 4 hours for them to get sleepy (as opposed to 30 minutes from before)",
+                "images": []
+            },
+            {
+                "text": "Fixed a lot of bugs related to mod support, all resource overrides should work now!",
+                "images": []
+            },
+            {
+                "text": "Fixed a bunch of UI bugs from the last (UI overhaul) update",
+                "images": []
+            },
+            {
+                "text": "Bunch of other fixes and improvements and much more!",
+                "images": []
+            }
+        ]
+    },
+    {
         "title": "Small Update 7/20/2024",
         "subTitle": "20th July, 2024",
         "paragraphs": [

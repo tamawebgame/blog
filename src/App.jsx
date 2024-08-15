@@ -71,8 +71,8 @@ function App() {
       <div className='mt-20 p-8 max-sm:p-4 flex gap-6 max-sm:gap-3 max-sm:flex-col'>
         <Surface 
           mx={{
-            // height: 'fit-content'
-            height: showSidebarItems ? 'calc(100vh - 60px - 5rem)' : 'fit-content'
+            height: 'fit-content',
+            maxHeight: showSidebarItems ? 'calc(100vh - 60px - 5rem)' : 'fit-content'
           }}
           className='sticky top-28 w-80 max-sm:static max-sm:w-auto overflow-y-hidden scroll-smooth max-sm:hidden'
           id='posts__sidebar'

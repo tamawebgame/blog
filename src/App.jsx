@@ -47,6 +47,19 @@ function App() {
     })
   }
 
+  useEffect(() => {
+    const handleScrollEnd = () => {
+      const sidebar = document.getElementById('posts__sidebar-container');
+      if(!sidebar) return;
+      const id = postIds[activePost];
+      const postElement = document.querySelector(`button[data-id="${id}"]`);
+      sidebar.scrollTop = postElement?.offsetTop - 100;
+    }
+
+    document.addEventListener('scrollend', handleScrollEnd);
+    return () => document.removeEventListener('scrollend', handleScrollEnd);
+  })
+
   const handleTableOfContentsClick = () => {
     setShowSidebarItems(prev => !prev);
   }
@@ -58,9 +71,11 @@ function App() {
       <div className='mt-20 p-8 max-sm:p-4 flex gap-6 max-sm:gap-3 max-sm:flex-col'>
         <Surface 
           mx={{
-            height: 'fit-content'
+            // height: 'fit-content'
+            height: showSidebarItems ? 'calc(100vh - 60px - 5rem)' : 'fit-content'
           }}
-          className='sticky top-28 w-80 max-sm:static max-sm:w-auto'
+          className='sticky top-28 w-80 max-sm:static max-sm:w-auto overflow-y-hidden scroll-smooth max-sm:hidden'
+          id='posts__sidebar'
         >
           <Button
             key={uid()}
@@ -74,23 +89,33 @@ function App() {
               <p>Table of contents</p>
             }
           </Button>
-          {
-            showSidebarItems &&
-            postsDefinition?.map(({ title }, index) => {
-              return (
-                <Button
-                  key={postIds[index]}
-                  rightIcon={faAngleRight}
-                  color='primary'
-                  variant={index === activePost ? 'outlined' : undefined}
-                  mx={{fontWeight: index === activePost ? 'bold' : 'initial'}}
-                  onClick={() => handlePostClick(index)}
-                >
-                  {title}
-                </Button>
-              )
-            })
-          }
+          <div
+            className='flex gap-2 flex-col relative overflow-y-hidden scroll-smooth'
+            id='posts__sidebar-container'
+            style={{
+              margin: '-1px',
+              padding: '1px'
+            }}
+          >
+            {
+              showSidebarItems &&
+              postsDefinition?.map(({ title }, index) => {
+                return (
+                  <Button
+                    key={postIds[index]}
+                    data-id={postIds[index]}
+                    rightIcon={faAngleRight}
+                    color='primary'
+                    variant={index === activePost ? 'outlined' : undefined}
+                    mx={{fontWeight: index === activePost ? 'bold' : 'initial'}}
+                    onClick={() => handlePostClick(index)}
+                  >
+                    {title}
+                  </Button>
+                )
+              })
+            }
+          </div>
         </Surface>
 
         <div className='inline-flex flex-col gap-6 max-sm:gap-3 flex-grow'>

@@ -20,7 +20,7 @@ export const PostParagraph = ({ text, images }) => {
                 </div>
                 : null
             }
-            <div style={{overflowWrap: 'anywhere'}} className="bg-white rounded-lg p-6 flex-grow inline-flex items-center whitespace-pre-wrap max-sm:rounded-t-none">
+            <div style={{overflowWrap: 'anywhere'}} className={`bg-white rounded-lg p-6 flex-grow inline-flex items-center whitespace-pre-wrap ${images?.length ? "max-sm:rounded-t-none" : ''}`}>
                 {text}
             </div>
         </div>

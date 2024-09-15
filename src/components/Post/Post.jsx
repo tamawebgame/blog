@@ -12,7 +12,7 @@ export const Post = (props) => {
           {
               paragraphs?.map((paragraph, i) => {
                 return (
-                  <PostParagraph key={uid()} text={paragraph.text} images={paragraph.images}/>
+                  <PostParagraph key={uid()} {...paragraph}/>
                 )
               })
           }

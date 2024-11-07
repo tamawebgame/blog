@@ -1,5 +1,26 @@
 [
     {
+        "title": "Update 11/6/2024",
+        "subTitle": "11th November, 2024",
+        "paragraphs": [
+            {
+                "title": "Added Hubchi Rewards Store!",
+                "text": "There is a new limited-time rewards store in Hubchi where you can unlock exclusive items for your pet using likes! And now you can get likes by just interacting with other peoples pets! Check the in-game info boxes for more information!",
+                "images": ["images/hubchi_rewards_01.png", "images/hubchi_rewards_02.png"]
+            },
+            {
+                "title": "Added Daily Missions!",
+                "text": "There are now daily mission that you can try to finish to get MissionPts! You can then redeem your MissionPts for two different chests containing random items including food, item, accessories, gold and more!",
+                "images": ["images/missions_01.png", "images/missions_02.png"]
+            },
+            {
+                "title": "Added Character collection!",
+                "text": "You can now keep track of all the characters you've been able to get! Try to collect them all!",
+                "images": ["images/char_collection_01.png"]
+            }
+        ]
+    },
+    {
         "title": "Update 9/12/2024",
         "subTitle": "12th September, 2024",
         "paragraphs": [

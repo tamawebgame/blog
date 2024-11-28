@@ -1,5 +1,71 @@
 [
     {
+        "title": "Update 11/28/2024",
+        "subTitle": "28th November, 2024",
+        "paragraphs": [
+            {
+                "title": "New feature: Dating!",
+                "text": "Instead of being able to marry one of your friends, you have to now go on a romantic date with them and see if you two can feel the connection or not! \nMake sure your pet is well prepared and is smelling good or the other participant might not feel comfortable!\n\nThis feature is also available in Hubchi, so you can go on dates with other player's pets!",
+                "images": ["images/beach_01.png", "images/dating_01.png"]
+            },
+            {
+                "title": "Added DayMail service!",
+                "text": "Now you'll receive a mail every day letting you know of latest news, friend messages or just telling how awesome you are!",
+                "images": ["images/dailymail_01.png", "images/mail_01.png"]
+            },
+            {
+                "title": "Improved Social Media!",
+                "text": "Updated the visual of the social media, as well as adding many new posts and rewriting almost all of the existing ones!\nAlso there is no a limited number of posts each time you open the app and you can also just click the next post instead of having to close and reopen 'explore post'!",
+                "images": ["images/social_media_n.png"]
+            },
+            {
+                "title": "Added 2 new room backgrounds!",
+                "text": "Check ot the two beautiful room backgrounds by the talented @VairaSmythe added in this update: ASTRA and SEAFLOOR!",
+                "images": ["images/cc_01.png", "images/cc_02.png"]
+            },
+            {
+                "title": "Classic Menu improvement",
+                "text": "Improved pet visibility when Classic Menu is turned on!",
+                "images": ["images/screen.png"]
+            },
+            {
+                "title": "Hubchi changes",
+                "text": "You can now date other people's pets in Hubchi! Just go on Hubchi, and in the interact menu tap on 'Go on date'!\nAlso from this update forward, you can no longer enter Hubchi with your Baby pet, and now its only open to teen and higher. This is due to a large amount of baby characters in any given Hubchi lobby.",
+                "images": []
+            },
+            {
+                "title": "Care rating adjustments!",
+                "text": "Several adjustments have been made to the Care Rating system to rebalance it into a bit more fair experience!",
+                "images": []
+            },
+            {
+                "title": "Added food shop stocks!",
+                "text": "There is now a limited number of food and snacks available to purchase in the shop, and their stock will change each day, so remember to check back everyday to buy new stuff!",
+                "images": []
+            },
+            {
+                "title": "Added a new dating achievement!",
+                "text": "There is a new 'Heartbreaker' achievement!",
+                "images": []
+            },
+            {
+                "title": "Feeding quality of life improvements",
+                "text": "The game now remembers the current food entry when feeding, so that after feeding it won't reset to the first food item again.\nOn the same note, the game no longer closes the snacks menu after your pet is past hunger satisfaction so that you continue feeding them snacks as you please.",
+                "images": []
+            },
+            {
+                "title": "Find Friends Bugfix",
+                "text": "The Social Media's Find Friends feature no longer shows the second pet for the rest of the slots.",
+                "images": []
+            },
+            {
+                "title": "Credits",
+                "text": "Added a new Credits section in the settings.",
+                "images": []
+            }
+        ]
+    },
+    {
         "title": "Update 11/7/2024",
         "subTitle": "7th November, 2024",
         "paragraphs": [

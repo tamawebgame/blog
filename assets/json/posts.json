@@ -1,5 +1,16 @@
 [
     {
+        "title": "Update 12/13/2024",
+        "subTitle": "13th December, 2024",
+        "paragraphs": [
+            {
+                "title": "Happy XMAS!",
+                "text": "We wish you happy holidays! The Xmas event runs from 14th to 31st and currently includes double rewards for each mission chests open, with more stuff coming further into the holidays! Please enjoy and keep an eye out for future Xmas event updates!",
+                "images": ["images/xmas_event_01.png"]
+            }
+        ]
+    },
+    {
         "title": "Update 11/28/2024",
         "subTitle": "28th November, 2024",
         "paragraphs": [

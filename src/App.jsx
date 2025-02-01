@@ -68,13 +68,13 @@ function App() {
     <>
       <Header />
       <BackToTop/>
-      <div className='mt-20 p-8 max-sm:p-4 flex gap-6 max-sm:gap-3 max-sm:flex-col'>
+      <div className='mt-20 p-8 max-xl:p-4 flex gap-6 max-xl:gap-3 max-xl:flex-col'>
         <Surface 
           mx={{
             height: 'fit-content',
             maxHeight: showSidebarItems ? 'calc(100vh - 60px - 5rem)' : 'fit-content'
           }}
-          className='sticky top-28 w-80 max-sm:static max-sm:w-auto overflow-y-hidden scroll-smooth max-sm:hidden'
+          className='sticky top-28 w-80 max-xl:static max-xl:w-auto overflow-y-hidden scroll-smooth max-xl:hidden'
           id='posts__sidebar'
         >
           <Button
@@ -118,7 +118,7 @@ function App() {
           </div>
         </Surface>
 
-        <div className='inline-flex flex-col gap-6 max-sm:gap-3 flex-grow'>
+        <div className='inline-flex flex-col gap-6 max-xl:gap-3 flex-grow'>
           {
             postsDefinition?.map(({ title, subTitle, paragraphs }, index) => {
               return (

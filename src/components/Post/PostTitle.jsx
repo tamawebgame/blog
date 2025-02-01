@@ -6,7 +6,7 @@ export const PostTitle = ({ title, subTitle }) => {
 
     return (
         <div 
-            className="flex min-h-10 px-3 rounded-lg justify-between items-center gap-2 max-sm:flex-col max-sm:gap-0 max-sm:p-2 max-sm:items-start max-sm:pl-4"
+            className="flex min-h-10 px-3 rounded-lg justify-between items-center gap-2 max-xl:flex-col max-xl:gap-0 max-xl:p-2 max-xl:items-start max-xl:pl-4"
             style={{
                 backgroundColor: bg,
                 color: onHighEmphasis,

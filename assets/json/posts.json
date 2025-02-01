@@ -1,5 +1,63 @@
 [
     {
+        "title": "Update 1/31/2025",
+        "subTitle": "31st January, 2025",
+        "paragraphs": [
+            {
+                "title": "Added Custom Furniture",
+                "text": "- Now you'll be able buy furniture items separately and customize your room like!\n- There are now two types of rooms; Pre-furnished and Customizable: Pre-furnished rooms are like the rooms from before this update; they come with their default furniture and if you wish to customize them you have to remove the default furniture for free or buy a customizable room from the mall!\n- You can place up to **5** furniture item in your rooms!\n- You have precise control over the exact position of each furniture.\n- There are more than 40 furniture items available to buy from the furniture store in the mall!",
+                "images": ["images/custom_furniture_01.png", "images/custom_furniture_02.png"]
+            },
+            {
+                "title": "New Set: Gothic",
+                "text": "Added a new set \"Gothic\" made by the talented &prion_sigma&, this set contains *1 Room wallpaper, 5 Furniture, 1 Item and 3 Accessories*",
+                "images": ["images/gothic_set.png"]
+            },
+            {
+                "title": "New Set: Arcade",
+                "text": "Added a new set \"Arcade\" made by the talented &piixel nun&, this set contains *1 Room wallpaper, 4 Furniture and 1 Accessory*",
+                "images": ["images/arcade_set.png"]
+            },
+            {
+                "title": "Other new Furniture/Accessories",
+                "text": "Added many other new furniture items/accessories made by the talented &&.",
+                "images": ["images/new_stuff_furniture.png"]
+            },
+            {
+                "title": "Added Skate Park",
+                "text": "There is now a new skate item available to purchase, which by using you'll get to travel to a skatepark and maybe even perform a few tricks!",
+                "images": ["images/skatepark_01.png"]
+            },
+            {
+                "title": "Other new Items",
+                "text": "- Rattle: Now the player starts with a rattle item in their inventory by default to be able to entertain their newly-hatched pet easier. Note: This item does not get added to existing saves automatically, and you have to buy it from the mall.\n- Bear: Added a new bear item for your pet to play with!",
+                "images": ["images/bear_item.png"]
+            },
+            {
+                "title": "Added potty training",
+                "text": "- If you send your pet to the toilet on time a couple of times when they are still a baby, your pet will get the *Potty-trained* trait, and from then on forward they'll no longer poop in the house and will automatically go to the toilet to poop.\n- You can check if your pet has the trait by opening the Profile page.",
+                "images": ["images/poop_trait.png"]
+            },
+            {
+                "title": "Added custom animations to all items!",
+                "text": "Now instead of playing the same placeholder animations when the pet was playing with items, it now plays short animations specific to the item itself."
+            },
+            {
+                "title": "Added a new screenshot functionality",
+                "text": "- Now you'll be able to take screenshot of the in-game screen by double tapping the Tamaweb logo at the top of the shell!\n- Note: You cannot use this feature when a menu is open.",
+                "images": ["images/screenshot_dbl.png"]
+            },
+            {
+                "title": "Added new shell designs",
+                "text": "- Added 4 new shell designs: Minimal White, Minimal Black, Circuit, Starry Night\n- Also added a new, more egg-shaped default (new players only, for existing accounts select it from the settings) shell shape."
+            },
+            {
+                "title": "More Improvements and bugfixes",
+                "text": "- Improved Missions UI to provide more feedback on completing missions.\n- Improved disabled UI appearance.\n- Added fullscreen flag for user who want to experiment with putting the game on a custom device, you can access it by putting `?fullscreen` at the end of the URL.\n- Added appropriate age limit for some objects\n- Med items are now always available for purchase regardless of the day.\n- Changed default egg sprite and animation.\n- Fixed mimic game icons being misaligned.\n- Fixed a bug where the player could not open market menus after logging in for the first time.\n- Improved save code system.\n- Improvements to PWA caching\n- Smaller Bugfixes and Improvements"
+            }
+        ]
+    },
+    {
         "title": "Update 12/13/2024",
         "subTitle": "13th December, 2024",
         "paragraphs": [

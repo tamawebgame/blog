@@ -39,7 +39,7 @@
                 "images": ["images/poop_trait.png"]
             },
             {
-                "title": "Added custom animations to all items!",
+                "title": "Added unique animations to all items!",
                 "text": "Now instead of playing the same placeholder animations when the pet was playing with items, it now plays short animations specific to the item itself."
             },
             {

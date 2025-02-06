@@ -6,18 +6,21 @@ import { Button } from './components/Button'
 import { faAngleRight, faAngleDown, faAngleUp, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import { Post } from './components/Post/Post'
 import { BackToTop } from './components/BackToTop/BackToTop'
+import { useSearchParams } from "react-router-dom";
 
 import postsDefinition from '../assets/json/posts.json'
 import { uid } from 'uid'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 function App() {
   const [activePost, setActivePost] = useState(0);
   const [postIds, setPostIds] = useState({});
   const [showSidebarItems, setShowSidebarItems] = useState(true);
 
+  const [searchParams] = useSearchParams();
+
   const isScrollPastNode = (element) => {
-    return element.offsetTop - 112 <= window.scrollY
+    return element?.offsetTop - 112 <= window.scrollY
   }
 
   useEffect(() => {
@@ -26,7 +29,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      postsDefinition.forEach((post, index) => {
+      postsDefinition.forEach((_, index) => {
         const id = postIds[index];
         const postElement = document.querySelector(`div[data-id="${id}"]`);
         if(isScrollPastNode(postElement)) setActivePost(index);
@@ -37,15 +40,24 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [postIds])
 
-  const handlePostClick = (index) => {
-    // setActivePost(index);
-
+  const handlePostClick = useCallback((index, config = {
+    behavior: "smooth", block: 'start', inline: "nearest"
+  }) => {
+    setActivePost(index);
     const id = postIds[index];
     const postElement = document.querySelector(`div[data-id="${id}"]`);
-    postElement?.scrollIntoView({
-      behavior: "smooth", block: 'start', inline: "nearest"
-    })
-  }
+    postElement?.scrollIntoView(config)
+  }, [postIds])
+
+  useEffect(() => {
+    const targetPostTitle = searchParams.get('post');
+    if(targetPostTitle){
+      const targetPost = postsDefinition.findIndex(post => post.title === targetPostTitle);
+      setTimeout(() => {
+        handlePostClick(targetPost);
+      })
+    } 
+  }, [handlePostClick]);
 
   useEffect(() => {
     const handleScrollEnd = () => {
@@ -58,7 +70,7 @@ function App() {
 
     document.addEventListener('scrollend', handleScrollEnd);
     return () => document.removeEventListener('scrollend', handleScrollEnd);
-  })
+  }, [])
 
   const handleTableOfContentsClick = () => {
     setShowSidebarItems(prev => !prev);

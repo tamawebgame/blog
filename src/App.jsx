@@ -19,7 +19,7 @@ function App() {
 
   const [searchParams] = useSearchParams();
 
-  const isScrollPastNode = (element) => {
+  const hasScrolledPastNode = (element) => {
     return element?.offsetTop - 112 <= window.scrollY
   }
 
@@ -32,7 +32,7 @@ function App() {
       postsDefinition.forEach((_, index) => {
         const id = postIds[index];
         const postElement = document.querySelector(`div[data-id="${id}"]`);
-        if(isScrollPastNode(postElement)) setActivePost(index);
+        if(hasScrolledPastNode(postElement)) setActivePost(index);
       })
     }
 
@@ -43,7 +43,7 @@ function App() {
   const handlePostClick = useCallback((index, config = {
     behavior: "smooth", block: 'start', inline: "nearest"
   }) => {
-    setActivePost(index);
+    // setActivePost(index);
     const id = postIds[index];
     const postElement = document.querySelector(`div[data-id="${id}"]`);
     postElement?.scrollIntoView(config)
@@ -64,13 +64,14 @@ function App() {
       const sidebar = document.getElementById('posts__sidebar-container');
       if(!sidebar) return;
       const id = postIds[activePost];
-      const postElement = document.querySelector(`button[data-id="${id}"]`);
-      sidebar.scrollTop = postElement?.offsetTop - 100;
+      const postBtnElement = document.querySelector(`button[data-id="${id}"]`);
+      if(!postBtnElement) return;
+      sidebar.scrollTop = postBtnElement.offsetTop - sidebar.offsetTop - ((postBtnElement?.clientHeight ?? 40) / 2);
     }
 
     document.addEventListener('scrollend', handleScrollEnd);
     return () => document.removeEventListener('scrollend', handleScrollEnd);
-  }, [])
+  }, [postIds, activePost])
 
   const handleTableOfContentsClick = () => {
     setShowSidebarItems(prev => !prev);
@@ -102,7 +103,7 @@ function App() {
             }
           </Button>
           <div
-            className='flex gap-2 flex-col relative overflow-y-hidden scroll-smooth'
+            className='flex gap-2 flex-col relative overflow-auto scroll-smooth'
             id='posts__sidebar-container'
             style={{
               margin: '-1px',

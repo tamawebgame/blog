@@ -7,6 +7,10 @@
                 "title": "New Valentine-themed additions:",
                 "text": "- New room background\n - 2 New Accessories\n - 5 New Furniture Items",
                 "images": ["images/valentine_25.png"]
+            },
+            {
+                "title": "UI Improvements",
+                "text": "Made improvements to the UI to enhance user experience"
             }
         ]
     },

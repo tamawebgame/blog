@@ -5,6 +5,53 @@
         "subTitle": "13th March, 2025",
         "paragraphs": [
             {
+                "title": "Added Gardening!",
+                "text": "Start cultivating a variety of vegetables and exotic plants in your brand-new garden! Visit the market to purchase seeds and kickstart your gardening journey. Remember to water your plants regularly to keep them thriving!",
+                "images": ["images/gardening.png"]
+            },
+            {
+                "title": "New Life Stages: Child and Elder",
+                "text": "Experience a new evolution path for your beloved pets! Baby pets now grow into children before becoming teens, and adult pets can evolve into elders after extended gameplay with auto-age enabled.",
+                "images": ["images/elder_child_stage.png"]
+            },
+            {
+                "title": "Homeworld Getaways: Explore Your Pet’s Home Planet",
+                "text": "Send your pets on exciting activities on their home planet! They’ll embark on these adventures for a few minutes or up to several hours in real time, returning with boosted stats and unique moodlets.",
+                "images": ["images/homeworldgetaway.png"]
+            },
+            {
+                "title": "Cooking with Ingredients",
+                "text": "Craft your own meals and snacks using ingredients harvested from your garden! Discover 18 exclusive new dishes with special effects—available only through cooking.",
+                "images": ["images/cooking_harvests.png"]
+            },
+            {
+                "title": "Added Crafting!",
+                "text": "Unleash your creativity by crafting new accessories, furniture, and even new rooms! Use exotic materials gathered from your gardening efforts to enhance your home.",
+                "images": ["images/crafting.png"]
+                
+            },
+            {
+                "title": "Sell Your Food in the Market",
+                "text": "Become a merchant by selling your home-cooked food in the market! Regular food items fetch modest prices, but specially crafted dishes yield much higher profits.",
+                "images": ["images/sell_food.png"]
+            },
+            {
+                "title": "New Set: Collage",
+                "text": "Explore the latest Collage set in the Crafting menu! The set includes 1 room background, 4 furniture items, and 3 accessories to give your room a fresh look.",
+                "images": ["images/collage_set.png"]
+            },
+            {
+                "title": "Bug Fixes and Quality Improvements",
+                "text": "- Fortune teller now displays all possible evolutions based on all care ratings, not just the player’s current rating.\n- Added 'Out of Stock' labels to market shops and improved stock system functionality.\n- Enhanced visuals in the wedding scene with heart particles.\n- Polished the birthday party scene for a better experience.\n- Fixed game speed slowdown on high-refresh-rate monitors and displays."
+            }
+        ]
+    },
+    {
+        "image": "fortune_teller.png",
+        "title": "Update 3/13/2025",
+        "subTitle": "13th March, 2025",
+        "paragraphs": [
+            {
                 "title": "New Fortune Teller NPC!",
                 "text": "You can visit the new Fortune Teller to find out your pet's next possible life stage evolution based on your current Care Rating!\nYou can even find out what your child will look like with any of your friends if your pet is an adult!",
                 "images": ["images/fortune_teller.png"]

@@ -42,7 +42,7 @@
             },
             {
                 "title": "Bug Fixes and Quality Improvements",
-                "text": "- Fortune teller now displays all possible evolutions based on all care ratings, not just the player’s current rating.\n- Added 'Out of Stock' labels to market shops and improved stock system functionality.\n- Enhanced visuals in the wedding scene with heart particles.\n- Polished the birthday party scene for a better experience.\n- Fixed game speed slowdown on high-refresh-rate monitors and displays."
+                "text": "- Added a new functionality in the settings allowing you to export/import the save code as a file, making the process of backing up/restoring your progress much more smooth.\n- Fortune teller now displays all possible evolutions based on all care ratings, not just the player’s current rating.\n- Added 'Out of Stock' labels to market shops and improved stock system functionality.\n- Enhanced visuals in the wedding scene with heart particles.\n- Polished the birthday party scene for a better experience.\n- Fixed game speed slowdown on high-refresh-rate monitors and displays."
             }
         ]
     },

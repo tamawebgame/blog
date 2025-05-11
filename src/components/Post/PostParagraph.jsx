@@ -3,7 +3,7 @@ import { uid } from "uid"
 
 export const PostParagraph = ({ text, images, title }) => {
     return (
-        <div className="flex gap-2 max-xl:flex-col max-xl:gap-0">
+        <div className="flex gap-2 max-xl:flex-col max-xl:gap-0 max-xl:-mx-6">
             {
                 images?.length ?
                 <div style={{imageRendering: 'pixelated'}} className="bg-white rounded-lg p-6 inline-flex gap-1 flex-shrink-0 items-center justify-center max-xl:rounded-b-none max-xl:pb-0">

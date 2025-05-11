@@ -1,4 +1,31 @@
 [
+{
+    "image": "1.6.7.png",
+    "title": "Update 5/11/2025",
+    "subTitle": "11th May, 2025",
+    "paragraphs": [
+        {
+            "title": "Animal Pets",
+            "text": "Now you'll be able to adopt variety of different animal pets and have them in your backyard and garden! They can even help out by providing unique buffs to your gardening!\n\nPlace a food item in the bowl placed in the backyard, and wait a few hours **(anywhere between 2 to 8 hours)** and you might get a new visitor! \n\nBe sure to feed them, play with them, and keep them happy—otherwise, they may run away!\n\n*List of potential buffs provided by animal pets:*\n- **+ Harvests:** Increases the amount of harvests in the garden.\n- **+ Wet Duration:** Extends the time plants stay hydrated by 3 hours.\n- **+ Health Duration:** Increases the time before the plants start dying without water by 8 hours.\n- **+ Growth:** Speeds up plant growth.\n\nKeep an eye out for more gameplay buffs coming further down the line!",
+            "images": ["images/animals_01.png", "images/animals_02.png"]
+        },
+        {
+            "title": "Revival Mechanic",
+            "text": "If you're careless and your pet dies, you'll now have a chance to **revive them**!\n\n Revival costs between **$250 and $1000**, depending on how much money you have. \n\nOnce revived, the pet will gain a new trait—**'Revived'**—but cannot be revived again if they die a second time.",
+            "images": ["images/revive_mechanic.png"]
+        },
+        {
+            "title": "New 'Car City' Room - Hubchi Reward",
+            "text": "A brand-new room background, designed by the talented **@abysmDelirium**, is now available on Hubchi! Be sure to check it out.",
+            "images": ["images/car_city_room.png"]
+        },
+        {
+            "title": "Various Improvements & QoL Changes",
+            "text": "- Added a new **'Stats'** option to the garden, allowing you to see how your plants are doing!\n- Added new missions related to animals.\n- Added a **critical state overlay** to indicate that the pet is very close to death if not taken care of.\n- You can now **re-water plants** that are already hydrated.\n- Cooking is now available to **child pets** as well.\n- Babies will **no longer** want/can eat cookable only food.\n- Fixed a few typos and implemented smaller bugfixes.",
+            "images": ["images/critical_overlay.png"]
+        }
+    ]
+},
     {
         "image": "1.6.png",
         "title": "Update 4/4/2025",

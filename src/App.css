@@ -13,3 +13,10 @@
     opacity: 0;
   }
 }
+
+.markdown * {
+  margin: 0 !important;
+}
+.markdown {
+  margin-top: 20px !important;
+}

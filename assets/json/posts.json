@@ -1,5 +1,42 @@
 [
   {
+    "image": "1.7.jpg",
+    "title": "Update 7/17/2025",
+    "subTitle": "17th July, 2025",
+    "paragraphs": [
+      {
+        "title": "New Food Delivery App: Snapmeal!",
+        "text": "Now you'll be able to buy food items that are out of stock in the market, and also some cookable-only food items! Check every day for new items and get them delivered right to your house. There's also a new mission related to the app!",
+        "images": ["images/snapmeal.png"]
+      },
+      {
+        "title": "New Items!",
+        "text": "Added 4 new items for your pet to play with:\n\n- **Retroboy** (Handheld console)\n- **Robotty**\n- **Rubicube**\n- **Fidget Spinner**",
+        "images": ["images/retroboy_robotty.png"]
+      },
+      {
+        "title": "2 New Background Sets!",
+        "text": "Added 2 new background sets created by the talented **@thunderputz**:\n\n- **Mush-room Set** (+ Kitchen variant)\n- **Vintage Orange Set**",
+        "images": ["images/mush_room.png"]
+      },
+      {
+        "title": "New Furniture Items!",
+        "text": "There are many new furniture items added! You'll be able to buy many of them from the mall and craft the other ones.",
+        "images": ["images/city_set_craftable.png"]
+      },
+      {
+        "title": "More Immersive Additions",
+        "text": "- Your pet will now poop multiple times depending on how long you haven't cleaned their poop! (Purely visual; health/cleanliness drop rate is not affected.)\n- Added many new animations.",
+        "images": ["images/multi_poop.png"]
+      },
+      {
+        "title": "New Improvements",
+        "text": "- Added a new theme: **Pardis**\n- Seeds will no longer have a chance to be out of stock when trying to purchase them.\n- Added new sound effects for different animations.\n- Fixed sound effect delay issues.\n- Fixed many UI related issues.\n- Many smaller bugfixes and improvements.",
+        "images": ["images/pardis_theme.png"]
+      }
+    ]
+  },
+  {
     "image": "1.6.9.png",
     "title": "Update 6/15/2025",
     "subTitle": "16th June, 2025",
@@ -8,7 +45,7 @@
         "title": "New Game Center Mini-Games",
         "text": "Added 2 new games that are now available in the Game Center:\n\n- **Crop Match:** View and remember the crop images in the order they appear in the list, and try to select them in the correct order they were shown!\n- **Pet Grooming:** Wash and groom the animal by clicking the button as much as possible before the timer runs out!",
         "images": ["images/pet_grooming_game.png", "images/crop_match_game.png"]
-    },
+      },
       {
         "title": "New UI Theme System",
         "text": "Added a new theme system that allows for UI customization! Select from **10** new themes in the settings section! Stay tuned for more themes and let us know what kind of theme you want to be added next!",
@@ -17,7 +54,7 @@
       {
         "title": "Customizable Kitchen and Bathrooms",
         "text": "Now you'll be able to purchase custom Kitchen and Bathroom backgrounds, just like main room backgrounds, from the Mall! Additionally, a new ocean-themed set has been added:\n\n- **Octopus** (Kitchen background)\n- **Nautical** (Bathroom background)\n\nDesigned by the talented **@teddie**",
-         "images": ["images/ocean_bathroom.png", "images/ocean_kitchen.png"]
+        "images": ["images/ocean_bathroom.png", "images/ocean_kitchen.png"]
       },
       {
         "title": "New Travel System",

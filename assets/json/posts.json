@@ -1,5 +1,36 @@
 [
   {
+    "image": "1.8.png",
+    "title": "Update 8/11/2025",
+    "subTitle": "11th August, 2025",
+    "paragraphs": [
+      {
+        "title": "School System",
+        "text": "Now your child/teen pet will be able to attend school!\n- Once your pet reaches the **Child** life stage, you’ll receive a special invitation to enroll them in school.\n- Pets can attend up to **10 classes per day**, each boosting their skills.\n- There are **3 core subjects**, each tied to a skill:\n\t- _Expression_ – via the **Tune Practice** minigame\n\t- _Logic_ – via the **Track** minigame\n\t- _Endurance_ – via the **Skipping Ropes** minigame\n\t- _Flip Cards_ – a shared game that appears across all classes",
+        "images": ["images/school_entrance.png", "images/school_welcome.png"]
+      },
+      {
+        "title": "Skill System",
+        "text": "Now your pet will be able to learn skills!\n- Pets can now develop **Expression**, **Logic**, and **Endurance** skills.\n- These skills play a major role in determining your pet’s **next evolution**.\n- Skills increase through:\n\t- Attending school classes\n\t- Engaging in specific daily activities and interactions\n- Increase your pet's expression skill high enough and they might even start forming sentences!",
+        "images": ["images/skills.png"]
+      },
+      {
+        "title": "Discipline System",
+        "text": "Your pet now has a mind of their own—and sometimes, a bit of attitude.\n- If their **Discipline** stat is too low, they may start **misbehaving** more frequently: refusing actions or throwing tantrums.\n- Use the new **Praise** and **Scold** options in the care menu to guide their behavior.\n- Balance is key:\n\t- Over-praising or over-scolding can backfire\n\t- Poor discipline management may even cost you a **Care Star**",
+        "images": ["images/discipline_miss.png"]
+      },
+      {
+        "title": "Toggleable Gender Options",
+        "text": "- A new **Gendered Pets** toggle is available in Gameplay Settings (off by default).\n- When enabled, you can view your pet’s gender from the profile screen.\n- You can change it anytime via the **Set Name/Gender** option in the info menu.",
+        "images": ["images/gender.png"]
+      },
+      {
+        "title": "Quality of Life Improvements & Bug Fixes",
+        "text": "- Now you'' be able to see how your pet will look like before having to name them.\n- Added new achievements regarding skills.\n- Added new missions related to school.\n- Reworked the stats screen to be better suited to the new stats and skills.\n- Small improvements and bugfixes."
+      }
+    ]
+  },
+  {
     "image": "1.7.jpg",
     "title": "Update 7/17/2025",
     "subTitle": "17th July, 2025",

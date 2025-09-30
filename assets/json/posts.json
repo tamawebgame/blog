@@ -1,5 +1,27 @@
 [
   {
+    "image": "1.8.5.jpg",
+    "title": "Update 9/30/2025",
+    "subTitle": "30th September, 2025",
+    "paragraphs": [
+      {
+        "title": "Potions",
+        "text": "Added 9 New Potions into the game! You can get these rare potions by trading your Mission Points for the newly added Exclusive Potions Chest. Here's the list of the added potions:\n- Expression Skill Potion\n- Logic Skill Potion\n- Endurance Skill Potion\n- Potion of Neglect\n- Potion of Well Behaving\n- Potion of Misbehaving\n- Potion of Fulfillment\n- Potion of Aging Up\n- Potion of Nothingness",
+        "images": ["images/potions_01.png"]
+      },
+      {
+        "title": "New Food/Snack Items",
+        "text": "Added New food and snack items!\n\n**Food:**\n- Bunny Burger\n- Pancakes\n\n**Snacks:**\n- Toasted Marshmallows\n- Watermelon\n- Orange Juice\n- Snackfin\n- Banana\n- Nuts\n- Santa Cake\n- Kuchice",
+        "images": ["images/nuts_bunnyburger.png"]
+      },
+      {
+        "title": "Improvements and Bugfixes",
+        "text": "- Pets needs will decrease way slower when sleeping at night, and you should no longer wake up to your pet’s needs being extremely low (and one care star) after going to sleep with max stats.\n- Pets will no longer refuse eating when their hunger is below 50%.\n- Added many more words for pets to say when their expression skill is high enough to speak.\n- Improve save backup awareness when installing mods.\n- Improved save error handling.\n- Added installed mods counter to the active mods section.\n- Added a subtle animation to the scold button when the pet is misbehaving to signal needing to take action.\n- Small bugfixes and improvements",
+        "images": []
+      }
+    ]
+  },
+  {
     "image": "1.8.png",
     "title": "Update 8/11/2025",
     "subTitle": "11th August, 2025",

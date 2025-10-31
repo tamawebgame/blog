@@ -1,5 +1,47 @@
 [
   {
+    "image": "1.9.jpg",
+    "title": "Update 10/31/2025",
+    "subTitle": "31st October, 2025",
+    "paragraphs": [
+      {
+        "title": "Monsters and Angels",
+        "text": "There are now two brand new ghost architypes in the game; Monsters and Angels. Angels are sweet entities that enjoy helping other pets and granting them wishes, doing good deeds all around. Monsters on the other hand are mischievous entities who like messing with other pets, scaring them or even placing curses on them!\n- Monsters and Angels are **Immortal**, meaning they won't die after being neglected, because well, they are already a ghost.\n- You will be able to turn your pet into a Monster/Angel by visiting the **Gathering** area in the **Underworld** where you can befriend a ghost by impressing them.\n  After increasing your friendship with these ghosts you'll unlock the option to be either *Converted*, or just marry them and have your baby be a ghost of the same type as the other parent.\n- Monsters and Angels both have **unique abilities**, mischievous ones for the Monsters, and Angelic ones for the Angels. From blessing them to straight up converting other pets into ghosts, you'll be able to perform these abilities on any pet in your friends list!",
+        "images": ["images/angel_monster.png"]
+      },
+      {
+        "title": "Underworld Entrance",
+        "text": "There is now a new area called the \"Underworld Entrance\" in the outside activities section. This is your gateway to the ghostliness! Here you'll be able to:\n- Play **Trick or Treat** and earn a new special treat called **Spookandy** which you can either eat, or use as currency to purchase many things from the Underworld Entrance's **Shop**!\n- Visit the **Shop** to purchase variety of rare Potions among the following **Exclusive** items:\n\t- **Underworld Tickets**: with which you will be able to enter the **Underworld**\n\t- **Life Essence**: which can be used to turn a ghost pet into a regular pet.\n- Visit the Underworld: which is your main gateway to the world of the Monsters and Angels.",
+        "images": ["images/underworld_entrance.png", "images/trick_or_treat.png"]
+      },
+      {
+        "title": "The Underworld",
+        "text": "This is a completely new world with its own set of activities, shop, etc.!\n- Visit the town's **Gathering** area to befriend Monsters and Angels by playing a mini game to impress them!\n- Visit the town's **Clothing Store** for exclusive accessories!",
+        "images": ["images/underworld_01.png", "images/underworld_02.png"]
+      },
+      {
+        "title": "Homeworld Getaway Improvements",
+        "text": "- Now you'll be able to go to Homeworld Getaway activities with one of your friends! This will cause your friendship to improve as a result!\n- Added new animations and backgrounds for the HG departure sequence!",
+        "images": ["images/homeworld_getaway_friends.png"]
+      },
+      {
+        "title": "Accessories Open to All Life Stages Now!",
+        "text": "As well as adding many new accessory pieces to the game, you'll now be able to **equip accessories** on **Babies, Children and Teen** pets as well!",
+        "images": ["images/underworld_accessories_init.png"]
+      },
+      {
+        "title": "Halloween-Themed Set!",
+        "text": "Added a new Halloween/Monster themed set containing two new **Room backgrounds** and a accessory, purchasable from the mall!",
+        "images": ["images/halloween_25_set_01.png", "images/halloween_25_set_02.png"]
+      },
+      {
+        "title": "Improvements and bugfixes",
+        "text": "- The Fortune Teller is updated to show the correct version of the Monster/Angel evolution or the offspring appearance and architype.\n- Added a new **Immortal** trait which gets assigned to Monster and Angel pets.\n- Updated the *profile* and *friend info* pages to reflect the recently added changes.\n- There are now **custom egg visuals** for each architype (Normal/Angel/Monster)\n- Improved activities menu.\n- Added a small indicator to let the user know the page is scrollable.\n- A lot of other small bugfixes and improvements.",
+        "images": []
+      }
+    ]
+  },
+  {
     "image": "1.8.5.jpg",
     "title": "Update 9/30/2025",
     "subTitle": "30th September, 2025",

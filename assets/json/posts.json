@@ -1,5 +1,47 @@
 [
   {
+  "image": "1.9.5.jpg",
+  "title": "Update 11/30/2025",
+  "subTitle": "30th November, 2025",
+  "paragraphs": [
+    {
+      "title": "Added a new lot: Restaurant!",
+      "text": "You can visit the restaurant and order food (including rare ones) that will boost your stats even more, so be sure to check it out!",
+      "images": ["images/restu_ext.png", "images/restu_inter.png"]
+    },
+    {
+      "title": "Animal Updates!",
+      "text": "- Now you'll be able to move your animal companions **Indoors** and have them run around in the house and cause chaos!\n- Added many new animals including new a new breed of cats, cows, and more!\n- Added a new \"Feed All\" option in the backyard animals menu to quickly feed all of your animals.",
+      "images": ["images/animals_indoors.png"]
+    },
+    {
+      "title": "New Gameplay Setting: Skills Affecting Evolution",
+      "text": "Since skills now affect what your pet's next evolution will look like (by overriding the Care Stars when past a certain threshold) it might make it harder for some players who are planning their evolution purely based on their Care Stars, this setting will allow you to **disable skills** affecting the evolution, and the game will automatically revert back to just using your Care Rating when evolving **no matter how your skills** look like.",
+      "images": ["images/skills_affecting_ev.png"]
+    },
+    {
+      "title": "New Outdoor Room Background: Forest",
+      "text": "Added a brand-new outdoor background, which will be affected by the outside weather, time of day, etc.",
+      "images": ["images/forest_bg.png"]
+    },
+    {
+      "title": "Burglary!",
+      "text": "When at night and sleep, there is a very small chance a burglar may show up and try to steal up to $100 from you! You can prevent stealing by waking up your pet or having an indoor animal to protect you!",
+      "images": ["images/burglar.png"]
+    },
+    {
+      "title": "New Themes",
+      "text": "There are two new themes available in Settings > Themes section:\n- Lavender\n- Slateblue",
+      "images": ["images/theme_lavender.png", "images/theme_slateblue.png"]
+    },
+    {
+      "title": "Improvements and bugfixes",
+      "text": "- Fixed an issue causing save losses, by adding a fallback storage for the save data. Still, remember to regularly back up your save file.\n- Added shortcuts between the garden and backyard for easier navigation.\n- Discipline gain/lose values have been rebalanced to improve gameplay fairness and progression.\n- Updated the park background sprite for improved visuals.\n- Updated the market activity building for improved visuals.\n- Ghost pets will no longer float during the kissing animation.\n- Ghosts on family tree will now show up correctly.\n- Smaller bugfixes and improvements.",
+      "images": []
+    }
+  ]
+},
+  {
     "image": "1.9.jpg",
     "title": "Update 10/31/2025",
     "subTitle": "31st October, 2025",

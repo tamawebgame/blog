@@ -1,4 +1,46 @@
 [
+{
+  "image": "1.10.jpg",
+  "title": "Update 12/20/2025",
+  "subTitle": "20th December, 2025",
+  "paragraphs": [
+    {
+      "title": "Seasons",
+      "text": "Now there will be 4 seasons in the game! The foliage and the weather are all affected by the season, for example it will now snow instead of rain in winter!",
+      "images": ["images/season_1.png", "images/season_2.png", "images/season_3.png"]
+    },
+    {
+      "title": "Holiday Event: Santa Encounter!",
+      "text": "Now you will be able to encounter Santa in the park during the holiday season, and receive exclusive gifts from him! Your chances of encountering Santa will be at all time high if you try on the Christmas day!",
+      "images": ["images/santa_encounter.png"]
+    },
+    {
+      "title": "New Mini-game: Flags",
+      "text": "There is a new mini-game available in the Game Center! Try out the Flags mini-game and tap the screen as soon as both flags are facing down!",
+      "images": ["images/flags_game.png"]
+    },
+    {
+      "title": "QOL Additions",
+      "text": "- There is now an **Index** button at the top right of the screen on all slider menus (like Food, item, accessory, room background, etc. menus) where you can see the full list without having to manually scroll through them.\n- Added a new setting: Back Pattern accessible from System Settings, which allows you to customize outside of your shell with preset patterns! More patterns to come so stay tuned!\n- Improved the shell's overall visuals!",
+      "images": ["images/slider_index.png", "images/bg_pattern.png"]
+    },
+    {
+      "title": "New Shell Backgrounds",
+      "text": "Added 5 brand new shell backgrounds available in Settings > Change Shell menu. Along with this, replaced the default white shell with a new one (Note: You can still access the previous default white shell from the settings if you prefer!)\n*Note: Due to an internal version change, this update will reset any selected custom shell to the new default. You can always reapply your previous shell!*",
+      "images": ["images/shells_1.10.png"]
+    },
+    {
+      "title": "Re-Balances",
+      "text": "#### Care Rating Drops\nAdjusted the care rating calculations to not end up with a single care star the next day after putting your pet to sleep the previous night.\n\n#### Animal Pets\nIt'll now take longer for your animals to leave after being neglected:\n- Increased the time animals will leave after being neglected from **30 hours to 48 hours**\n\n#### Gardening\n- Increased the time plants start to die of dehydration from **~10 -> ~20 hours**.\n- Increased the time between each stage growth from **~8 -> ~9 hours**.\n*This basically means you'll have a larger window to tend to your plants (without considering buffs) since you previously had around ~12 hours before they started to die (without buffs), but now you have ~22 hours (without buffs)*\n\n#### Mini-games:\nMini-games have been rebalanced in a way that now most games usually give you around ~$60 per perfect win.\n\n***Trick or Treat:***\n- There is now a high chance of **double Spookandy drops**.\n- Decreased the maximum game speed and the speed at which the game becomes faster.\n- Fixed the input lag issue, and your character now jumps as soon as you press down.\n- You no longer have to specifically press the shell screen or the shell buttons to make the character jump, touching anywhere on your screen will make your character jump.\n\n***Dog Washing:***\n- Buffed: Gold earned from each point changed from x1.7 to x2.3.\n\n***Catch:***\n- Buffed: You'll get more points when scoring. (from between 1-2 to now between 1-3)\n\n***Mimic:***\n- Buffed: You'll now get 30 points per correct guess.\n\n***Crop Match:***\n- Nerfed: Changed the maximum money earned from 75 to 60.",
+      "images": ["images/rebalance.png"]
+    },
+    {
+      "title": "Other Changes",
+      "text": "- You can no longer cook exclusive potions.\n- Small mission chests drop pool changes.\n- Smaller bugfixes and improvements.",
+      "images": []
+    }
+  ]
+},
   {
   "image": "1.9.5.jpg",
   "title": "Update 11/30/2025",

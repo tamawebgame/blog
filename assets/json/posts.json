@@ -20,6 +20,11 @@
       "images": ["images/direct_pickingup.png"]
     },
     {
+      "title": "New Food Items",
+      "text": "New food and snacks are now available for purchase at the market!\n\n*New food:*\n- Dumplings\n- Mushroom Soup\n\n*New snacks:*\n- Strawberry Pie\n- Rainbow Cake",
+      "images": ["images/food_30_jan_26.png"]
+    },
+    {
       "title": "Improvements and Bugfixes",
       "text": "- Added new \"Zzz\" particles to pets (and animals) when they are sleeping.\n- Added new sound effects.\n- Other small improvements and bugfixes.",
       "images": []

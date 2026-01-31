@@ -6,7 +6,7 @@
   "paragraphs": [
     {
       "title": "New Hang Out Option!",
-      "text": "You'll now be able to hang out with your friend in various locations and have different conversations!\nTo get started, Open the *Phone Menu*, Go into your *Friends* list, select the friend you want to hang out with and choose the *Hang Out* option!\nYou'll be able to hang out in the following locations:\n- Your friend's home\n- Your own home\n- The Mall\n- The Park\n\nIf you want to have more hang out spots available to choose let us know!",
+      "text": "You'll now be able to hang out with your friend in various locations and have different conversations!\nTo get started, Open the *Phone Menu*, Go into your *Friends* list, select the friend you want to hang out with and choose the *Hang Out* option!\nYou'll be able to hang out in the following locations:\n- Your friend's home\n- Your own home\n- The Mall\n- The Beach\n\nIf you want to have more hang out spots available to choose let us know!",
       "images": ["images/hangout_01.png", "images/hangout_02.png"]
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "title": "Improvements and Bugfixes",
-      "text": "- Added new \"Zzz\" particles to pets (and animals) when they are sleeping.\n- Added new sound effects.\n- Other small improvements and bugfixes.",
+      "text": "- Added new \"Zzz\" particles to pets when they are sleeping.\n- Added new sound effects.\n- Other small improvements and bugfixes.",
       "images": []
     }
   ]

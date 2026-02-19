@@ -1,5 +1,57 @@
 [
 {
+  "image": "1.11.jpg",
+  "title": "Update 2/19/2026",
+  "subTitle": "",
+  "paragraphs": [
+    {
+      "title": "Personality Traits",
+      "text": "Added a new Personality trait system with **28 brand new traits** to the game! Now throughout their lifetime, your pet will accumulate personality traits that can change how they behave and what advantages or disadvantages they have!\nHere's the full list of traits added:\n*Charismatic, Introvert, Lucky, Hard Worker, Athletic, Artistic, Logical, Treasurer, Shopaholic, Money Saver, Romantic, Slow Learner, Botanist, Plenty Harvest, Grumpy, Proper, Natural Chef, Germ Guardian, Play Burnout, Chill, Voracious Hunger, Light Eater, Restless, Deep Sleeper, Tiny Tank, Iron Bladder, Dust Magnet and Self-Cleaning*\n**How it works:**\n- Each time your pet ages up, they will be *randomly assigned* a new personality trait.\n- When marrying off your pet, the offspring will randomly inherit one trait from the playable parent.\n- You can view all of your pet's traits under **Information > Profile**. (Note: Previous traits like Potty-trained or Immortal are now considered \"Experience Traits\" (Exp Traits) and are displayed separately in the same menu.)\nMore traits are planned to be added to the game, so if you have more trait ideas please let us know!",
+      "images": ["images/personality_traits.png", "images/personality_traits_2.png"]
+    },
+    {
+      "title": "New Mini-game: Leaves",
+      "text": "Added a new mini-game called **Leaves** accessible from the Game Center! Try to blow all the leaves off the screen before the timer runs out. This game is available for pets at the Teen life stage and above.",
+      "images": ["images/leaves_game.png"]
+    },
+    {
+      "title": "Backyard Digging Spots",
+      "text": "Now, when you enter the backyard, your animals might have discovered a **Treasure Box** buried in the dirt! Click on the digging spot to try and dig up the treasure box, you might even find gold inside!\n- The more animals you have, the higher the chance of a digging spot appearing.",
+      "images": ["images/backyard_dig_spot.png"]
+    },
+    {
+      "title": "Move Out / Abandon Interactions",
+      "text": "You can now send your pet back to their home planet by going to **Phone > Move Out / Abandon**. When you do, your pet will return home and may share how they felt about their time with you based on how long they stayed and how well you cared for them.\nAfterwards, you'll receive a brand new egg to start your new generation with!",
+      "images": ["images/moveout.png"]
+    },
+    {
+      "title": "New Homeworld Getaway Interaction: Sleepover",
+      "text": "A new \"Sleepover\" interaction is now available in the Homeworld Getaway! It takes 4 hours to complete and must be performed with one of your pet's friends.",
+      "images": ["images/sleepover_hg.png"]
+    },
+    {
+      "title": "New Gameplay Setting: Change Season",
+      "text": "You can now manually change the active **Season**, regardless of the real-world season! This option is available in **Settings > Gameplay Settings**.",
+      "images": ["images/autumn.png"]
+    },
+    {
+      "title": "Gender Updates",
+      "text": "Refined gender categories for clarity:\n- Neuter -> merged with Genderless (Non-binary)\n- Hermaphrodite -> removed (term is outdated and not used for human identities)\nCurrent options: ♂ Male, ♀ Female, ◯ Genderless (Non-binary), ⚧ Transgender, Gender Fluid\n- Pets already assigned Neuter or Hermaphrodite will keep their identity unless you manually change it.\n- Now the game can randomly assign one of the following identities when a pet is born: Genderless, Male and Female.\n- We're fully open to refining this feature further, so please let us know if you have any thoughts or suggestions!",
+      "images": ["images/genders.png"]
+    },
+    {
+      "title": "Stay at Parents Time Update",
+      "text": "You can now drop off your pets at their parents' house much earlier, starting at **3AM** instead of the previous 8AM.",
+      "images": []
+    },
+    {
+      "title": "Quality of Life Improvements and Additions",
+      "text": "- Added 2 new **back patterns:** *Starry* and *Strawberry*, access them from Settings > System Settings > Back Pattern\n- Added 2 new achievements related to the *Leaves* and *Flags* games.\n- Added voice SFX to speech bubbles and dialogs.\n- If *Automatic Aging* is on and you're in-game when your pet is due to age up, the birthday party will trigger automatically and you will be able to witness it live. You no longer have to close and reopen the game to trigger the age-up offscreen.\n- Improved the egg delivering and hatching sequence animations and sound effects.\n- Added small improvements to the Homeworld Getaway UI.\n- Babies can no longer go to the restaurant.\n- Small name changes/fixes across different screens.\n- Fixed a certain character's placement order in the collection menu.\n- Added new particles for *blush* and *shocked* states.\n- Improved grass textures.\n- Performance improvements.\n- Many bugfixes and smaller improvements.",
+      "images": ["images/bg_pattern_04.png"]
+    }
+  ]
+},
+{
   "image": "1.10.8.jpg",
   "title": "Update 1/30/2026",
   "subTitle": "30th January, 2026",

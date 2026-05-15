@@ -1,4 +1,51 @@
 [
+{
+  "image": "1.12.jpg",
+  "title": "Update 5/15/2026",
+  "subTitle": "15th May, 2026",
+  "paragraphs": [
+    {
+      "title": "New Activity Location: Post Office",
+      "text": "There is a new place in town; The Post Office! You can visit it to send **letters** to your friends.\n- Choose words to compose your letter!\n- You will receive a response letter from your friend after some time, and depending on how well written your letter was you may even receive a gift from them!",
+      "images": ["images/post_office.png", "images/post_office_inner.png"]
+    },
+    {
+      "title": "New Feature: Functional Shell Buttons!",
+      "text": "Now the shell buttons will each serve a specific purpose in navigating the menus:\n- **Left button**: Move to the next option the menu\n- **Middle button**: Accept the currently selected option\n- **Right button**: Go back to the first option, if already on the first option, closes the menu (if close-able)\nYou can also use the **Arrow keys** **on your keyboard** (Left, Down, Right) if you are playing with one.\nNote: This feature is in early access mode, so if you find any issues with it please report it, Thank you!",
+      "images": ["images/functional_buttons.png"]
+    },
+    {
+      "title": "New Mini-game: Guess The Number",
+      "text": "A new mini-game is now available in the game center! Your pet will choose a number between 1 and 9, and you have 3 chances to guess what it is! \nEvery time you guess, your pet will give you guidance by telling you if their number is higher or lower than the one you've guessed.\nThe game also comes with a new achievement: Great Guesser!",
+      "images": ["images/guess_the_number.png"]
+    },
+    {
+      "title": "New Feature: Toothaches!",
+      "text": "Now your pet might get a **toothache** if you feed them too many snacks! They will most likely refuse eating food when they have a toothache, and you must brush their teeth to cure it. Make sure to not feed them snacks right away as their toothache might come back!",
+      "images": ["images/toothache.png"]
+    },
+    {
+      "title": "New Item: Magic 8 Ball",
+      "text": "There is a new working Magic 8 Ball item available to purchase in the mall. Ask questions and the Magic 8 Ball may answer!",
+      "images": ["images/8ball.png"]
+    },
+    {
+      "title": "New Consumables",
+      "text": "Added new food and med items, available to purchase from the market:\n- Medicine:\n\t- **Appetite Stim**: It can be used to restore your pet's appetite, allowing you to feed them more of the same food without them refusing to eat it.\n- Food:\n\t- **Oyster Seafood**\n\t- **Butter Steak**\n\t- **Stuffed Pumpkin**",
+      "images": ["images/butter_steak.png"]
+    },
+    {
+      "title": "Improvements",
+      "text": "- Added a **list button** to the outside activities.\n- Added a new **like feature** in the social media; Now you'll be able to like your friends' posts and gain small friendship progress.\n- Now you'll be able to **directly eat the ordered items** from Snapmeal.\n- Added Zodiac Signs based on the pet's birthday, accessible from the profile menu.\n- Added a new **Shell Shape**, available in *Settings > Shell Settings > Shell Shape*.\n- Integrated certain traits like lucky and charismatic with social media.\n- Updated Mini-game's game center background sprite.\n- Updated Sleep Replacement medicine's sprite.\n- Updated UI icons.",
+      "images": ["images/like_social_media.png"]
+    },
+    {
+      "title": "Fixes",
+      "text": "- Fixed an issue causing the UI icons to not loading properly when playing offline.\n- Fixed an issue causing Angel Halos and Devil Horns to appear broken on pet icons on certain devices.\n- An issue causing toys/items to not despawn after the pet was done playing with them should be fixed now.\n- Other smaller bugfixes and improvements.",
+      "images": ["images/improvements.png"]
+    }
+  ]
+},
   {
     "title": "Small Update 4/24/2026",
     "subTitle": "24th April, 2026",
@@ -16,7 +63,7 @@
 {
   "image": "1.11.jpg",
   "title": "Update 2/19/2026",
-  "subTitle": "",
+  "subTitle": "19th February, 2026",
   "paragraphs": [
     {
       "title": "Personality Traits",

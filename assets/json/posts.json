@@ -1,5 +1,51 @@
 [
 {
+  "image": "1.13.png",
+  "title": "Update 1.13",
+  "subTitle": "26th June, 2026",
+  "paragraphs": [
+    {
+      "title": "New Mini-game: Food Knowledge",
+      "text": "A new mini-game is now available in the game center! Try to identify different foods based only on their silhouette.\nThis mini-game also comes with a new achievement: **Cuisine Enthusiast!**",
+      "images": ["images/food_knowledge.png"]
+    },
+    {
+      "title": "New Mini-game: Picture Puzzle",
+      "text": "A new mini-game is now available in the game center! Slide the scrambled picture pieces into the correct positions to complete the image.\nThis mini-game also comes with a new achievement: **Tilemaster!**",
+      "images": ["images/picture_puzzle.png"]
+    },
+    {
+      "title": "Reworked Jobs",
+      "text": "Jobs have been completely reworked! Pets can now be sent to work for a set duration, with the length of each shift varying depending on the selected job. Once the shift is complete, your pet will return with a fixed amount of Gold based on the work type.\n\nThe biggest change is that jobs can now be completed entirely offline. Start a shift, close the game, and return later to collect your pet's earnings. Work now functions as a passive income system, allowing your pet to earn Gold even while you're away.",
+      "images": ["images/jobs_rework.png"]
+    },
+    {
+      "title": "Random Phone Calls",
+      "text": "Your friends may now occasionally give you a call! There is a small chance you'll receive random phone calls inviting you to hang out or participate in activities together.",
+      "images": ["images/random_calls.png"]
+    },
+    {
+      "title": "New Room Backgrounds",
+      "text": "- Added a new **Gothic Kitchen** background.\n- Added a new **Gothic Bathroom** background to complete the Gothic set.\n- Added a new **Mushroom Bathroom** background to complete the Mushroom set.\n- Added a new **Frame Living Room** background.",
+      "images": ["images/gothic_kitchen.png", "images/mushroom_bathroom.png"]
+    },
+    {
+      "title": "Modding Improvements",
+      "text": "Added a new **Character Selection** feature to the **Stuff Menu**.\n\n- Change your character's appearance to any character from your installed mods.\n- Accessible via **Stuff Menu → Change Character**.\n- You can switch back to your original character at any time from the same menu."
+    },
+    {
+      "title": "Additions & Improvements",
+      "text": "- Your pet may now **randomly ask to be petted** if you've been taking good care of them.\n- Added a new snack: **Takoyaki**.\n- Petting is now performed by **sliding your finger across the screen** instead of tapping.\n- Completely overhauled the **Phone Menu UI**.\n- Added new **Tap Effects** that can be enabled or disabled in the settings.",
+      "images": ["images/new_phone_ui.png"]
+    },
+    {
+      "title": "Fixes",
+      "text": "- Fixed an issue causing the **Classic Main Menu** to not work properly with **Functional Shell Buttons**.\n- Fixed an exploit that allowed players to spam shell buttons to quickly achieve high scores in the **Pet Grooming** mini-game.\n- Other smaller bugfixes and improvements.",
+      "images": ["images/improvements.png"]
+    }
+  ]
+},
+{
   "image": "1.12.png",
   "title": "Update 5/15/2026",
   "subTitle": "15th May, 2026",

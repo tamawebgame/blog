@@ -4,10 +4,18 @@
 
 body {
   font-family: "Kumbh Sans Variable";
-  background-color: #FFCF9D;
-  font-size: 14px;
+  /* background-color: #FFCF9D; */
+  font-size: 16px;
+  @apply bg-orange-100 text-orange-950 fill-slate-950 border-orange-400;
+
+  .article img {
+    max-width: 200px;
+    display: inline;
+    margin: 0;
+  }
 }
 
-.markdown, .markdown > * {
+.markdown,
+.markdown > * {
   all: revert;
 }

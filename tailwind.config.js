@@ -1,22 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       keyframes: {
         fadeIn: {
-          'from': { opacity: 0 },
-          'to': { opacity: 1 }
+          from: { opacity: 0 },
+          to: { opacity: 1 },
         },
         fadeOut: {
-          'from': { opacity: 1 },
-          'to': { opacity: 0 }
-        }
-      }
+          from: { opacity: 1 },
+          to: { opacity: 0 },
+        },
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

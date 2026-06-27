@@ -21,7 +21,7 @@
     },
     {
       "title": "Random Phone Calls",
-      "text": "Your friends may now occasionally give you a call! There is a small chance you'll receive random phone calls inviting you to hang out or participate in activities together.",
+      "text": "Your friends may now occasionally give you a call!\n\nThere is now a small chance you'll receive random phone calls inviting you to hang out or participate in activities together.",
       "images": ["images/random_calls.png"]
     },
     {
@@ -31,7 +31,8 @@
     },
     {
       "title": "Modding Improvements",
-      "text": "Added a new **Character Selection** feature to the **Stuff Menu**.\n\n- Change your character's appearance to any character from your installed mods.\n- Accessible via **Stuff Menu → Change Character**.\n- You can switch back to your original character at any time from the same menu."
+      "text": "Added a new **Character Selection** feature to the **Stuff Menu**.\n\n- Change your character's appearance to any character from your installed mods.\n- Accessible via **Stuff Menu → Change Character**.\n- You can switch back to your original character at any time from the same menu.",
+      "images": ["images/mod_char_selector.png"]
     },
     {
       "title": "Additions & Improvements",

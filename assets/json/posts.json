@@ -1,1088 +1,1164 @@
 [
-{
-  "image": "1.13.png",
-  "title": "Update 1.13",
-  "subTitle": "27th June, 2026",
-  "paragraphs": [
     {
-      "title": "New Mini-game: Food Knowledge",
-      "text": "A new mini-game is now available in the game center! Try to identify different foods based only on their silhouette.\nThis mini-game also comes with a new achievement: **Cuisine Enthusiast!**",
-      "images": ["images/food_knowledge.png"]
+      "image": "1.14.png",
+      "title": "Update 1.14",
+      "subTitle": "12th August, 2026",
+      "paragraphs": [
+        {
+          "title": "New Mechanic: Favorite Items",
+          "text": "Pets can now develop a favorite food or snack from an exclusive pool of potential favorites! Every time you feed them something from that pool, there is a small chance they'll accept it as their favorite.\n\n- Favorites cannot be developed by babies.\n- There is a small chance that your pet may change their favorite item when consuming another one that fits their taste.\n- Favorite food can be fed as many times as you want without your pet refusing to eat because they're full.",
+          "images": ["images/favorite_items.png"]
+        },
+        {
+          "title": "Scratch Lucky Tickets",
+          "text": "There is a new **Lucky Ticket** scratch card booth in the mall! Make sure to check it out every day to try your luck and win up to **+$200**!",
+          "images": ["images/lucky_tickets.png"]
+        },
+        {
+          "title": "Social Media: Messaging",
+          "text": "Added a new messaging system to the social media app! You can now type messages and even receive a message back from your friends.\n\nBe careful not to send mean things to your friends, though, otherwise they might not like it!",
+          "images": ["images/messaging.png"]
+        },
+        {
+          "title": "Improved Gifting Feature",
+          "text": "You can now gift **Accessories, Food, and Snacks** to your friends in addition to Items!\n\nThey may even wear an accessory you gifted them the next time you see them!",
+          "images": ["images/gifting.png"]
+        },
+        {
+          "title": "Batch Cooking",
+          "text": "You can now cook as much food as your ingredients allow at the same time, instead of having to manually cook each one individually!",
+          "images": ["images/batch_cooking.png"]
+        },
+        {
+          "title": "QOL Improvements",
+          "text": "- Improved the visuals of the activities area by overhauling many building sprites and adding trees, bushes, falling leaves, fences, and more.\n- Improved the **Garden**, **Forest** background, **Rod Rush** mini-game background, and more.\n- Elders can no longer get toothaches because they have no teeth.\n- Removed the small chance of failing when cooking with your harvests.\n- Underworld Monster and Angel pets can now spawn at all ages instead of being limited to adults.\n- Tons of engine improvements and fixes to make the game more stable.",
+          "images": ["images/new_activities_area.png"]
+        },
+        {
+          "title": "Other Changes & Bugfixes",
+          "text": "- Changed the evening starting time from **17:00 to 18:00**.\n- Made small changes to word tables.\n- Fixed the invited pet's shadow being displaced during hangouts when the Classic Main Menu is enabled.\n- Fixed the petting sound being too loud and repetitive.\n- Fixed sound not triggering in the Pet Grooming mini-game.\n- Fixed poop rendering on top of the room decorator NPC when redecorating.\n- Small UI changes and fixes.",
+          "images": ["images/improvements.png"]
+        }
+      ]
     },
     {
-      "title": "New Mini-game: Picture Puzzle",
-      "text": "A new mini-game is now available in the game center! Slide the scrambled picture pieces into the correct positions to complete the image.\nThis mini-game also comes with a new achievement: **Tilemaster!**",
-      "images": ["images/picture_puzzle.png"]
-    },
-    {
-      "title": "Reworked Jobs",
-      "text": "Jobs have been completely reworked! Pets can now be sent to work for a set duration, with the length of each shift varying depending on the selected job. Once the shift is complete, your pet will return with a fixed amount of Gold based on the work type.\n\nThe biggest change is that jobs can now be completed entirely offline. Start a shift, close the game, and return later to collect your pet's earnings. Work now functions as a passive income system, allowing your pet to earn Gold even while you're away.",
-      "images": ["images/jobs_rework.png"]
-    },
-    {
-      "title": "Random Phone Calls",
-      "text": "Your friends may now occasionally give you a call!\n\nThere is now a small chance you'll receive random phone calls inviting you to hang out or participate in activities together.",
-      "images": ["images/random_calls.png"]
-    },
-    {
-      "title": "New Room Backgrounds",
-      "text": "- Added a new **Gothic Kitchen** background.\n- Added a new **Gothic Bathroom** background to complete the Gothic set.\n- Added a new **Mushroom Bathroom** background to complete the Mushroom set.\n- Added a new **Frame Living Room** background.",
-      "images": ["images/gothic_kitchen.png", "images/mushroom_bathroom.png"]
-    },
-    {
-      "title": "Modding Improvements",
-      "text": "Added a new **Character Selection** feature to the **Stuff Menu**.\n\n- Change your character's appearance to any character from your installed mods.\n- Accessible via **Stuff Menu → Change Character**.\n- You can switch back to your original character at any time from the same menu.",
-      "images": ["images/mod_char_selector.png"]
-    },
-    {
-      "title": "Additions & Improvements",
-      "text": "- Your pet may now **randomly ask to be petted** if you've been taking good care of them.\n- Added a new snack: **Takoyaki**.\n- Petting is now performed by **sliding your finger across the screen** instead of tapping.\n- Completely overhauled the **Phone Menu UI**.\n- Added new **Tap Effects** that can be enabled or disabled in the settings.",
-      "images": ["images/new_phone_ui.png"]
-    },
-    {
-      "title": "Fixes",
-      "text": "- Fixed an issue causing the **Classic Main Menu** to not work properly with **Functional Shell Buttons**.\n- Fixed an exploit that allowed players to spam shell buttons to quickly achieve high scores in the **Pet Grooming** mini-game.\n- Other smaller bugfixes and improvements.",
-      "images": ["images/improvements.png"]
-    }
-  ]
-},
-{
-  "image": "1.12.png",
-  "title": "Update 5/15/2026",
-  "subTitle": "15th May, 2026",
-  "paragraphs": [
-    {
-      "title": "New Activity Location: Post Office",
-      "text": "There is a new place in town; The Post Office! You can visit it to send **letters** to your friends.\n- Choose words to compose your letter!\n- You will receive a response letter from your friend after some time, and depending on how well written your letter was you may even receive a gift from them!",
-      "images": ["images/post_office.png", "images/post_office_inner.png"]
-    },
-    {
-      "title": "New Feature: Functional Shell Buttons!",
-      "text": "Now the shell buttons will each serve a specific purpose in navigating the menus:\n- **Left button**: Move to the next option the menu\n- **Middle button**: Accept the currently selected option\n- **Right button**: Go back to the first option, if already on the first option, closes the menu (if close-able)\nYou can also use the **Arrow keys** **on your keyboard** (Left, Down, Right) if you are playing with one.\nNote: This feature is in early access mode, so if you find any issues with it please report it, Thank you!",
-      "images": ["images/functional_buttons.png"]
-    },
-    {
-      "title": "New Mini-game: Guess The Number",
-      "text": "A new mini-game is now available in the game center! Your pet will choose a number between 1 and 9, and you have 3 chances to guess what it is! \nEvery time you guess, your pet will give you guidance by telling you if their number is higher or lower than the one you've guessed.\nThe game also comes with a new achievement: Great Guesser!",
-      "images": ["images/guess_the_number.png"]
-    },
-    {
-      "title": "New Feature: Toothaches!",
-      "text": "Now your pet might get a **toothache** if you feed them too many snacks! They will most likely refuse eating food when they have a toothache, and you must brush their teeth to cure it. Make sure to not feed them snacks right away as their toothache might come back!",
-      "images": ["images/toothache.png"]
-    },
-    {
-      "title": "New Item: Magic 8 Ball",
-      "text": "There is a new working Magic 8 Ball item available to purchase in the mall. Ask questions and the Magic 8 Ball may answer!",
-      "images": ["images/8ball.png"]
-    },
-    {
-      "title": "New Consumables",
-      "text": "Added new food and med items, available to purchase from the market:\n- Medicine:\n\t- **Appetite Stim**: It can be used to restore your pet's appetite, allowing you to feed them more of the same food without them refusing to eat it.\n- Food:\n\t- **Oyster Seafood**\n\t- **Butter Steak**\n\t- **Stuffed Pumpkin**",
-      "images": ["images/butter_steak.png"]
-    },
-    {
-      "title": "Improvements",
-      "text": "- Added a **list button** to the outside activities.\n- Added a new **like feature** in the social media; Now you'll be able to like your friends' posts and gain small friendship progress.\n- Now you'll be able to **directly eat the ordered items** from Snapmeal.\n- Added Zodiac Signs based on the pet's birthday, accessible from the profile menu.\n- Added a new **Shell Shape**, available in *Settings > Shell Settings > Shell Shape*.\n- Integrated certain traits like lucky and charismatic with social media.\n- Updated Mini-game's game center background sprite.\n- Updated Sleep Replacement medicine's sprite.\n- Updated UI icons.",
-      "images": ["images/like_social_media.png"]
-    },
-    {
-      "title": "Fixes",
-      "text": "- Fixed an issue causing the UI icons to not loading properly when playing offline.\n- Fixed an issue causing Angel Halos and Devil Horns to appear broken on pet icons on certain devices.\n- An issue causing toys/items to not despawn after the pet was done playing with them should be fixed now.\n- Other smaller bugfixes and improvements.",
-      "images": ["images/improvements.png"]
-    }
-  ]
-},
-  {
-    "title": "Small Update 4/24/2026",
-    "subTitle": "24th April, 2026",
-    "paragraphs": [
-      {
-        "title": "Bugfixes",
-        "text": "- Fixed a critical bug that caused automatic birthday events to trigger much earlier than intended.\n- Fixed an issue where gold amounts could appear with decimals. Pets with the 'lucky' trait can no longer gain fractional gold rewards.\n- Pets should no longer accidentally fall through the floor during the Trick or Treat game.\n- Fixed a bug where Dr. Banzo would sometimes spawn off-screen in a corner instead of his usual location."
-      },
-      {
-        "title": "Improvements",
-        "text": "- Updated and improved the hospital visit animation sequence."
-      }
-    ]
-  },
-{
-  "image": "1.11.jpg",
-  "title": "Update 2/19/2026",
-  "subTitle": "19th February, 2026",
-  "paragraphs": [
-    {
-      "title": "Personality Traits",
-      "text": "Added a new Personality trait system with **28 brand new traits** to the game! Now throughout their lifetime, your pet will accumulate personality traits that can change how they behave and what advantages or disadvantages they have!\nHere's the full list of traits added:\n*Charismatic, Introvert, Lucky, Hard Worker, Athletic, Artistic, Logical, Treasurer, Shopaholic, Money Saver, Romantic, Slow Learner, Botanist, Plenty Harvest, Grumpy, Proper, Natural Chef, Germ Guardian, Play Burnout, Chill, Voracious Hunger, Light Eater, Restless, Deep Sleeper, Tiny Tank, Iron Bladder, Dust Magnet and Self-Cleaning*\n**How it works:**\n- Each time your pet ages up, they will be *randomly assigned* a new personality trait.\n- When marrying off your pet, the offspring will randomly inherit one trait from the playable parent.\n- You can view all of your pet's traits under **Information > Profile**. (Note: Previous traits like Potty-trained or Immortal are now considered \"Experience Traits\" (Exp Traits) and are displayed separately in the same menu.)\nMore traits are planned to be added to the game, so if you have more trait ideas please let us know!",
-      "images": ["images/personality_traits.png", "images/personality_traits_2.png"]
-    },
-    {
-      "title": "New Mini-game: Leaves",
-      "text": "Added a new mini-game called **Leaves** accessible from the Game Center! Try to blow all the leaves off the screen before the timer runs out. This game is available for pets at the Teen life stage and above.",
-      "images": ["images/leaves_game.png"]
-    },
-    {
-      "title": "Backyard Digging Spots",
-      "text": "Now, when you enter the backyard, your animals might have discovered a **Treasure Box** buried in the dirt! Click on the digging spot to try and dig up the treasure box, you might even find gold inside!\n- The more animals you have, the higher the chance of a digging spot appearing.",
-      "images": ["images/backyard_dig_spot.png"]
-    },
-    {
-      "title": "Move Out / Abandon Interactions",
-      "text": "You can now send your pet back to their home planet by going to **Phone > Move Out / Abandon**. When you do, your pet will return home and may share how they felt about their time with you based on how long they stayed and how well you cared for them.\nAfterwards, you'll receive a brand new egg to start your new generation with!",
-      "images": ["images/moveout.png"]
-    },
-    {
-      "title": "New Homeworld Getaway Interaction: Sleepover",
-      "text": "A new \"Sleepover\" interaction is now available in the Homeworld Getaway! It takes 4 hours to complete and must be performed with one of your pet's friends.",
-      "images": ["images/sleepover_hg.png"]
-    },
-    {
-      "title": "New Gameplay Setting: Change Season",
-      "text": "You can now manually change the active **Season**, regardless of the real-world season! This option is available in **Settings > Gameplay Settings**.",
-      "images": ["images/autumn.png"]
-    },
-    {
-      "title": "Gender Updates",
-      "text": "Refined gender categories for clarity:\n- Neuter -> merged with Genderless (Non-binary)\n- Hermaphrodite -> removed (term is outdated and not used for human identities)\nCurrent options: ♂ Male, ♀ Female, ◯ Genderless (Non-binary), ⚧ Transgender, Gender Fluid\n- Pets already assigned Neuter or Hermaphrodite will keep their identity unless you manually change it.\n- Now the game can randomly assign one of the following identities when a pet is born: Genderless, Male and Female.\n- We're fully open to refining this feature further, so please let us know if you have any thoughts or suggestions!",
-      "images": ["images/genders.png"]
-    },
-    {
-      "title": "Stay at Parents Time Update",
-      "text": "You can now drop off your pets at their parents' house much earlier, starting at **3AM** instead of the previous 8AM.",
-      "images": []
-    },
-    {
-      "title": "Quality of Life Improvements and Additions",
-      "text": "- Added 2 new **back patterns:** *Starry* and *Strawberry*, access them from Settings > System Settings > Back Pattern\n- Added 2 new achievements related to the *Leaves* and *Flags* games.\n- Added voice SFX to speech bubbles and dialogs.\n- If *Automatic Aging* is on and you're in-game when your pet is due to age up, the birthday party will trigger automatically and you will be able to witness it live. You no longer have to close and reopen the game to trigger the age-up offscreen.\n- Improved the egg delivering and hatching sequence animations and sound effects.\n- Added small improvements to the Homeworld Getaway UI.\n- Babies can no longer go to the restaurant.\n- Small name changes/fixes across different screens.\n- Fixed a certain character's placement order in the collection menu.\n- Added new particles for *blush* and *shocked* states.\n- Improved grass textures.\n- Performance improvements.\n- Many bugfixes and smaller improvements.",
-      "images": ["images/bg_pattern_04.png"]
-    }
-  ]
-},
-{
-  "image": "1.10.8.jpg",
-  "title": "Update 1/30/2026",
-  "subTitle": "30th January, 2026",
-  "paragraphs": [
-    {
-      "title": "New Hang Out Option!",
-      "text": "You'll now be able to hang out with your friend in various locations and have different conversations!\nTo get started, Open the *Phone Menu*, Go into your *Friends* list, select the friend you want to hang out with and choose the *Hang Out* option!\nYou'll be able to hang out in the following locations:\n- Your friend's home\n- Your own home\n- The Mall\n- The Beach\n\nIf you want to have more hang out spots available to choose let us know!",
-      "images": ["images/hangout_01.png", "images/hangout_02.png"]
-    },
-    {
-      "title": "Cleaning Activity: Brushing Teeth",
-      "text": "Now you'll be able to brush your pet's teeth in the *Cleaning* menu! Don't forget to regularly brush your pet's teeth to keep their hygiene up and increase their discipline!",
-      "images": ["images/brush_teeth.png"]
-    },
-    {
-      "title": "Direct Interaction: Pick your pet up!",
-      "text": "Now you'll be able to pick up and directly move your pet around the house!\nSimply click and hold on to your pet for a few moments and you'll be able to pick them up!\n\nNote: This option is only available in the main house area.",
-      "images": ["images/direct_pickingup.png"]
-    },
-    {
-      "title": "New Food Items",
-      "text": "New food and snacks are now available for purchase at the market!\n\n*New food:*\n- Dumplings\n- Mushroom Soup\n\n*New snacks:*\n- Strawberry Pie\n- Rainbow Cake",
-      "images": ["images/food_30_jan_26.png"]
-    },
-    {
-      "title": "Improvements and Bugfixes",
-      "text": "- Added new \"Zzz\" particles to pets when they are sleeping.\n- Added new sound effects.\n- Other small improvements and bugfixes.",
-      "images": []
-    }
-  ]
-},
-  {
-    "image": "1.10.jpg",
-    "title": "Update 12/20/2025",
-    "subTitle": "20th December, 2025",
-    "paragraphs": [
-      {
-        "title": "Seasons",
-        "text": "Now there will be 4 seasons in the game! The foliage and the weather are all affected by the season, for example it will now snow instead of rain in winter!",
-        "images": ["images/season_1.png", "images/season_2.png", "images/season_3.png"]
-      },
-      {
-        "title": "Holiday Event: Santa Encounter!",
-        "text": "Now you will be able to encounter Santa in the park during the holiday season, and receive exclusive gifts from him! Your chances of encountering Santa will be at all time high if you try on the Christmas day!",
-        "images": ["images/santa_encounter.png"]
-      },
-      {
-        "title": "New Mini-game: Flags",
-        "text": "There is a new mini-game available in the Game Center! Try out the Flags mini-game and tap the screen as soon as both flags are facing down!",
-        "images": ["images/flags_game.png"]
-      },
-      {
-        "title": "QOL Additions",
-        "text": "- There is now an **Index** button at the top right of the screen on all slider menus (like Food, item, accessory, room background, etc. menus) where you can see the full list without having to manually scroll through them.\n- Added a new setting: Back Pattern accessible from System Settings, which allows you to customize outside of your shell with preset patterns! More patterns to come so stay tuned!\n- Improved the shell's overall visuals!",
-        "images": ["images/slider_index.png", "images/bg_pattern.png"]
-      },
-      {
-        "title": "New Shell Backgrounds",
-        "text": "Added 5 brand new shell backgrounds available in Settings > Change Shell menu. Along with this, replaced the default white shell with a new one (Note: You can still access the previous default white shell from the settings if you prefer!)\n*Note: Due to an internal version change, this update will reset any selected custom shell to the new default. You can always reapply your previous shell!*",
-        "images": ["images/shells_1.10.png"]
-      },
-      {
-        "title": "Re-Balances",
-        "text": "#### Care Rating Drops\nAdjusted the care rating calculations to not end up with a single care star the next day after putting your pet to sleep the previous night.\n\n#### Animal Pets\nIt'll now take longer for your animals to leave after being neglected:\n- Increased the time animals will leave after being neglected from **30 hours to 48 hours**\n\n#### Gardening\n- Increased the time plants start to die of dehydration from **~10 -> ~20 hours**.\n- Increased the time between each stage growth from **~8 -> ~9 hours**.\n*This basically means you'll have a larger window to tend to your plants (without considering buffs) since you previously had around ~12 hours before they started to die (without buffs), but now you have ~22 hours (without buffs)*\n\n#### Mini-games:\nMini-games have been rebalanced in a way that now most games usually give you around ~$60 per perfect win.\n\n***Trick or Treat:***\n- There is now a high chance of **double Spookandy drops**.\n- Decreased the maximum game speed and the speed at which the game becomes faster.\n- Fixed the input lag issue, and your character now jumps as soon as you press down.\n- You no longer have to specifically press the shell screen or the shell buttons to make the character jump, touching anywhere on your screen will make your character jump.\n\n***Dog Washing:***\n- Buffed: Gold earned from each point changed from x1.7 to x2.3.\n\n***Catch:***\n- Buffed: You'll get more points when scoring. (from between 1-2 to now between 1-3)\n\n***Mimic:***\n- Buffed: You'll now get 30 points per correct guess.\n\n***Crop Match:***\n- Nerfed: Changed the maximum money earned from 75 to 60.",
-        "images": ["images/rebalance.png"]
-      },
-      {
-        "title": "Other Changes",
-        "text": "- You can no longer cook exclusive potions.\n- Small mission chests drop pool changes.\n- Smaller bugfixes and improvements.",
-        "images": []
-      }
-    ]
-  },
-  {
-  "image": "1.9.5.jpg",
-  "title": "Update 11/30/2025",
-  "subTitle": "30th November, 2025",
-  "paragraphs": [
-    {
-      "title": "Added a new lot: Restaurant!",
-      "text": "You can visit the restaurant and order food (including rare ones) that will boost your stats even more, so be sure to check it out!",
-      "images": ["images/restu_ext.png", "images/restu_inter.png"]
-    },
-    {
-      "title": "Animal Updates!",
-      "text": "- Now you'll be able to move your animal companions **Indoors** and have them run around in the house and cause chaos!\n- Added many new animals including new a new breed of cats, cows, and more!\n- Added a new \"Feed All\" option in the backyard animals menu to quickly feed all of your animals.",
-      "images": ["images/animals_indoors.png"]
-    },
-    {
-      "title": "New Gameplay Setting: Skills Affecting Evolution",
-      "text": "Since skills now affect what your pet's next evolution will look like (by overriding the Care Stars when past a certain threshold) it might make it harder for some players who are planning their evolution purely based on their Care Stars, this setting will allow you to **disable skills** affecting the evolution, and the game will automatically revert back to just using your Care Rating when evolving **no matter how your skills** look like.",
-      "images": ["images/skills_affecting_ev.png"]
-    },
-    {
-      "title": "New Outdoor Room Background: Forest",
-      "text": "Added a brand-new outdoor background, which will be affected by the outside weather, time of day, etc.",
-      "images": ["images/forest_bg.png"]
-    },
-    {
-      "title": "Burglary!",
-      "text": "When at night and sleep, there is a very small chance a burglar may show up and try to steal up to $100 from you! You can prevent stealing by waking up your pet or having an indoor animal to protect you!",
-      "images": ["images/burglar.png"]
-    },
-    {
-      "title": "New Themes",
-      "text": "There are two new themes available in Settings > Themes section:\n- Lavender\n- Slateblue",
-      "images": ["images/theme_lavender.png", "images/theme_slateblue.png"]
-    },
-    {
-      "title": "Improvements and bugfixes",
-      "text": "- Fixed an issue causing save losses, by adding a fallback storage for the save data. Still, remember to regularly back up your save file.\n- Added shortcuts between the garden and backyard for easier navigation.\n- Discipline gain/lose values have been rebalanced to improve gameplay fairness and progression.\n- Updated the park background sprite for improved visuals.\n- Updated the market activity building for improved visuals.\n- Ghost pets will no longer float during the kissing animation.\n- Ghosts on family tree will now show up correctly.\n- Smaller bugfixes and improvements.",
-      "images": []
-    }
-  ]
-},
-  {
-    "image": "1.9.jpg",
-    "title": "Update 10/31/2025",
-    "subTitle": "31st October, 2025",
-    "paragraphs": [
-      {
-        "title": "Monsters and Angels",
-        "text": "There are now two brand new ghost architypes in the game; Monsters and Angels. Angels are sweet entities that enjoy helping other pets and granting them wishes, doing good deeds all around. Monsters on the other hand are mischievous entities who like messing with other pets, scaring them or even placing curses on them!\n- Monsters and Angels are **Immortal**, meaning they won't die after being neglected, because well, they are already a ghost.\n- You will be able to turn your pet into a Monster/Angel by visiting the **Gathering** area in the **Underworld** where you can befriend a ghost by impressing them.\n  After increasing your friendship with these ghosts you'll unlock the option to be either *Converted*, or just marry them and have your baby be a ghost of the same type as the other parent.\n- Monsters and Angels both have **unique abilities**, mischievous ones for the Monsters, and Angelic ones for the Angels. From blessing them to straight up converting other pets into ghosts, you'll be able to perform these abilities on any pet in your friends list!",
-        "images": ["images/angel_monster.png"]
-      },
-      {
-        "title": "Underworld Entrance",
-        "text": "There is now a new area called the \"Underworld Entrance\" in the outside activities section. This is your gateway to the ghostliness! Here you'll be able to:\n- Play **Trick or Treat** and earn a new special treat called **Spookandy** which you can either eat, or use as currency to purchase many things from the Underworld Entrance's **Shop**!\n- Visit the **Shop** to purchase variety of rare Potions among the following **Exclusive** items:\n\t- **Underworld Tickets**: with which you will be able to enter the **Underworld**\n\t- **Life Essence**: which can be used to turn a ghost pet into a regular pet.\n- Visit the Underworld: which is your main gateway to the world of the Monsters and Angels.",
-        "images": ["images/underworld_entrance.png", "images/trick_or_treat.png"]
-      },
-      {
-        "title": "The Underworld",
-        "text": "This is a completely new world with its own set of activities, shop, etc.!\n- Visit the town's **Gathering** area to befriend Monsters and Angels by playing a mini game to impress them!\n- Visit the town's **Clothing Store** for exclusive accessories!",
-        "images": ["images/underworld_01.png", "images/underworld_02.png"]
-      },
-      {
-        "title": "Homeworld Getaway Improvements",
-        "text": "- Now you'll be able to go to Homeworld Getaway activities with one of your friends! This will cause your friendship to improve as a result!\n- Added new animations and backgrounds for the HG departure sequence!",
-        "images": ["images/homeworld_getaway_friends.png"]
-      },
-      {
-        "title": "Accessories Open to All Life Stages Now!",
-        "text": "As well as adding many new accessory pieces to the game, you'll now be able to **equip accessories** on **Babies, Children and Teen** pets as well!",
-        "images": ["images/underworld_accessories_init.png"]
-      },
-      {
-        "title": "Halloween-Themed Set!",
-        "text": "Added a new Halloween/Monster themed set containing two new **Room backgrounds** and a accessory, purchasable from the mall!",
-        "images": ["images/halloween_25_set_01.png", "images/halloween_25_set_02.png"]
-      },
-      {
-        "title": "Improvements and bugfixes",
-        "text": "- The Fortune Teller is updated to show the correct version of the Monster/Angel evolution or the offspring appearance and architype.\n- Added a new **Immortal** trait which gets assigned to Monster and Angel pets.\n- Updated the *profile* and *friend info* pages to reflect the recently added changes.\n- There are now **custom egg visuals** for each architype (Normal/Angel/Monster)\n- Improved activities menu.\n- Added a small indicator to let the user know the page is scrollable.\n- A lot of other small bugfixes and improvements.",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "1.8.5.jpg",
-    "title": "Update 9/30/2025",
-    "subTitle": "30th September, 2025",
-    "paragraphs": [
-      {
-        "title": "Potions",
-        "text": "Added 9 New Potions into the game! You can get these rare potions by trading your Mission Points for the newly added Exclusive Potions Chest. Here's the list of the added potions:\n- Expression Skill Potion\n- Logic Skill Potion\n- Endurance Skill Potion\n- Potion of Neglect\n- Potion of Well Behaving\n- Potion of Misbehaving\n- Potion of Fulfillment\n- Potion of Aging Up\n- Potion of Nothingness",
-        "images": ["images/potions_01.png"]
-      },
-      {
-        "title": "New Food/Snack Items",
-        "text": "Added New food and snack items!\n\n**Food:**\n- Bunny Burger\n- Pancakes\n\n**Snacks:**\n- Toasted Marshmallows\n- Watermelon\n- Orange Juice\n- Snackfin\n- Banana\n- Nuts\n- Santa Cake\n- Kuchice",
-        "images": ["images/nuts_bunnyburger.png"]
-      },
-      {
-        "title": "Improvements and Bugfixes",
-        "text": "- Pets needs will decrease way slower when sleeping at night, and you should no longer wake up to your pet’s needs being extremely low (and one care star) after going to sleep with max stats.\n- Pets will no longer refuse eating when their hunger is below 50%.\n- Added many more words for pets to say when their expression skill is high enough to speak.\n- Improve save backup awareness when installing mods.\n- Improved save error handling.\n- Added installed mods counter to the active mods section.\n- Added a subtle animation to the scold button when the pet is misbehaving to signal needing to take action.\n- Small bugfixes and improvements",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "1.8.png",
-    "title": "Update 8/11/2025",
-    "subTitle": "11th August, 2025",
-    "paragraphs": [
-      {
-        "title": "School System",
-        "text": "Now your child/teen pet will be able to attend school!\n- Once your pet reaches the **Child** life stage, you’ll receive a special invitation to enroll them in school.\n- Pets can attend up to **10 classes per day**, each boosting their skills.\n- There are **3 core subjects**, each tied to a skill:\n\t- _Expression_ – via the **Tune Practice** minigame\n\t- _Logic_ – via the **Track** minigame\n\t- _Endurance_ – via the **Skipping Ropes** minigame\n\t- _Flip Cards_ – a shared game that appears across all classes",
-        "images": ["images/school_entrance.png", "images/school_welcome.png"]
-      },
-      {
-        "title": "Skill System",
-        "text": "Now your pet will be able to learn skills!\n- Pets can now develop **Expression**, **Logic**, and **Endurance** skills.\n- These skills play a major role in determining your pet’s **next evolution**.\n- Skills increase through:\n\t- Attending school classes\n\t- Engaging in specific daily activities and interactions\n- Increase your pet's expression skill high enough and they might even start forming sentences!",
-        "images": ["images/skills.png"]
-      },
-      {
-        "title": "Discipline System",
-        "text": "Your pet now has a mind of their own—and sometimes, a bit of attitude.\n- If their **Discipline** stat is too low, they may start **misbehaving** more frequently: refusing actions or throwing tantrums.\n- Use the new **Praise** and **Scold** options in the care menu to guide their behavior.\n- Balance is key:\n\t- Over-praising or over-scolding can backfire\n\t- Poor discipline management may even cost you a **Care Star**",
-        "images": ["images/discipline_miss.png"]
-      },
-      {
-        "title": "Toggleable Gender Options",
-        "text": "- A new **Gendered Pets** toggle is available in Gameplay Settings (off by default).\n- When enabled, you can view your pet’s gender from the profile screen.\n- You can change it anytime via the **Set Name/Gender** option in the info menu.",
-        "images": ["images/gender.png"]
-      },
-      {
-        "title": "Quality of Life Improvements & Bug Fixes",
-        "text": "- Now you'' be able to see how your pet will look like before having to name them.\n- Added new achievements regarding skills.\n- Added new missions related to school.\n- Reworked the stats screen to be better suited to the new stats and skills.\n- Small improvements and bugfixes."
-      }
-    ]
-  },
-  {
-    "image": "1.7.jpg",
-    "title": "Update 7/17/2025",
-    "subTitle": "17th July, 2025",
-    "paragraphs": [
-      {
-        "title": "New Food Delivery App: Snapmeal!",
-        "text": "Now you'll be able to buy food items that are out of stock in the market, and also some cookable-only food items! Check every day for new items and get them delivered right to your house. There's also a new mission related to the app!",
-        "images": ["images/snapmeal.png"]
-      },
-      {
-        "title": "New Items!",
-        "text": "Added 4 new items for your pet to play with:\n\n- **Retroboy** (Handheld console)\n- **Robotty**\n- **Rubicube**\n- **Fidget Spinner**",
-        "images": ["images/retroboy_robotty.png"]
-      },
-      {
-        "title": "2 New Background Sets!",
-        "text": "Added 2 new background sets created by the talented **@thunderputz**:\n\n- **Mush-room Set** (+ Kitchen variant)\n- **Vintage Orange Set**",
-        "images": ["images/mush_room.png"]
-      },
-      {
-        "title": "New Furniture Items!",
-        "text": "There are many new furniture items added! You'll be able to buy many of them from the mall and craft the other ones.",
-        "images": ["images/city_set_craftable.png"]
-      },
-      {
-        "title": "More Immersive Additions",
-        "text": "- Your pet will now poop multiple times depending on how long you haven't cleaned their poop! (Purely visual; health/cleanliness drop rate is not affected.)\n- Added many new animations.",
-        "images": ["images/multi_poop.png"]
-      },
-      {
-        "title": "New Improvements",
-        "text": "- Added a new theme: **Pardis**\n- Seeds will no longer have a chance to be out of stock when trying to purchase them.\n- Added new sound effects for different animations.\n- Fixed sound effect delay issues.\n- Fixed many UI related issues.\n- Many smaller bugfixes and improvements.",
-        "images": ["images/pardis_theme.png"]
-      }
-    ]
-  },
-  {
-    "image": "1.6.9.png",
-    "title": "Update 6/15/2025",
-    "subTitle": "16th June, 2025",
-    "paragraphs": [
-      {
-        "title": "New Game Center Mini-Games",
-        "text": "Added 2 new games that are now available in the Game Center:\n\n- **Crop Match:** View and remember the crop images in the order they appear in the list, and try to select them in the correct order they were shown!\n- **Pet Grooming:** Wash and groom the animal by clicking the button as much as possible before the timer runs out!",
-        "images": ["images/pet_grooming_game.png", "images/crop_match_game.png"]
-      },
-      {
-        "title": "New UI Theme System",
-        "text": "Added a new theme system that allows for UI customization! Select from **10** new themes in the settings section! Stay tuned for more themes and let us know what kind of theme you want to be added next!",
-        "images": ["images/theme_pink.png", "images/theme_uni.png"]
-      },
-      {
-        "title": "Customizable Kitchen and Bathrooms",
-        "text": "Now you'll be able to purchase custom Kitchen and Bathroom backgrounds, just like main room backgrounds, from the Mall! Additionally, a new ocean-themed set has been added:\n\n- **Octopus** (Kitchen background)\n- **Nautical** (Bathroom background)\n\nDesigned by the talented **@teddie**",
-        "images": ["images/ocean_bathroom.png", "images/ocean_kitchen.png"]
-      },
-      {
-        "title": "New Travel System",
-        "text": "Added a new animated Travel system that adds immersion and allows for more activities and locations to be added in the future!",
-        "images": ["images/reworked_travel.png"]
-      },
-      {
-        "title": "New Immersive Additions",
-        "text": "- Your pet will now get nauseous if you try to feed them the same food repeatedly and may refuse to eat.\n- Added a new interior scene for the mall, including a (skippable) animation of receiving purchased items.\n- Added a new Office Work background.\n- Updated wedding visuals to be more interesting and unique.\n- Improved park animation and made it skippable.\n- Added background music to **Office Work** and **Vacation**, composed by **@Eth-D'Nautiluss**.",
-        "images": ["images/mall_interior.png"]
-      },
-      {
-        "title": "New Achievements!",
-        "text": "Added the following new achievements:\n\n- **Memory Maestro** (Crop Match mini-game)\n- **Master of the Fluff** (Pet Grooming mini-game)\n- **Farm-to-table Chef**\n- **Camera Chef**"
-      },
-      {
-        "title": "QOL Improvements and Bug Fixes",
-        "text": "- You can now potty train your **child pet**, whereas previously it was only available during the baby stage.\n- Increased max number of adoptable backyard animals from **8 to 16**.\n- Shell size can now be changed **independent of the screen size**, and you can also **toggle the visibility of the logo** for custom shells.\n- The **Critical State overlay** now appears halfway through the death counter instead of immediately.\n- Added **player UID** to the help section of the **add friend screen**.\n- Auto downscaling of custom images as shell backgrounds prevents storage quota issues.\n- Auto-aging is now enabled by default for new players.\n- Fixed animals running away while the player is on vacation.\n- Fixed excessive work activity rewards, now capped at **$400**.\n- Fixed an issue where rooms modified by a mod would remain in the mod's design after uninstalling.\n- Fixed an issue where mod backgrounds would replace the background of all scenes.\n- Many smaller tweaks and bug fixes!"
-      }
-    ]
-  },
-  {
-    "image": "1.6.7.png",
-    "title": "Update 5/11/2025",
-    "subTitle": "11th May, 2025",
-    "paragraphs": [
-      {
-        "title": "Animal Pets",
-        "text": "Now you'll be able to adopt variety of different animal pets and have them in your backyard and garden! They can even help out by providing unique buffs to your gardening!\n\nPlace a food item in the bowl placed in the backyard, and wait a few hours **(anywhere between 2 to 8 hours)** and you might get a new visitor! \n\nBe sure to feed them, play with them, and keep them happy—otherwise, they may run away!\n\n*List of potential buffs provided by animal pets:*\n- **+ Harvests:** Increases the amount of harvests in the garden.\n- **+ Wet Duration:** Extends the time plants stay hydrated by 3 hours.\n- **+ Health Duration:** Increases the time before the plants start dying without water by 8 hours.\n- **+ Growth:** Speeds up plant growth.\n\nKeep an eye out for more gameplay buffs coming further down the line!",
-        "images": ["images/animals_01.png", "images/animals_02.png"]
-      },
-      {
-        "title": "Revival Mechanic",
-        "text": "If you're careless and your pet dies, you'll now have a chance to **revive them**!\n\n Revival costs between **$250 and $1000**, depending on how much money you have. \n\nOnce revived, the pet will gain a new trait—**'Revived'**—but cannot be revived again if they die a second time.",
-        "images": ["images/revive_mechanic.png"]
-      },
-      {
-        "title": "New 'Car City' Room - Hubchi Reward",
-        "text": "A brand-new room background, designed by the talented **@abysmDelirium**, is now available on Hubchi! Be sure to check it out.",
-        "images": ["images/car_city_room.png"]
-      },
-      {
-        "title": "Various Improvements & QoL Changes",
-        "text": "- Added a new **'Stats'** option to the garden, allowing you to see how your plants are doing!\n- Added new missions related to animals.\n- Added a **critical state overlay** to indicate that the pet is very close to death if not taken care of.\n- You can now **re-water plants** that are already hydrated.\n- Cooking is now available to **child pets** as well.\n- Babies will **no longer** want/can eat cookable only food.\n- Fixed a few typos and implemented smaller bugfixes.",
-        "images": ["images/critical_overlay.png"]
-      }
-    ]
-  },
-  {
-    "image": "1.6.png",
-    "title": "Update 4/4/2025",
-    "subTitle": "4th April, 2025",
-    "paragraphs": [
-      {
-        "title": "Added Gardening!",
-        "text": "Start cultivating a variety of vegetables and exotic plants in your brand-new garden! Visit the market to purchase seeds and kickstart your gardening journey. Remember to water your plants regularly to keep them thriving!",
-        "images": ["images/gardening.png"]
-      },
-      {
-        "title": "New Life Stages: Child and Elder",
-        "text": "Experience a new evolution path for your beloved pets! Baby pets now grow into children before becoming teens, and adult pets can evolve into elders after extended gameplay with auto-age enabled.",
-        "images": ["images/elder_child_stage.png"]
-      },
-      {
-        "title": "Homeworld Getaways: Explore Your Pet’s Home Planet",
-        "text": "Send your pets on exciting activities on their home planet! They’ll embark on these adventures for a few minutes or up to several hours in real time, returning with boosted stats and unique moodlets.",
-        "images": ["images/homeworldgetaway.png"]
-      },
-      {
-        "title": "Cooking with Ingredients",
-        "text": "Craft your own meals and snacks using ingredients harvested from your garden! Discover 18 exclusive new dishes with special effects—available only through cooking.",
-        "images": ["images/cooking_harvests.png"]
-      },
-      {
-        "title": "Added Crafting!",
-        "text": "Unleash your creativity by crafting new accessories, furniture, and even new rooms! Use exotic materials gathered from your gardening efforts to enhance your home.",
-        "images": ["images/crafting.png"]
-      },
-      {
-        "title": "Sell Your Food in the Market",
-        "text": "Become a merchant by selling your home-cooked food in the market! Regular food items fetch modest prices, but specially crafted dishes yield much higher profits.",
-        "images": ["images/sell_food.png"]
-      },
-      {
-        "title": "New Set: Collage",
-        "text": "Explore the latest Collage set in the Crafting menu! The set includes 1 room background, 4 furniture items, and 3 accessories to give your room a fresh look.",
-        "images": ["images/collage_set.png"]
-      },
-      {
-        "title": "Bug Fixes and Quality Improvements",
-        "text": "- Fortune teller now displays all possible evolutions based on all care ratings, not just the player’s current rating.\n- Added 'Out of Stock' labels to market shops and improved stock system functionality.\n- Enhanced visuals in the wedding scene with heart particles.\n- Polished the birthday party scene for a better experience.\n- Fixed game speed slowdown on high-refresh-rate monitors and displays."
-      }
-    ]
-  },
-  {
-    "image": "fortune_teller.png",
-    "title": "Update 3/13/2025",
-    "subTitle": "13th March, 2025",
-    "paragraphs": [
-      {
-        "title": "New Fortune Teller NPC!",
-        "text": "You can visit the new Fortune Teller to find out your pet's next possible life stage evolution based on your current Care Rating!\nYou can even find out what your child will look like with any of your friends if your pet is an adult!",
-        "images": ["images/fortune_teller.png"]
-      },
-      {
-        "title": "Significant improvements to save system",
-        "text": "This update brings significant improvements to the save system, allowing for many more possibilities and far fewer limitations.\nMany issues related to running out of storage space and disappearing progress will no longer occur with this new system."
-      },
-      {
-        "title": "New Friend Search",
-        "text": "You can now directly search for your friend's user id (uid) in the friends section of the phone."
-      },
-      {
-        "title": "Bugfixes and improvements",
-        "text": "- Adjusting sleeping hours now changes the in-game time of day.\n- Fix pets wanting items they cannot use.\n- Many smaller bugfixes and improvements."
-      }
-    ]
-  },
-  {
-    "image": "valentine_25.png",
-    "title": "Valentine Update 2025",
-    "subTitle": "14th February, 2025",
-    "paragraphs": [
-      {
-        "title": "New Valentine-themed additions:",
-        "text": "- New room background\n - 2 New Accessories\n - 5 New Furniture Items",
-        "images": ["images/valentine_25.png"]
-      },
-      {
-        "title": "UI Improvements",
-        "text": "Made improvements to the UI to enhance user experience"
-      }
-    ]
-  },
-  {
-    "image": "updatenew_11.webp",
-    "title": "Update 1/31/2025",
-    "subTitle": "31st January, 2025",
-    "paragraphs": [
-      {
-        "title": "Added Custom Furniture",
-        "text": "- Now you'll be able buy furniture items separately and customize your room like!\n- There are now two types of rooms; Pre-furnished and Customizable: Pre-furnished rooms are like the rooms from before this update; they come with their default furniture and if you wish to customize them you have to remove the default furniture for free or buy a customizable room from the mall!\n- You can place up to **5** furniture item in your rooms!\n- You have precise control over the exact position of each furniture.\n- There are more than 40 furniture items available to buy from the furniture store in the mall!",
-        "images": [
-          "images/custom_furniture_01.png",
-          "images/custom_furniture_02.png"
+        "image": "1.13.png",
+        "title": "Update 1.13",
+        "subTitle": "27th June, 2026",
+        "paragraphs": [
+            {
+                "title": "New Mini-game: Food Knowledge",
+                "text": "A new mini-game is now available in the game center! Try to identify different foods based only on their silhouette.\nThis mini-game also comes with a new achievement: **Cuisine Enthusiast!**",
+                "images": ["images/food_knowledge.png"]
+            },
+            {
+                "title": "New Mini-game: Picture Puzzle",
+                "text": "A new mini-game is now available in the game center! Slide the scrambled picture pieces into the correct positions to complete the image.\nThis mini-game also comes with a new achievement: **Tilemaster!**",
+                "images": ["images/picture_puzzle.png"]
+            },
+            {
+                "title": "Reworked Jobs",
+                "text": "Jobs have been completely reworked! Pets can now be sent to work for a set duration, with the length of each shift varying depending on the selected job. Once the shift is complete, your pet will return with a fixed amount of Gold based on the work type.\n\nThe biggest change is that jobs can now be completed entirely offline. Start a shift, close the game, and return later to collect your pet's earnings. Work now functions as a passive income system, allowing your pet to earn Gold even while you're away.",
+                "images": ["images/jobs_rework.png"]
+            },
+            {
+                "title": "Random Phone Calls",
+                "text": "Your friends may now occasionally give you a call!\n\nThere is now a small chance you'll receive random phone calls inviting you to hang out or participate in activities together.",
+                "images": ["images/random_calls.png"]
+            },
+            {
+                "title": "New Room Backgrounds",
+                "text": "- Added a new **Gothic Kitchen** background.\n- Added a new **Gothic Bathroom** background to complete the Gothic set.\n- Added a new **Mushroom Bathroom** background to complete the Mushroom set.\n- Added a new **Frame Living Room** background.",
+                "images": [
+                    "images/gothic_kitchen.png",
+                    "images/mushroom_bathroom.png"
+                ]
+            },
+            {
+                "title": "Modding Improvements",
+                "text": "Added a new **Character Selection** feature to the **Stuff Menu**.\n\n- Change your character's appearance to any character from your installed mods.\n- Accessible via **Stuff Menu → Change Character**.\n- You can switch back to your original character at any time from the same menu.",
+                "images": ["images/mod_char_selector.png"]
+            },
+            {
+                "title": "Additions & Improvements",
+                "text": "- Your pet may now **randomly ask to be petted** if you've been taking good care of them.\n- Added a new snack: **Takoyaki**.\n- Petting is now performed by **sliding your finger across the screen** instead of tapping.\n- Completely overhauled the **Phone Menu UI**.\n- Added new **Tap Effects** that can be enabled or disabled in the settings.",
+                "images": ["images/new_phone_ui.png"]
+            },
+            {
+                "title": "Fixes",
+                "text": "- Fixed an issue causing the **Classic Main Menu** to not work properly with **Functional Shell Buttons**.\n- Fixed an exploit that allowed players to spam shell buttons to quickly achieve high scores in the **Pet Grooming** mini-game.\n- Other smaller bugfixes and improvements.",
+                "images": ["images/improvements.png"]
+            }
         ]
-      },
-      {
-        "title": "New Set: Gothic",
-        "text": "Added a new set \"Gothic\" made by the talented @Prion_Sigma, this set contains *1 Room wallpaper, 5 Furniture, 1 Item and 3 Accessories*",
-        "images": ["images/gothic_set.png"]
-      },
-      {
-        "title": "New Set: Arcade",
-        "text": "Added a new set \"Arcade\" made by the talented @Piixel_Nun, this set contains *1 Room wallpaper, 4 Furniture and 1 Accessory*",
-        "images": ["images/arcade_set.png"]
-      },
-      {
-        "title": "Other new Furniture/Accessories",
-        "text": "Added many other new furniture items/accessories made by the talented @Prion_Sigma and @Piixel_Nun",
-        "images": ["images/new_stuff_furniture.png"]
-      },
-      {
-        "title": "Added Skate Park",
-        "text": "There is now a new skate item available to purchase, which by using you'll get to travel to a skatepark and maybe even perform a few tricks!",
-        "images": ["images/skatepark_01.png"]
-      },
-      {
-        "title": "Other new Items",
-        "text": "- Rattle: Now the player starts with a rattle item in their inventory by default to be able to entertain their newly-hatched pet easier. Note: This item does not get added to existing saves automatically, and you have to buy it from the mall.\n- Bear: Added a new bear item for your pet to play with!",
-        "images": ["images/bear_item.png"]
-      },
-      {
-        "title": "Added potty training",
-        "text": "- If you send your pet to the toilet on time a couple of times when they are still a baby, your pet will get the *Potty-trained* trait, and from then on forward they'll no longer poop in the house and will automatically go to the toilet to poop.\n- You can check if your pet has the trait by opening the Profile page.",
-        "images": ["images/poop_trait.png"]
-      },
-      {
-        "title": "Added unique animations to all items!",
-        "text": "Now instead of playing the same placeholder animations when the pet was playing with items, it now plays short animations specific to the item itself."
-      },
-      {
-        "title": "Added a new screenshot functionality",
-        "text": "- Now you'll be able to take screenshot of the in-game screen by double tapping the Tamaweb logo at the top of the shell!\n- Note: You cannot use this feature when a menu is open.",
-        "images": ["images/screenshot_dbl.png"]
-      },
-      {
-        "title": "Added new shell designs",
-        "text": "- Added 4 new shell designs: Minimal White, Minimal Black, Circuit, Starry Night\n- Also added a new, more egg-shaped default (new players only, for existing accounts select it from the settings) shell shape."
-      },
-      {
-        "title": "More Improvements and bugfixes",
-        "text": "- Improved Missions UI to provide more feedback on completing missions.\n- Improved disabled UI appearance.\n- Added fullscreen flag for user who want to experiment with putting the game on a custom device, you can access it by putting `?fullscreen` at the end of the URL.\n- Added appropriate age limit for some objects\n- Med items are now always available for purchase regardless of the day.\n- Changed default egg sprite and animation.\n- Fixed mimic game icons being misaligned.\n- Fixed a bug where the player could not open market menus after logging in for the first time.\n- Improved save code system.\n- Improvements to PWA caching\n- Smaller Bugfixes and Improvements"
-      }
-    ]
-  },
-  {
-    "title": "Update 12/13/2024",
-    "subTitle": "13th December, 2024",
-    "paragraphs": [
-      {
-        "title": "Happy XMAS!",
-        "text": "We wish you happy holidays! The Xmas event runs from 14th to 31st and currently includes double rewards for each mission chests open, with more stuff coming further into the holidays! Please enjoy and keep an eye out for future Xmas event updates!",
-        "images": ["images/xmas_event_01.png"]
-      }
-    ]
-  },
-  {
-    "image": "10.webp",
-    "title": "Update 11/28/2024",
-    "subTitle": "28th November, 2024",
-    "paragraphs": [
-      {
-        "title": "New feature: Dating!",
-        "text": "Instead of being able to marry one of your friends, you have to now go on a romantic date with them and see if you two can feel the connection or not! \nMake sure your pet is well prepared and is smelling good or the other participant might not feel comfortable!\n\nThis feature is also available in Hubchi, so you can go on dates with other player's pets!",
-        "images": ["images/beach_01.png", "images/dating_01.png"]
-      },
-      {
-        "title": "Added DayMail service!",
-        "text": "Now you'll receive a mail every day letting you know of latest news, friend messages or just telling how awesome you are!",
-        "images": ["images/dailymail_01.png", "images/mail_01.png"]
-      },
-      {
-        "title": "Improved Social Media!",
-        "text": "Updated the visual of the social media, as well as adding many new posts and rewriting almost all of the existing ones!\nAlso there is no a limited number of posts each time you open the app and you can also just click the next post instead of having to close and reopen 'explore post'!",
-        "images": ["images/social_media_n.png"]
-      },
-      {
-        "title": "Added 2 new room backgrounds!",
-        "text": "Check ot the two beautiful room backgrounds by the talented @VairaSmythe added in this update: ASTRA and SEAFLOOR!",
-        "images": ["images/cc_01.png", "images/cc_02.png"]
-      },
-      {
-        "title": "Classic Menu improvement",
-        "text": "Improved pet visibility when Classic Menu is turned on!",
-        "images": ["images/screen.png"]
-      },
-      {
-        "title": "Hubchi changes",
-        "text": "You can now date other people's pets in Hubchi! Just go on Hubchi, and in the interact menu tap on 'Go on date'!\nAlso from this update forward, you can no longer enter Hubchi with your Baby pet, and now its only open to teen and higher. This is due to a large amount of baby characters in any given Hubchi lobby.",
-        "images": []
-      },
-      {
-        "title": "Care rating adjustments!",
-        "text": "Several adjustments have been made to the Care Rating system to rebalance it into a bit more fair experience!",
-        "images": []
-      },
-      {
-        "title": "Added food shop stocks!",
-        "text": "There is now a limited number of food and snacks available to purchase in the shop, and their stock will change each day, so remember to check back everyday to buy new stuff!",
-        "images": []
-      },
-      {
-        "title": "Added a new dating achievement!",
-        "text": "There is a new 'Heartbreaker' achievement!",
-        "images": []
-      },
-      {
-        "title": "Feeding quality of life improvements",
-        "text": "The game now remembers the current food entry when feeding, so that after feeding it won't reset to the first food item again.\nOn the same note, the game no longer closes the snacks menu after your pet is past hunger satisfaction so that you continue feeding them snacks as you please.",
-        "images": []
-      },
-      {
-        "title": "Find Friends Bugfix",
-        "text": "The Social Media's Find Friends feature no longer shows the second pet for the rest of the slots.",
-        "images": []
-      },
-      {
-        "title": "Credits",
-        "text": "Added a new Credits section in the settings.",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "9.png",
-    "title": "Update 11/7/2024",
-    "subTitle": "7th November, 2024",
-    "paragraphs": [
-      {
-        "title": "Added Hubchi Rewards Store!",
-        "text": "There is a new limited-time rewards store in Hubchi where you can unlock exclusive items for your pet using likes! And now you can get likes by just interacting with other peoples pets! Check the in-game info boxes for more information!",
-        "images": [
-          "images/hubchi_rewards_01.png",
-          "images/hubchi_rewards_02.png"
+    },
+    {
+        "image": "1.12.png",
+        "title": "Update 5/15/2026",
+        "subTitle": "15th May, 2026",
+        "paragraphs": [
+            {
+                "title": "New Activity Location: Post Office",
+                "text": "There is a new place in town; The Post Office! You can visit it to send **letters** to your friends.\n- Choose words to compose your letter!\n- You will receive a response letter from your friend after some time, and depending on how well written your letter was you may even receive a gift from them!",
+                "images": [
+                    "images/post_office.png",
+                    "images/post_office_inner.png"
+                ]
+            },
+            {
+                "title": "New Feature: Functional Shell Buttons!",
+                "text": "Now the shell buttons will each serve a specific purpose in navigating the menus:\n- **Left button**: Move to the next option the menu\n- **Middle button**: Accept the currently selected option\n- **Right button**: Go back to the first option, if already on the first option, closes the menu (if close-able)\nYou can also use the **Arrow keys** **on your keyboard** (Left, Down, Right) if you are playing with one.\nNote: This feature is in early access mode, so if you find any issues with it please report it, Thank you!",
+                "images": ["images/functional_buttons.png"]
+            },
+            {
+                "title": "New Mini-game: Guess The Number",
+                "text": "A new mini-game is now available in the game center! Your pet will choose a number between 1 and 9, and you have 3 chances to guess what it is! \nEvery time you guess, your pet will give you guidance by telling you if their number is higher or lower than the one you've guessed.\nThe game also comes with a new achievement: Great Guesser!",
+                "images": ["images/guess_the_number.png"]
+            },
+            {
+                "title": "New Feature: Toothaches!",
+                "text": "Now your pet might get a **toothache** if you feed them too many snacks! They will most likely refuse eating food when they have a toothache, and you must brush their teeth to cure it. Make sure to not feed them snacks right away as their toothache might come back!",
+                "images": ["images/toothache.png"]
+            },
+            {
+                "title": "New Item: Magic 8 Ball",
+                "text": "There is a new working Magic 8 Ball item available to purchase in the mall. Ask questions and the Magic 8 Ball may answer!",
+                "images": ["images/8ball.png"]
+            },
+            {
+                "title": "New Consumables",
+                "text": "Added new food and med items, available to purchase from the market:\n- Medicine:\n\t- **Appetite Stim**: It can be used to restore your pet's appetite, allowing you to feed them more of the same food without them refusing to eat it.\n- Food:\n\t- **Oyster Seafood**\n\t- **Butter Steak**\n\t- **Stuffed Pumpkin**",
+                "images": ["images/butter_steak.png"]
+            },
+            {
+                "title": "Improvements",
+                "text": "- Added a **list button** to the outside activities.\n- Added a new **like feature** in the social media; Now you'll be able to like your friends' posts and gain small friendship progress.\n- Now you'll be able to **directly eat the ordered items** from Snapmeal.\n- Added Zodiac Signs based on the pet's birthday, accessible from the profile menu.\n- Added a new **Shell Shape**, available in *Settings > Shell Settings > Shell Shape*.\n- Integrated certain traits like lucky and charismatic with social media.\n- Updated Mini-game's game center background sprite.\n- Updated Sleep Replacement medicine's sprite.\n- Updated UI icons.",
+                "images": ["images/like_social_media.png"]
+            },
+            {
+                "title": "Fixes",
+                "text": "- Fixed an issue causing the UI icons to not loading properly when playing offline.\n- Fixed an issue causing Angel Halos and Devil Horns to appear broken on pet icons on certain devices.\n- An issue causing toys/items to not despawn after the pet was done playing with them should be fixed now.\n- Other smaller bugfixes and improvements.",
+                "images": ["images/improvements.png"]
+            }
         ]
-      },
-      {
-        "title": "Added Daily Missions!",
-        "text": "There are now daily mission that you can try to finish to get MissionPts! You can then redeem your MissionPts for two different chests containing random items including food, item, accessories, gold and more!",
-        "images": ["images/missions_01.png", "images/missions_02.png"]
-      },
-      {
-        "title": "Added Character collection!",
-        "text": "You can now keep track of all the characters you've been able to get! Try to collect them all!",
-        "images": ["images/char_collection_01.png"]
-      }
-    ]
-  },
-  {
-    "image": "8.png",
-    "title": "Update 9/12/2024",
-    "subTitle": "12th September, 2024",
-    "paragraphs": [
-      {
-        "title": "Welcome to Hubchi!",
-        "text": "There is now an online hub where you can meet and interact with other players pets and earn publicly displayed interaction points whenever others engage with your own pet! There is more to come, await online events, games and much more!\nAccess Hubchi from the phone interactions menu.",
-        "images": ["images/hubchi_01.png", "images/hubchi_02.png"]
-      },
-      {
-        "title": "Added care rating system!",
-        "text": "Now your pets next evolution depends on how good you've been taking care of them in general, not based on how good they feel at the moment they age up! \nYou gain care rating by taking care of your pet and giving them lots of attention, and will lose care rating by ignoring and neglecting them! \nYou can see your care rating in the stats menu",
-        "images": ["images/care-rating.png"]
-      },
-      {
-        "title": "Added wants system!",
-        "text": "Now your pet will have different wants throughout the day like wanting a specific food/snack, wanting to play with a specific item, wanting to hangout with a friend, etc. \nBy fulfulling their wants, you have a chance to gain a care rating point, likewise if you miss fulfilling their want before it refreshes you may lose a care rating point.\nEach want can last between 30 mins to 2 hours before it refreshes. \nNote: The wants you miss while not actively in the game are not counted towards your negligence.",
-        "images": ["images/want.png"]
-      },
-      {
-        "title": "Added a new game: Mimic!",
-        "text": "In this game you have to try to guess your opponent's next pose!",
-        "images": ["images/mimic_game.png"]
-      },
-      {
-        "title": "Added a new game: Catch!",
-        "text": "In this game you have to try to get as much heart while avoiding the poop!",
-        "images": ["images/catch_game.png"]
-      },
-      {
-        "title": "Added a classic style main menu!",
-        "text": "Prefer an old-school look with the menu items being at the top and bottom of the screen? You can now switch to a classic main menu from the System Settings.",
-        "images": ["images/secretary_mainmenu.png"]
-      },
-      {
-        "title": "Added a new animated companion: Secretary!",
-        "text": "Inspired and based on the same character from the amazing 1000xRESIST game! \nYou can purchase this companion from the Accessories section in the mall and equip it in your stuff menu.",
-        "images": ["images/secretary_item.png"]
-      },
-      {
-        "title": "Added a new accessory: Mini-Band!",
-        "text": "You can purchase this accessory from the mall."
-      },
-      {
-        "title": "Added a new font!",
-        "text": "Due to community suggestion about the old font being kind of hard to read, we've decided to update the font to a much more readable counterpart (Pixel Coleco)",
-        "images": []
-      },
-      {
-        "title": "New kitchen background!",
-        "text": "Check out the view in the new kitchen background!",
-        "images": ["images/new_kitchen.png"]
-      },
-      {
-        "text": "New achievements, quality of life improvement, bugfixes, cheat codes, and much more!",
-        "images": []
-      },
-      {
-        "text": "You can now tap the 'Downloading' prompt to hide it.",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "7.png",
-    "title": "Update 8/14/2024",
-    "subTitle": "14th August, 2024",
-    "paragraphs": [
-      {
-        "title": "Added dynamic day and night cycle!",
-        "text": "There are currently 4 times of day: Morning, Afternoon, Evening and Night! \nTime of the day is determined by your device clock.",
-        "images": ["images/skies.png"]
-      },
-      {
-        "title": "Added weather system!",
-        "text": "There is rain! Now you might randomly get a raining weather that lasts for an hour or two, the chance is based on the day of the month, with some days having a higher chance of raining than others!",
-        "images": ["images/mall_rainy_day.png"]
-      },
-      {
-        "title": "Added a new room background: Wooden!",
-        "text": "It has big windows so that you can fully enjoy the new views!",
-        "images": ["images/night_sleep_wooden.png"]
-      },
-      {
-        "title": "Added automatic birthdays setting!",
-        "text": "If you want your pet to automatically age up when they've reached their age up time (baby to teen: 24 hours / teen to adult: 48 hours) you can enable this feature in the new Gameplay Settings section of the settings menu!",
-        "images": ["images/gameplay_settings.png"]
-      },
-      {
-        "title": "Added ability to offset your pets bedtime!",
-        "text": "Now you'll be able to change which hours your pet will automatically sleep in the Gameplay Settings section!",
-        "images": ["images/sleep_hours_menu.png"]
-      },
-      {
-        "title": "Reworked the park background sprite!",
-        "text": "Reworked the park background sprite!",
-        "images": ["images/new_park.png"]
-      },
-      {
-        "title": "Added 4 new shell shapes!",
-        "text": "These are available in the Change Shell category of the settings!",
-        "images": ["images/new_shell_shape.png"]
-      },
-      {
-        "title": "Added 5 new shell backgrounds!",
-        "text": "These are also available in the Change Shell category of the settings!",
-        "images": []
-      },
-      {
-        "title": "Updated pet sleeping mechanics!",
-        "text": "You can now always put your pet to sleep without them refusing during their bedtime (sleeping hours), and there is a new 'Bedtime' badge on the sleep button when it's during their sleeping hours!",
-        "images": []
-      },
-      {
-        "title": "Decreased pets active sleep depletion rate!",
-        "text": "Now it takes 4 hours for them to get sleepy (as opposed to 30 minutes from before)",
-        "images": []
-      },
-      {
-        "title": "Fixed mod support bugs!",
-        "text": "All resource overrides should work now!",
-        "images": []
-      },
-      {
-        "title": "Fixed UI bugs from last update!",
-        "text": "Fixed UI bugs from last update!",
-        "images": []
-      },
-      {
-        "title": "Bugfixes and improvements!",
-        "text": "Bunch of other fixes and improvements and much more!",
-        "images": []
-      }
-    ]
-  },
-  {
-    "title": "Small Update 7/20/2024",
-    "subTitle": "20th July, 2024",
-    "paragraphs": [
-      {
-        "title": "Changed default generated names!",
-        "text": "The default generated names are now more playful.",
-        "images": []
-      },
-      {
-        "title": "Added save indicator!",
-        "text": "A small save indicator has been added to the top right that shows up when the game is being saved.",
-        "images": []
-      },
-      {
-        "title": "Fixed vacation state saving bug!",
-        "text": "Fixed a bug causing the vacation state not getting saved on some devices.",
-        "images": []
-      },
-      {
-        "title": "Fixed accessory layering bug!",
-        "text": "Fixed a bug related to all accessories appearing on top of the character if you put them on right after aging them up.",
-        "images": []
-      },
-      {
-        "text": "Other small tweaks and bugfixes.",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "6.png",
-    "title": "Update 7/11/2024",
-    "subTitle": "11th July, 2024",
-    "paragraphs": [
-      {
-        "title": "Added cooking feature!",
-        "text": "The cooking mini game has you take 3 pictures using your device's camera to use as ingredients in your dish! After you take the photos, stir the dish until it's mixed!",
-        "images": ["images/cooking.png"]
-      },
-      {
-        "title": "Added family trees and generation tracking!",
-        "text": "Checkout your family tree from the newly added section in the stats menu! \nYou can also see your past generation pets from old runs that have ended. \nNote that only families played from this update onward will appear in the tree. Families from before this update will not be shown.",
-        "images": ["images/family_tree.png"]
-      },
-      {
-        "title": "Added pet vacation option!",
-        "text": "If you want to take a break and not worry about 24/7 care of your pet, send them on a vacation for only $250! While on vacation, their needs will not drop, and you can end their vacation at any time!",
-        "images": ["images/vacation_sea.png"]
-      },
-      {
-        "title": "Overhauled the UI design!",
-        "text": "Check out the new design and share your feedback!",
-        "images": ["images/ui_1.png", "images/ui_2.png"]
-      },
-      {
-        "title": "Reworked achievements!",
-        "text": "Collect all the recently added and revamped achievements to unlock rewards!",
-        "images": []
-      },
-      {
-        "text": "Many bugfixes and improvements!",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "5.png",
-    "title": "Update 6/13/2024",
-    "subTitle": "13th June, 2024",
-    "paragraphs": [
-      {
-        "title": "Added new job: Work at Stand!",
-        "text": "In addition to the office work, now you'll be able to send your adult pet to work at a stand. \nPay attention to the customers' feelings—the happier they are, the more they'll want to spend money buying stuff! \nTake good care of your own pet to make sure they perform to their fullest on the stand, making their customers happy!",
-        "images": ["images/work_at_stand.png"]
-      },
-      {
-        "title": "Added accessories!",
-        "text": "You can now dress up your pets by putting accessories on them! \nCurrently, there are 4 accessory items available to purchase from the mall, with more to come: Witch Hat, Crown, Wings, and Frooties. Currently, accessories are only available for adults.",
-        "images": ["images/accessories.png"]
-      },
-      {
-        "title": "Added pet interaction!",
-        "text": "You can now pet your digital friend! Just select the home icon from the main menu and select the Pet option! Petting will increase their fun stat.",
-        "images": ["images/petting.png"]
-      },
-      {
-        "title": "Updated item sprites!",
-        "text": "Added updated item sprites! (thanks/credits to @digiropa)",
-        "images": []
-      },
-      {
-        "title": "Added character breathing animation!",
-        "text": "Added breathing animation to all characters!",
-        "images": []
-      },
-      {
-        "title": "Added random jumping animation!",
-        "text": "Now your pet may randomly jump when idling and taken care of!",
-        "images": []
-      },
-      {
-        "title": "Added shadows to characters!",
-        "text": "Added shadows to characters!",
-        "images": []
-      },
-      {
-        "title": "Reworked sound effects!",
-        "text": "Reworked and remade most sound effects!",
-        "images": []
-      },
-      {
-        "title": "Changed main menu icons!",
-        "text": "In the main menu, changed the sleep icon to home icon because now in addition to sleeping, you can pet and dress your character in the same menu!",
-        "images": []
-      },
-      {
-        "title": "Fixed critical bugs!",
-        "text": "Fixed a lot of important bugs. Your pet will now die properly if left unattended for extended periods.",
-        "images": ["images/petdeath.png"]
-      }
-    ]
-  },
-  {
-    "title": "Mod Support Update 6/3/2024",
-    "subTitle": "3rd June, 2024",
-    "paragraphs": [
-      {
-        "title": "Added Mod Support!",
-        "text": "Mod support has been one of the most requested features for the game. You can now replace assets like characters, food sprites, items, and more with your own creations.",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "4.png",
-    "title": "Update 4/29/2024",
-    "subTitle": "29th April, 2024",
-    "paragraphs": [
-      {
-        "title": "Added new Rainbow room background!",
-        "text": "Added the new Rainbow room background.",
-        "images": []
-      },
-      {
-        "title": "Added new mall walkway background!",
-        "text": "Added a new walkway background when going to the mall, with the option to skip the walking animation.",
-        "images": []
-      },
-      {
-        "title": "Added 3 new food items!",
-        "text": "Added Spaghetti, Telesushi, and S-Special dish.",
-        "images": []
-      },
-      {
-        "title": "Added 3 new treats!",
-        "text": "Added Cream icepack, Bunny mooko, and Paloodeh.",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "log.png",
-    "title": "Update 3/24/2024",
-    "subTitle": "24th March, 2024",
-    "paragraphs": [
-      {
-        "title": "Added pet death scenario!",
-        "text": "Make sure you are not neglecting your pet for too long, otherwise they might die! \nBaby: 24 hours of neglect. \nTeen: 40 hours. \nAdult: 54 hours.",
-        "images": []
-      },
-      {
-        "title": "Added parent care feature!",
-        "text": "You can now leave your pet with their parents to take care of them while you're away. Their stats won't decrease during this time.",
-        "images": ["images/stayparents_menu.png"]
-      },
-      {
-        "title": "Added new FUTURA room background!",
-        "text": "Check it out in the mall!",
-        "images": []
-      },
-      {
-        "title": "Added new egg spawn animation!",
-        "text": "Added a new egg spawn animation.",
-        "images": []
-      }
-    ]
-  },
-  {
-    "image": "2.png",
-    "title": "Update 3/22/2024",
-    "subTitle": "22nd March, 2024",
-    "paragraphs": [
-      {
-        "title": "Added pet cleaning feature!",
-        "text": "Now your pet will get dirty over time, and you'll have to give them a bath using the new Bathe option in the cleaning menu!",
-        "images": ["images/screen_bathe.png"]
-      },
-      {
-        "title": "Added toilet option for pets!",
-        "text": "You can now make your pet go to the toilet using the Use Toilet option in the cleaning menu. Watch out for the symbol above their head when their bladder is nearly full!",
-        "images": ["images/screen_toilet_menu.png"]
-      },
-      {
-        "title": "Added new doctor and clinic!",
-        "text": "Check out the hospital and Dr. Banzo's clinic from the activities menu if your pet feels sick!",
-        "images": ["images/hospital_01.png"]
-      },
-      {
-        "title": "Added social media feature!",
-        "text": "You can now message your friends using the Social Media app in the apps menu!",
-        "images": []
-      },
-      {
-        "title": "Stat value rebalancing!",
-        "text": "Tweaked and rebalanced some stat values.",
-        "images": []
-      },
-      {
-        "text": "Bugfixes and other improvements.",
-        "images": []
-      }
-    ]
-  }
+    },
+    {
+        "title": "Small Update 4/24/2026",
+        "subTitle": "24th April, 2026",
+        "paragraphs": [
+            {
+                "title": "Bugfixes",
+                "text": "- Fixed a critical bug that caused automatic birthday events to trigger much earlier than intended.\n- Fixed an issue where gold amounts could appear with decimals. Pets with the 'lucky' trait can no longer gain fractional gold rewards.\n- Pets should no longer accidentally fall through the floor during the Trick or Treat game.\n- Fixed a bug where Dr. Banzo would sometimes spawn off-screen in a corner instead of his usual location."
+            },
+            {
+                "title": "Improvements",
+                "text": "- Updated and improved the hospital visit animation sequence."
+            }
+        ]
+    },
+    {
+        "image": "1.11.jpg",
+        "title": "Update 2/19/2026",
+        "subTitle": "19th February, 2026",
+        "paragraphs": [
+            {
+                "title": "Personality Traits",
+                "text": "Added a new Personality trait system with **28 brand new traits** to the game! Now throughout their lifetime, your pet will accumulate personality traits that can change how they behave and what advantages or disadvantages they have!\nHere's the full list of traits added:\n*Charismatic, Introvert, Lucky, Hard Worker, Athletic, Artistic, Logical, Treasurer, Shopaholic, Money Saver, Romantic, Slow Learner, Botanist, Plenty Harvest, Grumpy, Proper, Natural Chef, Germ Guardian, Play Burnout, Chill, Voracious Hunger, Light Eater, Restless, Deep Sleeper, Tiny Tank, Iron Bladder, Dust Magnet and Self-Cleaning*\n**How it works:**\n- Each time your pet ages up, they will be *randomly assigned* a new personality trait.\n- When marrying off your pet, the offspring will randomly inherit one trait from the playable parent.\n- You can view all of your pet's traits under **Information > Profile**. (Note: Previous traits like Potty-trained or Immortal are now considered \"Experience Traits\" (Exp Traits) and are displayed separately in the same menu.)\nMore traits are planned to be added to the game, so if you have more trait ideas please let us know!",
+                "images": [
+                    "images/personality_traits.png",
+                    "images/personality_traits_2.png"
+                ]
+            },
+            {
+                "title": "New Mini-game: Leaves",
+                "text": "Added a new mini-game called **Leaves** accessible from the Game Center! Try to blow all the leaves off the screen before the timer runs out. This game is available for pets at the Teen life stage and above.",
+                "images": ["images/leaves_game.png"]
+            },
+            {
+                "title": "Backyard Digging Spots",
+                "text": "Now, when you enter the backyard, your animals might have discovered a **Treasure Box** buried in the dirt! Click on the digging spot to try and dig up the treasure box, you might even find gold inside!\n- The more animals you have, the higher the chance of a digging spot appearing.",
+                "images": ["images/backyard_dig_spot.png"]
+            },
+            {
+                "title": "Move Out / Abandon Interactions",
+                "text": "You can now send your pet back to their home planet by going to **Phone > Move Out / Abandon**. When you do, your pet will return home and may share how they felt about their time with you based on how long they stayed and how well you cared for them.\nAfterwards, you'll receive a brand new egg to start your new generation with!",
+                "images": ["images/moveout.png"]
+            },
+            {
+                "title": "New Homeworld Getaway Interaction: Sleepover",
+                "text": "A new \"Sleepover\" interaction is now available in the Homeworld Getaway! It takes 4 hours to complete and must be performed with one of your pet's friends.",
+                "images": ["images/sleepover_hg.png"]
+            },
+            {
+                "title": "New Gameplay Setting: Change Season",
+                "text": "You can now manually change the active **Season**, regardless of the real-world season! This option is available in **Settings > Gameplay Settings**.",
+                "images": ["images/autumn.png"]
+            },
+            {
+                "title": "Gender Updates",
+                "text": "Refined gender categories for clarity:\n- Neuter -> merged with Genderless (Non-binary)\n- Hermaphrodite -> removed (term is outdated and not used for human identities)\nCurrent options: ♂ Male, ♀ Female, ◯ Genderless (Non-binary), ⚧ Transgender, Gender Fluid\n- Pets already assigned Neuter or Hermaphrodite will keep their identity unless you manually change it.\n- Now the game can randomly assign one of the following identities when a pet is born: Genderless, Male and Female.\n- We're fully open to refining this feature further, so please let us know if you have any thoughts or suggestions!",
+                "images": ["images/genders.png"]
+            },
+            {
+                "title": "Stay at Parents Time Update",
+                "text": "You can now drop off your pets at their parents' house much earlier, starting at **3AM** instead of the previous 8AM.",
+                "images": []
+            },
+            {
+                "title": "Quality of Life Improvements and Additions",
+                "text": "- Added 2 new **back patterns:** *Starry* and *Strawberry*, access them from Settings > System Settings > Back Pattern\n- Added 2 new achievements related to the *Leaves* and *Flags* games.\n- Added voice SFX to speech bubbles and dialogs.\n- If *Automatic Aging* is on and you're in-game when your pet is due to age up, the birthday party will trigger automatically and you will be able to witness it live. You no longer have to close and reopen the game to trigger the age-up offscreen.\n- Improved the egg delivering and hatching sequence animations and sound effects.\n- Added small improvements to the Homeworld Getaway UI.\n- Babies can no longer go to the restaurant.\n- Small name changes/fixes across different screens.\n- Fixed a certain character's placement order in the collection menu.\n- Added new particles for *blush* and *shocked* states.\n- Improved grass textures.\n- Performance improvements.\n- Many bugfixes and smaller improvements.",
+                "images": ["images/bg_pattern_04.png"]
+            }
+        ]
+    },
+    {
+        "image": "1.10.8.jpg",
+        "title": "Update 1/30/2026",
+        "subTitle": "30th January, 2026",
+        "paragraphs": [
+            {
+                "title": "New Hang Out Option!",
+                "text": "You'll now be able to hang out with your friend in various locations and have different conversations!\nTo get started, Open the *Phone Menu*, Go into your *Friends* list, select the friend you want to hang out with and choose the *Hang Out* option!\nYou'll be able to hang out in the following locations:\n- Your friend's home\n- Your own home\n- The Mall\n- The Beach\n\nIf you want to have more hang out spots available to choose let us know!",
+                "images": ["images/hangout_01.png", "images/hangout_02.png"]
+            },
+            {
+                "title": "Cleaning Activity: Brushing Teeth",
+                "text": "Now you'll be able to brush your pet's teeth in the *Cleaning* menu! Don't forget to regularly brush your pet's teeth to keep their hygiene up and increase their discipline!",
+                "images": ["images/brush_teeth.png"]
+            },
+            {
+                "title": "Direct Interaction: Pick your pet up!",
+                "text": "Now you'll be able to pick up and directly move your pet around the house!\nSimply click and hold on to your pet for a few moments and you'll be able to pick them up!\n\nNote: This option is only available in the main house area.",
+                "images": ["images/direct_pickingup.png"]
+            },
+            {
+                "title": "New Food Items",
+                "text": "New food and snacks are now available for purchase at the market!\n\n*New food:*\n- Dumplings\n- Mushroom Soup\n\n*New snacks:*\n- Strawberry Pie\n- Rainbow Cake",
+                "images": ["images/food_30_jan_26.png"]
+            },
+            {
+                "title": "Improvements and Bugfixes",
+                "text": "- Added new \"Zzz\" particles to pets when they are sleeping.\n- Added new sound effects.\n- Other small improvements and bugfixes.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "1.10.jpg",
+        "title": "Update 12/20/2025",
+        "subTitle": "20th December, 2025",
+        "paragraphs": [
+            {
+                "title": "Seasons",
+                "text": "Now there will be 4 seasons in the game! The foliage and the weather are all affected by the season, for example it will now snow instead of rain in winter!",
+                "images": [
+                    "images/season_1.png",
+                    "images/season_2.png",
+                    "images/season_3.png"
+                ]
+            },
+            {
+                "title": "Holiday Event: Santa Encounter!",
+                "text": "Now you will be able to encounter Santa in the park during the holiday season, and receive exclusive gifts from him! Your chances of encountering Santa will be at all time high if you try on the Christmas day!",
+                "images": ["images/santa_encounter.png"]
+            },
+            {
+                "title": "New Mini-game: Flags",
+                "text": "There is a new mini-game available in the Game Center! Try out the Flags mini-game and tap the screen as soon as both flags are facing down!",
+                "images": ["images/flags_game.png"]
+            },
+            {
+                "title": "QOL Additions",
+                "text": "- There is now an **Index** button at the top right of the screen on all slider menus (like Food, item, accessory, room background, etc. menus) where you can see the full list without having to manually scroll through them.\n- Added a new setting: Back Pattern accessible from System Settings, which allows you to customize outside of your shell with preset patterns! More patterns to come so stay tuned!\n- Improved the shell's overall visuals!",
+                "images": ["images/slider_index.png", "images/bg_pattern.png"]
+            },
+            {
+                "title": "New Shell Backgrounds",
+                "text": "Added 5 brand new shell backgrounds available in Settings > Change Shell menu. Along with this, replaced the default white shell with a new one (Note: You can still access the previous default white shell from the settings if you prefer!)\n*Note: Due to an internal version change, this update will reset any selected custom shell to the new default. You can always reapply your previous shell!*",
+                "images": ["images/shells_1.10.png"]
+            },
+            {
+                "title": "Re-Balances",
+                "text": "#### Care Rating Drops\nAdjusted the care rating calculations to not end up with a single care star the next day after putting your pet to sleep the previous night.\n\n#### Animal Pets\nIt'll now take longer for your animals to leave after being neglected:\n- Increased the time animals will leave after being neglected from **30 hours to 48 hours**\n\n#### Gardening\n- Increased the time plants start to die of dehydration from **~10 -> ~20 hours**.\n- Increased the time between each stage growth from **~8 -> ~9 hours**.\n*This basically means you'll have a larger window to tend to your plants (without considering buffs) since you previously had around ~12 hours before they started to die (without buffs), but now you have ~22 hours (without buffs)*\n\n#### Mini-games:\nMini-games have been rebalanced in a way that now most games usually give you around ~$60 per perfect win.\n\n***Trick or Treat:***\n- There is now a high chance of **double Spookandy drops**.\n- Decreased the maximum game speed and the speed at which the game becomes faster.\n- Fixed the input lag issue, and your character now jumps as soon as you press down.\n- You no longer have to specifically press the shell screen or the shell buttons to make the character jump, touching anywhere on your screen will make your character jump.\n\n***Dog Washing:***\n- Buffed: Gold earned from each point changed from x1.7 to x2.3.\n\n***Catch:***\n- Buffed: You'll get more points when scoring. (from between 1-2 to now between 1-3)\n\n***Mimic:***\n- Buffed: You'll now get 30 points per correct guess.\n\n***Crop Match:***\n- Nerfed: Changed the maximum money earned from 75 to 60.",
+                "images": ["images/rebalance.png"]
+            },
+            {
+                "title": "Other Changes",
+                "text": "- You can no longer cook exclusive potions.\n- Small mission chests drop pool changes.\n- Smaller bugfixes and improvements.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "1.9.5.jpg",
+        "title": "Update 11/30/2025",
+        "subTitle": "30th November, 2025",
+        "paragraphs": [
+            {
+                "title": "Added a new lot: Restaurant!",
+                "text": "You can visit the restaurant and order food (including rare ones) that will boost your stats even more, so be sure to check it out!",
+                "images": ["images/restu_ext.png", "images/restu_inter.png"]
+            },
+            {
+                "title": "Animal Updates!",
+                "text": "- Now you'll be able to move your animal companions **Indoors** and have them run around in the house and cause chaos!\n- Added many new animals including new a new breed of cats, cows, and more!\n- Added a new \"Feed All\" option in the backyard animals menu to quickly feed all of your animals.",
+                "images": ["images/animals_indoors.png"]
+            },
+            {
+                "title": "New Gameplay Setting: Skills Affecting Evolution",
+                "text": "Since skills now affect what your pet's next evolution will look like (by overriding the Care Stars when past a certain threshold) it might make it harder for some players who are planning their evolution purely based on their Care Stars, this setting will allow you to **disable skills** affecting the evolution, and the game will automatically revert back to just using your Care Rating when evolving **no matter how your skills** look like.",
+                "images": ["images/skills_affecting_ev.png"]
+            },
+            {
+                "title": "New Outdoor Room Background: Forest",
+                "text": "Added a brand-new outdoor background, which will be affected by the outside weather, time of day, etc.",
+                "images": ["images/forest_bg.png"]
+            },
+            {
+                "title": "Burglary!",
+                "text": "When at night and sleep, there is a very small chance a burglar may show up and try to steal up to $100 from you! You can prevent stealing by waking up your pet or having an indoor animal to protect you!",
+                "images": ["images/burglar.png"]
+            },
+            {
+                "title": "New Themes",
+                "text": "There are two new themes available in Settings > Themes section:\n- Lavender\n- Slateblue",
+                "images": [
+                    "images/theme_lavender.png",
+                    "images/theme_slateblue.png"
+                ]
+            },
+            {
+                "title": "Improvements and bugfixes",
+                "text": "- Fixed an issue causing save losses, by adding a fallback storage for the save data. Still, remember to regularly back up your save file.\n- Added shortcuts between the garden and backyard for easier navigation.\n- Discipline gain/lose values have been rebalanced to improve gameplay fairness and progression.\n- Updated the park background sprite for improved visuals.\n- Updated the market activity building for improved visuals.\n- Ghost pets will no longer float during the kissing animation.\n- Ghosts on family tree will now show up correctly.\n- Smaller bugfixes and improvements.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "1.9.jpg",
+        "title": "Update 10/31/2025",
+        "subTitle": "31st October, 2025",
+        "paragraphs": [
+            {
+                "title": "Monsters and Angels",
+                "text": "There are now two brand new ghost architypes in the game; Monsters and Angels. Angels are sweet entities that enjoy helping other pets and granting them wishes, doing good deeds all around. Monsters on the other hand are mischievous entities who like messing with other pets, scaring them or even placing curses on them!\n- Monsters and Angels are **Immortal**, meaning they won't die after being neglected, because well, they are already a ghost.\n- You will be able to turn your pet into a Monster/Angel by visiting the **Gathering** area in the **Underworld** where you can befriend a ghost by impressing them.\n  After increasing your friendship with these ghosts you'll unlock the option to be either *Converted*, or just marry them and have your baby be a ghost of the same type as the other parent.\n- Monsters and Angels both have **unique abilities**, mischievous ones for the Monsters, and Angelic ones for the Angels. From blessing them to straight up converting other pets into ghosts, you'll be able to perform these abilities on any pet in your friends list!",
+                "images": ["images/angel_monster.png"]
+            },
+            {
+                "title": "Underworld Entrance",
+                "text": "There is now a new area called the \"Underworld Entrance\" in the outside activities section. This is your gateway to the ghostliness! Here you'll be able to:\n- Play **Trick or Treat** and earn a new special treat called **Spookandy** which you can either eat, or use as currency to purchase many things from the Underworld Entrance's **Shop**!\n- Visit the **Shop** to purchase variety of rare Potions among the following **Exclusive** items:\n\t- **Underworld Tickets**: with which you will be able to enter the **Underworld**\n\t- **Life Essence**: which can be used to turn a ghost pet into a regular pet.\n- Visit the Underworld: which is your main gateway to the world of the Monsters and Angels.",
+                "images": [
+                    "images/underworld_entrance.png",
+                    "images/trick_or_treat.png"
+                ]
+            },
+            {
+                "title": "The Underworld",
+                "text": "This is a completely new world with its own set of activities, shop, etc.!\n- Visit the town's **Gathering** area to befriend Monsters and Angels by playing a mini game to impress them!\n- Visit the town's **Clothing Store** for exclusive accessories!",
+                "images": [
+                    "images/underworld_01.png",
+                    "images/underworld_02.png"
+                ]
+            },
+            {
+                "title": "Homeworld Getaway Improvements",
+                "text": "- Now you'll be able to go to Homeworld Getaway activities with one of your friends! This will cause your friendship to improve as a result!\n- Added new animations and backgrounds for the HG departure sequence!",
+                "images": ["images/homeworld_getaway_friends.png"]
+            },
+            {
+                "title": "Accessories Open to All Life Stages Now!",
+                "text": "As well as adding many new accessory pieces to the game, you'll now be able to **equip accessories** on **Babies, Children and Teen** pets as well!",
+                "images": ["images/underworld_accessories_init.png"]
+            },
+            {
+                "title": "Halloween-Themed Set!",
+                "text": "Added a new Halloween/Monster themed set containing two new **Room backgrounds** and a accessory, purchasable from the mall!",
+                "images": [
+                    "images/halloween_25_set_01.png",
+                    "images/halloween_25_set_02.png"
+                ]
+            },
+            {
+                "title": "Improvements and bugfixes",
+                "text": "- The Fortune Teller is updated to show the correct version of the Monster/Angel evolution or the offspring appearance and architype.\n- Added a new **Immortal** trait which gets assigned to Monster and Angel pets.\n- Updated the *profile* and *friend info* pages to reflect the recently added changes.\n- There are now **custom egg visuals** for each architype (Normal/Angel/Monster)\n- Improved activities menu.\n- Added a small indicator to let the user know the page is scrollable.\n- A lot of other small bugfixes and improvements.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "1.8.5.jpg",
+        "title": "Update 9/30/2025",
+        "subTitle": "30th September, 2025",
+        "paragraphs": [
+            {
+                "title": "Potions",
+                "text": "Added 9 New Potions into the game! You can get these rare potions by trading your Mission Points for the newly added Exclusive Potions Chest. Here's the list of the added potions:\n- Expression Skill Potion\n- Logic Skill Potion\n- Endurance Skill Potion\n- Potion of Neglect\n- Potion of Well Behaving\n- Potion of Misbehaving\n- Potion of Fulfillment\n- Potion of Aging Up\n- Potion of Nothingness",
+                "images": ["images/potions_01.png"]
+            },
+            {
+                "title": "New Food/Snack Items",
+                "text": "Added New food and snack items!\n\n**Food:**\n- Bunny Burger\n- Pancakes\n\n**Snacks:**\n- Toasted Marshmallows\n- Watermelon\n- Orange Juice\n- Snackfin\n- Banana\n- Nuts\n- Santa Cake\n- Kuchice",
+                "images": ["images/nuts_bunnyburger.png"]
+            },
+            {
+                "title": "Improvements and Bugfixes",
+                "text": "- Pets needs will decrease way slower when sleeping at night, and you should no longer wake up to your pet’s needs being extremely low (and one care star) after going to sleep with max stats.\n- Pets will no longer refuse eating when their hunger is below 50%.\n- Added many more words for pets to say when their expression skill is high enough to speak.\n- Improve save backup awareness when installing mods.\n- Improved save error handling.\n- Added installed mods counter to the active mods section.\n- Added a subtle animation to the scold button when the pet is misbehaving to signal needing to take action.\n- Small bugfixes and improvements",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "1.8.png",
+        "title": "Update 8/11/2025",
+        "subTitle": "11th August, 2025",
+        "paragraphs": [
+            {
+                "title": "School System",
+                "text": "Now your child/teen pet will be able to attend school!\n- Once your pet reaches the **Child** life stage, you’ll receive a special invitation to enroll them in school.\n- Pets can attend up to **10 classes per day**, each boosting their skills.\n- There are **3 core subjects**, each tied to a skill:\n\t- _Expression_ – via the **Tune Practice** minigame\n\t- _Logic_ – via the **Track** minigame\n\t- _Endurance_ – via the **Skipping Ropes** minigame\n\t- _Flip Cards_ – a shared game that appears across all classes",
+                "images": [
+                    "images/school_entrance.png",
+                    "images/school_welcome.png"
+                ]
+            },
+            {
+                "title": "Skill System",
+                "text": "Now your pet will be able to learn skills!\n- Pets can now develop **Expression**, **Logic**, and **Endurance** skills.\n- These skills play a major role in determining your pet’s **next evolution**.\n- Skills increase through:\n\t- Attending school classes\n\t- Engaging in specific daily activities and interactions\n- Increase your pet's expression skill high enough and they might even start forming sentences!",
+                "images": ["images/skills.png"]
+            },
+            {
+                "title": "Discipline System",
+                "text": "Your pet now has a mind of their own—and sometimes, a bit of attitude.\n- If their **Discipline** stat is too low, they may start **misbehaving** more frequently: refusing actions or throwing tantrums.\n- Use the new **Praise** and **Scold** options in the care menu to guide their behavior.\n- Balance is key:\n\t- Over-praising or over-scolding can backfire\n\t- Poor discipline management may even cost you a **Care Star**",
+                "images": ["images/discipline_miss.png"]
+            },
+            {
+                "title": "Toggleable Gender Options",
+                "text": "- A new **Gendered Pets** toggle is available in Gameplay Settings (off by default).\n- When enabled, you can view your pet’s gender from the profile screen.\n- You can change it anytime via the **Set Name/Gender** option in the info menu.",
+                "images": ["images/gender.png"]
+            },
+            {
+                "title": "Quality of Life Improvements & Bug Fixes",
+                "text": "- Now you'' be able to see how your pet will look like before having to name them.\n- Added new achievements regarding skills.\n- Added new missions related to school.\n- Reworked the stats screen to be better suited to the new stats and skills.\n- Small improvements and bugfixes."
+            }
+        ]
+    },
+    {
+        "image": "1.7.jpg",
+        "title": "Update 7/17/2025",
+        "subTitle": "17th July, 2025",
+        "paragraphs": [
+            {
+                "title": "New Food Delivery App: Snapmeal!",
+                "text": "Now you'll be able to buy food items that are out of stock in the market, and also some cookable-only food items! Check every day for new items and get them delivered right to your house. There's also a new mission related to the app!",
+                "images": ["images/snapmeal.png"]
+            },
+            {
+                "title": "New Items!",
+                "text": "Added 4 new items for your pet to play with:\n\n- **Retroboy** (Handheld console)\n- **Robotty**\n- **Rubicube**\n- **Fidget Spinner**",
+                "images": ["images/retroboy_robotty.png"]
+            },
+            {
+                "title": "2 New Background Sets!",
+                "text": "Added 2 new background sets created by the talented **@thunderputz**:\n\n- **Mush-room Set** (+ Kitchen variant)\n- **Vintage Orange Set**",
+                "images": ["images/mush_room.png"]
+            },
+            {
+                "title": "New Furniture Items!",
+                "text": "There are many new furniture items added! You'll be able to buy many of them from the mall and craft the other ones.",
+                "images": ["images/city_set_craftable.png"]
+            },
+            {
+                "title": "More Immersive Additions",
+                "text": "- Your pet will now poop multiple times depending on how long you haven't cleaned their poop! (Purely visual; health/cleanliness drop rate is not affected.)\n- Added many new animations.",
+                "images": ["images/multi_poop.png"]
+            },
+            {
+                "title": "New Improvements",
+                "text": "- Added a new theme: **Pardis**\n- Seeds will no longer have a chance to be out of stock when trying to purchase them.\n- Added new sound effects for different animations.\n- Fixed sound effect delay issues.\n- Fixed many UI related issues.\n- Many smaller bugfixes and improvements.",
+                "images": ["images/pardis_theme.png"]
+            }
+        ]
+    },
+    {
+        "image": "1.6.9.png",
+        "title": "Update 6/15/2025",
+        "subTitle": "16th June, 2025",
+        "paragraphs": [
+            {
+                "title": "New Game Center Mini-Games",
+                "text": "Added 2 new games that are now available in the Game Center:\n\n- **Crop Match:** View and remember the crop images in the order they appear in the list, and try to select them in the correct order they were shown!\n- **Pet Grooming:** Wash and groom the animal by clicking the button as much as possible before the timer runs out!",
+                "images": [
+                    "images/pet_grooming_game.png",
+                    "images/crop_match_game.png"
+                ]
+            },
+            {
+                "title": "New UI Theme System",
+                "text": "Added a new theme system that allows for UI customization! Select from **10** new themes in the settings section! Stay tuned for more themes and let us know what kind of theme you want to be added next!",
+                "images": ["images/theme_pink.png", "images/theme_uni.png"]
+            },
+            {
+                "title": "Customizable Kitchen and Bathrooms",
+                "text": "Now you'll be able to purchase custom Kitchen and Bathroom backgrounds, just like main room backgrounds, from the Mall! Additionally, a new ocean-themed set has been added:\n\n- **Octopus** (Kitchen background)\n- **Nautical** (Bathroom background)\n\nDesigned by the talented **@teddie**",
+                "images": [
+                    "images/ocean_bathroom.png",
+                    "images/ocean_kitchen.png"
+                ]
+            },
+            {
+                "title": "New Travel System",
+                "text": "Added a new animated Travel system that adds immersion and allows for more activities and locations to be added in the future!",
+                "images": ["images/reworked_travel.png"]
+            },
+            {
+                "title": "New Immersive Additions",
+                "text": "- Your pet will now get nauseous if you try to feed them the same food repeatedly and may refuse to eat.\n- Added a new interior scene for the mall, including a (skippable) animation of receiving purchased items.\n- Added a new Office Work background.\n- Updated wedding visuals to be more interesting and unique.\n- Improved park animation and made it skippable.\n- Added background music to **Office Work** and **Vacation**, composed by **@Eth-D'Nautiluss**.",
+                "images": ["images/mall_interior.png"]
+            },
+            {
+                "title": "New Achievements!",
+                "text": "Added the following new achievements:\n\n- **Memory Maestro** (Crop Match mini-game)\n- **Master of the Fluff** (Pet Grooming mini-game)\n- **Farm-to-table Chef**\n- **Camera Chef**"
+            },
+            {
+                "title": "QOL Improvements and Bug Fixes",
+                "text": "- You can now potty train your **child pet**, whereas previously it was only available during the baby stage.\n- Increased max number of adoptable backyard animals from **8 to 16**.\n- Shell size can now be changed **independent of the screen size**, and you can also **toggle the visibility of the logo** for custom shells.\n- The **Critical State overlay** now appears halfway through the death counter instead of immediately.\n- Added **player UID** to the help section of the **add friend screen**.\n- Auto downscaling of custom images as shell backgrounds prevents storage quota issues.\n- Auto-aging is now enabled by default for new players.\n- Fixed animals running away while the player is on vacation.\n- Fixed excessive work activity rewards, now capped at **$400**.\n- Fixed an issue where rooms modified by a mod would remain in the mod's design after uninstalling.\n- Fixed an issue where mod backgrounds would replace the background of all scenes.\n- Many smaller tweaks and bug fixes!"
+            }
+        ]
+    },
+    {
+        "image": "1.6.7.png",
+        "title": "Update 5/11/2025",
+        "subTitle": "11th May, 2025",
+        "paragraphs": [
+            {
+                "title": "Animal Pets",
+                "text": "Now you'll be able to adopt variety of different animal pets and have them in your backyard and garden! They can even help out by providing unique buffs to your gardening!\n\nPlace a food item in the bowl placed in the backyard, and wait a few hours **(anywhere between 2 to 8 hours)** and you might get a new visitor! \n\nBe sure to feed them, play with them, and keep them happy—otherwise, they may run away!\n\n*List of potential buffs provided by animal pets:*\n- **+ Harvests:** Increases the amount of harvests in the garden.\n- **+ Wet Duration:** Extends the time plants stay hydrated by 3 hours.\n- **+ Health Duration:** Increases the time before the plants start dying without water by 8 hours.\n- **+ Growth:** Speeds up plant growth.\n\nKeep an eye out for more gameplay buffs coming further down the line!",
+                "images": ["images/animals_01.png", "images/animals_02.png"]
+            },
+            {
+                "title": "Revival Mechanic",
+                "text": "If you're careless and your pet dies, you'll now have a chance to **revive them**!\n\n Revival costs between **$250 and $1000**, depending on how much money you have. \n\nOnce revived, the pet will gain a new trait—**'Revived'**—but cannot be revived again if they die a second time.",
+                "images": ["images/revive_mechanic.png"]
+            },
+            {
+                "title": "New 'Car City' Room - Hubchi Reward",
+                "text": "A brand-new room background, designed by the talented **@abysmDelirium**, is now available on Hubchi! Be sure to check it out.",
+                "images": ["images/car_city_room.png"]
+            },
+            {
+                "title": "Various Improvements & QoL Changes",
+                "text": "- Added a new **'Stats'** option to the garden, allowing you to see how your plants are doing!\n- Added new missions related to animals.\n- Added a **critical state overlay** to indicate that the pet is very close to death if not taken care of.\n- You can now **re-water plants** that are already hydrated.\n- Cooking is now available to **child pets** as well.\n- Babies will **no longer** want/can eat cookable only food.\n- Fixed a few typos and implemented smaller bugfixes.",
+                "images": ["images/critical_overlay.png"]
+            }
+        ]
+    },
+    {
+        "image": "1.6.png",
+        "title": "Update 4/4/2025",
+        "subTitle": "4th April, 2025",
+        "paragraphs": [
+            {
+                "title": "Added Gardening!",
+                "text": "Start cultivating a variety of vegetables and exotic plants in your brand-new garden! Visit the market to purchase seeds and kickstart your gardening journey. Remember to water your plants regularly to keep them thriving!",
+                "images": ["images/gardening.png"]
+            },
+            {
+                "title": "New Life Stages: Child and Elder",
+                "text": "Experience a new evolution path for your beloved pets! Baby pets now grow into children before becoming teens, and adult pets can evolve into elders after extended gameplay with auto-age enabled.",
+                "images": ["images/elder_child_stage.png"]
+            },
+            {
+                "title": "Homeworld Getaways: Explore Your Pet’s Home Planet",
+                "text": "Send your pets on exciting activities on their home planet! They’ll embark on these adventures for a few minutes or up to several hours in real time, returning with boosted stats and unique moodlets.",
+                "images": ["images/homeworldgetaway.png"]
+            },
+            {
+                "title": "Cooking with Ingredients",
+                "text": "Craft your own meals and snacks using ingredients harvested from your garden! Discover 18 exclusive new dishes with special effects—available only through cooking.",
+                "images": ["images/cooking_harvests.png"]
+            },
+            {
+                "title": "Added Crafting!",
+                "text": "Unleash your creativity by crafting new accessories, furniture, and even new rooms! Use exotic materials gathered from your gardening efforts to enhance your home.",
+                "images": ["images/crafting.png"]
+            },
+            {
+                "title": "Sell Your Food in the Market",
+                "text": "Become a merchant by selling your home-cooked food in the market! Regular food items fetch modest prices, but specially crafted dishes yield much higher profits.",
+                "images": ["images/sell_food.png"]
+            },
+            {
+                "title": "New Set: Collage",
+                "text": "Explore the latest Collage set in the Crafting menu! The set includes 1 room background, 4 furniture items, and 3 accessories to give your room a fresh look.",
+                "images": ["images/collage_set.png"]
+            },
+            {
+                "title": "Bug Fixes and Quality Improvements",
+                "text": "- Fortune teller now displays all possible evolutions based on all care ratings, not just the player’s current rating.\n- Added 'Out of Stock' labels to market shops and improved stock system functionality.\n- Enhanced visuals in the wedding scene with heart particles.\n- Polished the birthday party scene for a better experience.\n- Fixed game speed slowdown on high-refresh-rate monitors and displays."
+            }
+        ]
+    },
+    {
+        "image": "fortune_teller.png",
+        "title": "Update 3/13/2025",
+        "subTitle": "13th March, 2025",
+        "paragraphs": [
+            {
+                "title": "New Fortune Teller NPC!",
+                "text": "You can visit the new Fortune Teller to find out your pet's next possible life stage evolution based on your current Care Rating!\nYou can even find out what your child will look like with any of your friends if your pet is an adult!",
+                "images": ["images/fortune_teller.png"]
+            },
+            {
+                "title": "Significant improvements to save system",
+                "text": "This update brings significant improvements to the save system, allowing for many more possibilities and far fewer limitations.\nMany issues related to running out of storage space and disappearing progress will no longer occur with this new system."
+            },
+            {
+                "title": "New Friend Search",
+                "text": "You can now directly search for your friend's user id (uid) in the friends section of the phone."
+            },
+            {
+                "title": "Bugfixes and improvements",
+                "text": "- Adjusting sleeping hours now changes the in-game time of day.\n- Fix pets wanting items they cannot use.\n- Many smaller bugfixes and improvements."
+            }
+        ]
+    },
+    {
+        "image": "valentine_25.png",
+        "title": "Valentine Update 2025",
+        "subTitle": "14th February, 2025",
+        "paragraphs": [
+            {
+                "title": "New Valentine-themed additions:",
+                "text": "- New room background\n - 2 New Accessories\n - 5 New Furniture Items",
+                "images": ["images/valentine_25.png"]
+            },
+            {
+                "title": "UI Improvements",
+                "text": "Made improvements to the UI to enhance user experience"
+            }
+        ]
+    },
+    {
+        "image": "updatenew_11.webp",
+        "title": "Update 1/31/2025",
+        "subTitle": "31st January, 2025",
+        "paragraphs": [
+            {
+                "title": "Added Custom Furniture",
+                "text": "- Now you'll be able buy furniture items separately and customize your room like!\n- There are now two types of rooms; Pre-furnished and Customizable: Pre-furnished rooms are like the rooms from before this update; they come with their default furniture and if you wish to customize them you have to remove the default furniture for free or buy a customizable room from the mall!\n- You can place up to **5** furniture item in your rooms!\n- You have precise control over the exact position of each furniture.\n- There are more than 40 furniture items available to buy from the furniture store in the mall!",
+                "images": [
+                    "images/custom_furniture_01.png",
+                    "images/custom_furniture_02.png"
+                ]
+            },
+            {
+                "title": "New Set: Gothic",
+                "text": "Added a new set \"Gothic\" made by the talented @Prion_Sigma, this set contains *1 Room wallpaper, 5 Furniture, 1 Item and 3 Accessories*",
+                "images": ["images/gothic_set.png"]
+            },
+            {
+                "title": "New Set: Arcade",
+                "text": "Added a new set \"Arcade\" made by the talented @Piixel_Nun, this set contains *1 Room wallpaper, 4 Furniture and 1 Accessory*",
+                "images": ["images/arcade_set.png"]
+            },
+            {
+                "title": "Other new Furniture/Accessories",
+                "text": "Added many other new furniture items/accessories made by the talented @Prion_Sigma and @Piixel_Nun",
+                "images": ["images/new_stuff_furniture.png"]
+            },
+            {
+                "title": "Added Skate Park",
+                "text": "There is now a new skate item available to purchase, which by using you'll get to travel to a skatepark and maybe even perform a few tricks!",
+                "images": ["images/skatepark_01.png"]
+            },
+            {
+                "title": "Other new Items",
+                "text": "- Rattle: Now the player starts with a rattle item in their inventory by default to be able to entertain their newly-hatched pet easier. Note: This item does not get added to existing saves automatically, and you have to buy it from the mall.\n- Bear: Added a new bear item for your pet to play with!",
+                "images": ["images/bear_item.png"]
+            },
+            {
+                "title": "Added potty training",
+                "text": "- If you send your pet to the toilet on time a couple of times when they are still a baby, your pet will get the *Potty-trained* trait, and from then on forward they'll no longer poop in the house and will automatically go to the toilet to poop.\n- You can check if your pet has the trait by opening the Profile page.",
+                "images": ["images/poop_trait.png"]
+            },
+            {
+                "title": "Added unique animations to all items!",
+                "text": "Now instead of playing the same placeholder animations when the pet was playing with items, it now plays short animations specific to the item itself."
+            },
+            {
+                "title": "Added a new screenshot functionality",
+                "text": "- Now you'll be able to take screenshot of the in-game screen by double tapping the Tamaweb logo at the top of the shell!\n- Note: You cannot use this feature when a menu is open.",
+                "images": ["images/screenshot_dbl.png"]
+            },
+            {
+                "title": "Added new shell designs",
+                "text": "- Added 4 new shell designs: Minimal White, Minimal Black, Circuit, Starry Night\n- Also added a new, more egg-shaped default (new players only, for existing accounts select it from the settings) shell shape."
+            },
+            {
+                "title": "More Improvements and bugfixes",
+                "text": "- Improved Missions UI to provide more feedback on completing missions.\n- Improved disabled UI appearance.\n- Added fullscreen flag for user who want to experiment with putting the game on a custom device, you can access it by putting `?fullscreen` at the end of the URL.\n- Added appropriate age limit for some objects\n- Med items are now always available for purchase regardless of the day.\n- Changed default egg sprite and animation.\n- Fixed mimic game icons being misaligned.\n- Fixed a bug where the player could not open market menus after logging in for the first time.\n- Improved save code system.\n- Improvements to PWA caching\n- Smaller Bugfixes and Improvements"
+            }
+        ]
+    },
+    {
+        "title": "Update 12/13/2024",
+        "subTitle": "13th December, 2024",
+        "paragraphs": [
+            {
+                "title": "Happy XMAS!",
+                "text": "We wish you happy holidays! The Xmas event runs from 14th to 31st and currently includes double rewards for each mission chests open, with more stuff coming further into the holidays! Please enjoy and keep an eye out for future Xmas event updates!",
+                "images": ["images/xmas_event_01.png"]
+            }
+        ]
+    },
+    {
+        "image": "10.webp",
+        "title": "Update 11/28/2024",
+        "subTitle": "28th November, 2024",
+        "paragraphs": [
+            {
+                "title": "New feature: Dating!",
+                "text": "Instead of being able to marry one of your friends, you have to now go on a romantic date with them and see if you two can feel the connection or not! \nMake sure your pet is well prepared and is smelling good or the other participant might not feel comfortable!\n\nThis feature is also available in Hubchi, so you can go on dates with other player's pets!",
+                "images": ["images/beach_01.png", "images/dating_01.png"]
+            },
+            {
+                "title": "Added DayMail service!",
+                "text": "Now you'll receive a mail every day letting you know of latest news, friend messages or just telling how awesome you are!",
+                "images": ["images/dailymail_01.png", "images/mail_01.png"]
+            },
+            {
+                "title": "Improved Social Media!",
+                "text": "Updated the visual of the social media, as well as adding many new posts and rewriting almost all of the existing ones!\nAlso there is no a limited number of posts each time you open the app and you can also just click the next post instead of having to close and reopen 'explore post'!",
+                "images": ["images/social_media_n.png"]
+            },
+            {
+                "title": "Added 2 new room backgrounds!",
+                "text": "Check ot the two beautiful room backgrounds by the talented @VairaSmythe added in this update: ASTRA and SEAFLOOR!",
+                "images": ["images/cc_01.png", "images/cc_02.png"]
+            },
+            {
+                "title": "Classic Menu improvement",
+                "text": "Improved pet visibility when Classic Menu is turned on!",
+                "images": ["images/screen.png"]
+            },
+            {
+                "title": "Hubchi changes",
+                "text": "You can now date other people's pets in Hubchi! Just go on Hubchi, and in the interact menu tap on 'Go on date'!\nAlso from this update forward, you can no longer enter Hubchi with your Baby pet, and now its only open to teen and higher. This is due to a large amount of baby characters in any given Hubchi lobby.",
+                "images": []
+            },
+            {
+                "title": "Care rating adjustments!",
+                "text": "Several adjustments have been made to the Care Rating system to rebalance it into a bit more fair experience!",
+                "images": []
+            },
+            {
+                "title": "Added food shop stocks!",
+                "text": "There is now a limited number of food and snacks available to purchase in the shop, and their stock will change each day, so remember to check back everyday to buy new stuff!",
+                "images": []
+            },
+            {
+                "title": "Added a new dating achievement!",
+                "text": "There is a new 'Heartbreaker' achievement!",
+                "images": []
+            },
+            {
+                "title": "Feeding quality of life improvements",
+                "text": "The game now remembers the current food entry when feeding, so that after feeding it won't reset to the first food item again.\nOn the same note, the game no longer closes the snacks menu after your pet is past hunger satisfaction so that you continue feeding them snacks as you please.",
+                "images": []
+            },
+            {
+                "title": "Find Friends Bugfix",
+                "text": "The Social Media's Find Friends feature no longer shows the second pet for the rest of the slots.",
+                "images": []
+            },
+            {
+                "title": "Credits",
+                "text": "Added a new Credits section in the settings.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "9.png",
+        "title": "Update 11/7/2024",
+        "subTitle": "7th November, 2024",
+        "paragraphs": [
+            {
+                "title": "Added Hubchi Rewards Store!",
+                "text": "There is a new limited-time rewards store in Hubchi where you can unlock exclusive items for your pet using likes! And now you can get likes by just interacting with other peoples pets! Check the in-game info boxes for more information!",
+                "images": [
+                    "images/hubchi_rewards_01.png",
+                    "images/hubchi_rewards_02.png"
+                ]
+            },
+            {
+                "title": "Added Daily Missions!",
+                "text": "There are now daily mission that you can try to finish to get MissionPts! You can then redeem your MissionPts for two different chests containing random items including food, item, accessories, gold and more!",
+                "images": ["images/missions_01.png", "images/missions_02.png"]
+            },
+            {
+                "title": "Added Character collection!",
+                "text": "You can now keep track of all the characters you've been able to get! Try to collect them all!",
+                "images": ["images/char_collection_01.png"]
+            }
+        ]
+    },
+    {
+        "image": "8.png",
+        "title": "Update 9/12/2024",
+        "subTitle": "12th September, 2024",
+        "paragraphs": [
+            {
+                "title": "Welcome to Hubchi!",
+                "text": "There is now an online hub where you can meet and interact with other players pets and earn publicly displayed interaction points whenever others engage with your own pet! There is more to come, await online events, games and much more!\nAccess Hubchi from the phone interactions menu.",
+                "images": ["images/hubchi_01.png", "images/hubchi_02.png"]
+            },
+            {
+                "title": "Added care rating system!",
+                "text": "Now your pets next evolution depends on how good you've been taking care of them in general, not based on how good they feel at the moment they age up! \nYou gain care rating by taking care of your pet and giving them lots of attention, and will lose care rating by ignoring and neglecting them! \nYou can see your care rating in the stats menu",
+                "images": ["images/care-rating.png"]
+            },
+            {
+                "title": "Added wants system!",
+                "text": "Now your pet will have different wants throughout the day like wanting a specific food/snack, wanting to play with a specific item, wanting to hangout with a friend, etc. \nBy fulfulling their wants, you have a chance to gain a care rating point, likewise if you miss fulfilling their want before it refreshes you may lose a care rating point.\nEach want can last between 30 mins to 2 hours before it refreshes. \nNote: The wants you miss while not actively in the game are not counted towards your negligence.",
+                "images": ["images/want.png"]
+            },
+            {
+                "title": "Added a new game: Mimic!",
+                "text": "In this game you have to try to guess your opponent's next pose!",
+                "images": ["images/mimic_game.png"]
+            },
+            {
+                "title": "Added a new game: Catch!",
+                "text": "In this game you have to try to get as much heart while avoiding the poop!",
+                "images": ["images/catch_game.png"]
+            },
+            {
+                "title": "Added a classic style main menu!",
+                "text": "Prefer an old-school look with the menu items being at the top and bottom of the screen? You can now switch to a classic main menu from the System Settings.",
+                "images": ["images/secretary_mainmenu.png"]
+            },
+            {
+                "title": "Added a new animated companion: Secretary!",
+                "text": "Inspired and based on the same character from the amazing 1000xRESIST game! \nYou can purchase this companion from the Accessories section in the mall and equip it in your stuff menu.",
+                "images": ["images/secretary_item.png"]
+            },
+            {
+                "title": "Added a new accessory: Mini-Band!",
+                "text": "You can purchase this accessory from the mall."
+            },
+            {
+                "title": "Added a new font!",
+                "text": "Due to community suggestion about the old font being kind of hard to read, we've decided to update the font to a much more readable counterpart (Pixel Coleco)",
+                "images": []
+            },
+            {
+                "title": "New kitchen background!",
+                "text": "Check out the view in the new kitchen background!",
+                "images": ["images/new_kitchen.png"]
+            },
+            {
+                "text": "New achievements, quality of life improvement, bugfixes, cheat codes, and much more!",
+                "images": []
+            },
+            {
+                "text": "You can now tap the 'Downloading' prompt to hide it.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "7.png",
+        "title": "Update 8/14/2024",
+        "subTitle": "14th August, 2024",
+        "paragraphs": [
+            {
+                "title": "Added dynamic day and night cycle!",
+                "text": "There are currently 4 times of day: Morning, Afternoon, Evening and Night! \nTime of the day is determined by your device clock.",
+                "images": ["images/skies.png"]
+            },
+            {
+                "title": "Added weather system!",
+                "text": "There is rain! Now you might randomly get a raining weather that lasts for an hour or two, the chance is based on the day of the month, with some days having a higher chance of raining than others!",
+                "images": ["images/mall_rainy_day.png"]
+            },
+            {
+                "title": "Added a new room background: Wooden!",
+                "text": "It has big windows so that you can fully enjoy the new views!",
+                "images": ["images/night_sleep_wooden.png"]
+            },
+            {
+                "title": "Added automatic birthdays setting!",
+                "text": "If you want your pet to automatically age up when they've reached their age up time (baby to teen: 24 hours / teen to adult: 48 hours) you can enable this feature in the new Gameplay Settings section of the settings menu!",
+                "images": ["images/gameplay_settings.png"]
+            },
+            {
+                "title": "Added ability to offset your pets bedtime!",
+                "text": "Now you'll be able to change which hours your pet will automatically sleep in the Gameplay Settings section!",
+                "images": ["images/sleep_hours_menu.png"]
+            },
+            {
+                "title": "Reworked the park background sprite!",
+                "text": "Reworked the park background sprite!",
+                "images": ["images/new_park.png"]
+            },
+            {
+                "title": "Added 4 new shell shapes!",
+                "text": "These are available in the Change Shell category of the settings!",
+                "images": ["images/new_shell_shape.png"]
+            },
+            {
+                "title": "Added 5 new shell backgrounds!",
+                "text": "These are also available in the Change Shell category of the settings!",
+                "images": []
+            },
+            {
+                "title": "Updated pet sleeping mechanics!",
+                "text": "You can now always put your pet to sleep without them refusing during their bedtime (sleeping hours), and there is a new 'Bedtime' badge on the sleep button when it's during their sleeping hours!",
+                "images": []
+            },
+            {
+                "title": "Decreased pets active sleep depletion rate!",
+                "text": "Now it takes 4 hours for them to get sleepy (as opposed to 30 minutes from before)",
+                "images": []
+            },
+            {
+                "title": "Fixed mod support bugs!",
+                "text": "All resource overrides should work now!",
+                "images": []
+            },
+            {
+                "title": "Fixed UI bugs from last update!",
+                "text": "Fixed UI bugs from last update!",
+                "images": []
+            },
+            {
+                "title": "Bugfixes and improvements!",
+                "text": "Bunch of other fixes and improvements and much more!",
+                "images": []
+            }
+        ]
+    },
+    {
+        "title": "Small Update 7/20/2024",
+        "subTitle": "20th July, 2024",
+        "paragraphs": [
+            {
+                "title": "Changed default generated names!",
+                "text": "The default generated names are now more playful.",
+                "images": []
+            },
+            {
+                "title": "Added save indicator!",
+                "text": "A small save indicator has been added to the top right that shows up when the game is being saved.",
+                "images": []
+            },
+            {
+                "title": "Fixed vacation state saving bug!",
+                "text": "Fixed a bug causing the vacation state not getting saved on some devices.",
+                "images": []
+            },
+            {
+                "title": "Fixed accessory layering bug!",
+                "text": "Fixed a bug related to all accessories appearing on top of the character if you put them on right after aging them up.",
+                "images": []
+            },
+            {
+                "text": "Other small tweaks and bugfixes.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "6.png",
+        "title": "Update 7/11/2024",
+        "subTitle": "11th July, 2024",
+        "paragraphs": [
+            {
+                "title": "Added cooking feature!",
+                "text": "The cooking mini game has you take 3 pictures using your device's camera to use as ingredients in your dish! After you take the photos, stir the dish until it's mixed!",
+                "images": ["images/cooking.png"]
+            },
+            {
+                "title": "Added family trees and generation tracking!",
+                "text": "Checkout your family tree from the newly added section in the stats menu! \nYou can also see your past generation pets from old runs that have ended. \nNote that only families played from this update onward will appear in the tree. Families from before this update will not be shown.",
+                "images": ["images/family_tree.png"]
+            },
+            {
+                "title": "Added pet vacation option!",
+                "text": "If you want to take a break and not worry about 24/7 care of your pet, send them on a vacation for only $250! While on vacation, their needs will not drop, and you can end their vacation at any time!",
+                "images": ["images/vacation_sea.png"]
+            },
+            {
+                "title": "Overhauled the UI design!",
+                "text": "Check out the new design and share your feedback!",
+                "images": ["images/ui_1.png", "images/ui_2.png"]
+            },
+            {
+                "title": "Reworked achievements!",
+                "text": "Collect all the recently added and revamped achievements to unlock rewards!",
+                "images": []
+            },
+            {
+                "text": "Many bugfixes and improvements!",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "5.png",
+        "title": "Update 6/13/2024",
+        "subTitle": "13th June, 2024",
+        "paragraphs": [
+            {
+                "title": "Added new job: Work at Stand!",
+                "text": "In addition to the office work, now you'll be able to send your adult pet to work at a stand. \nPay attention to the customers' feelings—the happier they are, the more they'll want to spend money buying stuff! \nTake good care of your own pet to make sure they perform to their fullest on the stand, making their customers happy!",
+                "images": ["images/work_at_stand.png"]
+            },
+            {
+                "title": "Added accessories!",
+                "text": "You can now dress up your pets by putting accessories on them! \nCurrently, there are 4 accessory items available to purchase from the mall, with more to come: Witch Hat, Crown, Wings, and Frooties. Currently, accessories are only available for adults.",
+                "images": ["images/accessories.png"]
+            },
+            {
+                "title": "Added pet interaction!",
+                "text": "You can now pet your digital friend! Just select the home icon from the main menu and select the Pet option! Petting will increase their fun stat.",
+                "images": ["images/petting.png"]
+            },
+            {
+                "title": "Updated item sprites!",
+                "text": "Added updated item sprites! (thanks/credits to @digiropa)",
+                "images": []
+            },
+            {
+                "title": "Added character breathing animation!",
+                "text": "Added breathing animation to all characters!",
+                "images": []
+            },
+            {
+                "title": "Added random jumping animation!",
+                "text": "Now your pet may randomly jump when idling and taken care of!",
+                "images": []
+            },
+            {
+                "title": "Added shadows to characters!",
+                "text": "Added shadows to characters!",
+                "images": []
+            },
+            {
+                "title": "Reworked sound effects!",
+                "text": "Reworked and remade most sound effects!",
+                "images": []
+            },
+            {
+                "title": "Changed main menu icons!",
+                "text": "In the main menu, changed the sleep icon to home icon because now in addition to sleeping, you can pet and dress your character in the same menu!",
+                "images": []
+            },
+            {
+                "title": "Fixed critical bugs!",
+                "text": "Fixed a lot of important bugs. Your pet will now die properly if left unattended for extended periods.",
+                "images": ["images/petdeath.png"]
+            }
+        ]
+    },
+    {
+        "title": "Mod Support Update 6/3/2024",
+        "subTitle": "3rd June, 2024",
+        "paragraphs": [
+            {
+                "title": "Added Mod Support!",
+                "text": "Mod support has been one of the most requested features for the game. You can now replace assets like characters, food sprites, items, and more with your own creations.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "4.png",
+        "title": "Update 4/29/2024",
+        "subTitle": "29th April, 2024",
+        "paragraphs": [
+            {
+                "title": "Added new Rainbow room background!",
+                "text": "Added the new Rainbow room background.",
+                "images": []
+            },
+            {
+                "title": "Added new mall walkway background!",
+                "text": "Added a new walkway background when going to the mall, with the option to skip the walking animation.",
+                "images": []
+            },
+            {
+                "title": "Added 3 new food items!",
+                "text": "Added Spaghetti, Telesushi, and S-Special dish.",
+                "images": []
+            },
+            {
+                "title": "Added 3 new treats!",
+                "text": "Added Cream icepack, Bunny mooko, and Paloodeh.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "log.png",
+        "title": "Update 3/24/2024",
+        "subTitle": "24th March, 2024",
+        "paragraphs": [
+            {
+                "title": "Added pet death scenario!",
+                "text": "Make sure you are not neglecting your pet for too long, otherwise they might die! \nBaby: 24 hours of neglect. \nTeen: 40 hours. \nAdult: 54 hours.",
+                "images": []
+            },
+            {
+                "title": "Added parent care feature!",
+                "text": "You can now leave your pet with their parents to take care of them while you're away. Their stats won't decrease during this time.",
+                "images": ["images/stayparents_menu.png"]
+            },
+            {
+                "title": "Added new FUTURA room background!",
+                "text": "Check it out in the mall!",
+                "images": []
+            },
+            {
+                "title": "Added new egg spawn animation!",
+                "text": "Added a new egg spawn animation.",
+                "images": []
+            }
+        ]
+    },
+    {
+        "image": "2.png",
+        "title": "Update 3/22/2024",
+        "subTitle": "22nd March, 2024",
+        "paragraphs": [
+            {
+                "title": "Added pet cleaning feature!",
+                "text": "Now your pet will get dirty over time, and you'll have to give them a bath using the new Bathe option in the cleaning menu!",
+                "images": ["images/screen_bathe.png"]
+            },
+            {
+                "title": "Added toilet option for pets!",
+                "text": "You can now make your pet go to the toilet using the Use Toilet option in the cleaning menu. Watch out for the symbol above their head when their bladder is nearly full!",
+                "images": ["images/screen_toilet_menu.png"]
+            },
+            {
+                "title": "Added new doctor and clinic!",
+                "text": "Check out the hospital and Dr. Banzo's clinic from the activities menu if your pet feels sick!",
+                "images": ["images/hospital_01.png"]
+            },
+            {
+                "title": "Added social media feature!",
+                "text": "You can now message your friends using the Social Media app in the apps menu!",
+                "images": []
+            },
+            {
+                "title": "Stat value rebalancing!",
+                "text": "Tweaked and rebalanced some stat values.",
+                "images": []
+            },
+            {
+                "text": "Bugfixes and other improvements.",
+                "images": []
+            }
+        ]
+    }
 ]

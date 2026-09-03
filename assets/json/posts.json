@@ -1,5 +1,32 @@
 [
     {
+      "image": "1.14.5.png",
+      "title": "Update 1.14.5",
+      "subTitle": "3rd September, 2026",
+      "paragraphs": [
+        {
+          "title": "New Skill Based Jobs: School Teacher and Body Builder",
+          "text": "Added two new skill-based jobs!\n\n- **School Teacher**:\n\t- Requires **>80 Logic skill**\n\t- Takes **2 Hours and 30 Minutes**\n\t- **Yields $225**\n- **Body Builder**:\n\t- Requires **>80 Endurance skill**\n\t- Takes **2 Hours and 15 Minutes**\n\t- **Yields $200**",
+          "images": ["images/job_teacher.png", "images/job_bodybuilder.png"]
+        },
+        {
+          "title": "Overlay Decorations",
+          "text": "You can now have animated leaves at the edges of your screen!\n\nThere are currently 3 decorations to choose from:\n- **Patchy** (green/orange)\n- **Autumn** (red/orange)\n- **Winter** (bluish white)\n\nMore sets are coming in the future!\n\nYou can control this feature from **Settings > System Settings > Decoration Overlay**.",
+          "images": ["images/overlay_decoration.png"]
+        },
+        {
+          "title": "Backend Changes",
+          "text": "- Many events will now run continuously throughout gameplay instead of only running **once** when you first enter the game. This allows you to keep the game running continuously while still triggering interactions and events that would normally require you to close and reopen the game.\n- Massive changes have been made to **depth and Z sorting**, allowing for more dynamic sprite positioning in complex scenes. This is still an ongoing process, so please let us know if you find any issues with sprites appearing on top of or behind objects where they shouldn't be.\n- Other engine-level improvements.",
+          "images": []
+        },
+        {
+          "title": "Improvements & Bugfixes",
+          "text": "- Your ingredients will now be visible when cooking with ingredients instead of showing the default stars.\n- Updated cooking visuals.\n- Eating at a restaurant now gives a **1.5x boost** instead of **1.25x**.\n- Animals will now run away due to neglect while you are at home, instead of only having their stats updated when you enter the backyard. The popup showing which animals have left will still appear when you manually enter the backyard, like before.\n- Jobs will now give a more accurate approximation of how long they take.\n- Added new sound effects.\n- Fixed an issue where missions would not refresh even though they should have already been refreshed, despite the menu showing that they had refreshed \"x time ago\".\n- Many smaller rebalances and bug fixes.",
+          "images": ["images/improvements.png"]
+        }
+      ]
+    },
+    {
       "image": "1.14.png",
       "title": "Update 1.14",
       "subTitle": "12th August, 2026",

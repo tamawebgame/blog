@@ -1,5 +1,37 @@
 [
     {
+      "image": "1.15.png",
+      "title": "Update 1.15",
+      "subTitle": "26th October, 2026",
+      "paragraphs": [
+        {
+          "title": "New Mini-game: Fruit Collector",
+          "text": "A new mini-game is now available in the game center! Your pet is dropped on an island full of trees and fruits, and you have 30 seconds to pick up as many fruits as you can before the timer runs out!\n\nAvailable for pets at the **Teen** life stage and above.\n\nThis mini-game also comes with a new achievement: **Fruit Sweeper!**",
+          "images": ["images/islandcollectorgame.png"]
+        },
+        {
+          "title": "5 New Personality Traits",
+          "text": "Added 5 brand new personality traits to the game! Here's the full list:\n\n- **Ambitious**: Earns more gold from skill-based jobs (School Teacher and Body Builder) and loses half as much fun from them.\n- **Haggler**: Sells food for more money in the market.\n- **Gamer**: Wants to play mini-games more often, gets 50% more fun and a bit of extra gold from them.\n- **Independent**: Needs drop 20% slower while you are away.\n- **Clingy**: Needs drop 20% faster while you are away.\n\nNote: **Independent** and **Clingy** are opposites, so your pet can't have both!",
+          "images": ["images/115_personality_traits.png"]
+        },
+        {
+          "title": "Age-Based Pet Voices",
+          "text": "Your pet's voice now changes depending on their age! Babies will have a high-pitched voice, and it gets deeper as they grow up, all the way to elders.",
+          "images": []
+        },
+        {
+          "title": "New Food Items",
+          "text": "New food and snacks are now available for purchase at the market!\n\nNew food:\n- **Bowl of Ramen**\n\nNew snack:\n- **Quiche**",
+          "images": ["images/115_food.png"]
+        },
+        {
+          "title": "Improvements & Bugfixes",
+          "text": "- Jobs now show the correct pay (including trait bonuses) before you send your pet to work.\n- An issue where, on iOS devices, looped sounds and music would not stop properly should now be fixed.\n- Fixed an issue where sometimes the pet would stay in an enlarged state after the petting animation sequence was interrupted (The pet scale now resets when leaving the home).\n- Many engine-level improvements to make the game more stable.\n- Removed an inappropriate name from the random name generator.\n- Other smaller bugfixes and improvements.",
+          "images": ["images/improvements.png"]
+        }
+      ]
+    },
+    {
       "image": "1.14.5.png",
       "title": "Update 1.14.5",
       "subTitle": "3rd September, 2026",

@@ -6,7 +6,7 @@ export default function Page() {
 
   return (
     <div className="max-w-4xl mx-auto w-full">
-      <ul className="flex flex-col list-none p-0 m-0 border-y border-brand-border/50 divide-y divide-brand-border/50">
+      <ul className="flex flex-col list-none p-0 m-0 _divide-y divide-brand-border/50">
         {posts.map((post) => (
           <li key={post.slug}>
             <a
@@ -39,7 +39,7 @@ export default function Page() {
                       By <span className="font-medium">{post.author.name}</span>
                     </>
                   )}
-                  {post.author && post.sub && <span> — </span>}
+                  {post.author && post.sub && <span> · </span>}
                   {post.sub && <time>{post.sub}</time>}
                 </p>
               </div>

@@ -23,7 +23,7 @@ export default function Page() {
       )}
       <h1 className="text-5xl font-bold mt-4">{post.title}</h1>
       <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 mb-6 mt-5 text-sm flex-col">
-        <div className="flex items-center gap-3 border border-brand-border/50 bg-canvas/60 p-2 px-4 rounded-md">
+        <div className="flex items-center gap-3 border-b border-brand-foreground/30 pb-4">
           <img
             src={assetUrl(`authors/${post.author.image}`)}
             alt=""

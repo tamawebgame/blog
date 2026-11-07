@@ -8,7 +8,7 @@
   body {
     font-family: "Kumbh Sans Variable";
     font-size: 16px;
-    @apply bg-gradient-to-t from-brand to-canvas bg-fixed text-brand-foreground fill-brand-foreground border-brand-border min-h-dvh;
+    @apply bg-brand-muted text-brand-foreground fill-brand-foreground border-brand-border min-h-dvh;
   }
 }
 

@@ -1,22 +1,25 @@
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
-
-import Logo from "/assets/images/logo.svg?react";
+import { assetUrl } from "../../lib/assetUrl";
 
 const Header = () => {
+  const home = assetUrl("");
+
   return (
     <div className="p-8">
       <div className="flex items-center gap-12 max-w-[1200px] mx-auto">
-        <Link to="/blog/">
-          <img src="svg/logo.svg" className="w-40" />
-        </Link>
+        <a href={home}>
+          <img src={assetUrl("svg/logo.svg")} className="w-40" alt="Tamaweb" />
+        </a>
         <div className="flex items-center gap-6 font-bold w-full">
-          <Link to="/blog/">Home</Link>
-          <Link to="/blog/">News</Link>
-          <Link className="flex items-center gap-1 ml-auto" to="/blog/">
+          <a href={home}>Home</a>
+          <a href={home}>News</a>
+          <a
+            className="flex items-center gap-1 ml-auto"
+            href="https://tamawebgame.github.io/"
+          >
             Play Tamaweb <FontAwesomeIcon size="sm" icon={faAngleRight} />
-          </Link>
+          </a>
         </div>
       </div>
     </div>

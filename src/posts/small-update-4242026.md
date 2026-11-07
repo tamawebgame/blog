@@ -1,4 +1,7 @@
 ---
+tags:
+  - Game Updates
+author: samandev
 title: Small Update 4/24/2026
 sub: 24th April, 2026
 coverImage: undefined

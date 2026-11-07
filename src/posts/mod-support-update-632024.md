@@ -1,4 +1,7 @@
 ---
+tags:
+  - Game Updates
+author: samandev
 title: Mod Support Update 6/3/2024
 sub: 3rd June, 2024
 coverImage: undefined

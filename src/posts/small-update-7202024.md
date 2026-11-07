@@ -1,4 +1,7 @@
 ---
+tags:
+  - Game Updates
+author: samandev
 title: Small Update 7/20/2024
 sub: 20th July, 2024
 coverImage: undefined

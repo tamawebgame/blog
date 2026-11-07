@@ -1,8 +1,17 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
+import { getAuthorById } from './authors.js';
 
 const postsDir = path.join(process.cwd(), 'src', 'posts');
+
+/** @param {unknown} value */
+function normalizeTags(value) {
+  if (value == null) return ['Game Updates'];
+  const list = Array.isArray(value) ? value : [value];
+  const tags = list.map((tag) => String(tag).trim()).filter(Boolean);
+  return tags.length ? tags : ['Game Updates'];
+}
 
 /** @param {string | undefined} label */
 export function parsePublishDate(label) {
@@ -19,6 +28,9 @@ function parsePostFile(filePath) {
   const { data, content } = matter(raw);
   const sub = data.sub ?? data.date ?? '';
   const slug = data.slug ?? filename;
+  const authorId = data.author ?? 'samandev';
+  const author = getAuthorById(authorId);
+  const tags = normalizeTags(data.tags);
 
   return {
     title: data.title,
@@ -26,6 +38,9 @@ function parsePostFile(filePath) {
     slug,
     coverImage: data.coverImage,
     description: data.description,
+    tags,
+    authorId,
+    author,
     publishTime: parsePublishDate(sub),
     content: content.trim(),
   };

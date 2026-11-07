@@ -1,4 +1,7 @@
 ---
+tags:
+  - Game Updates
+author: samandev
 title: Valentine Update 2025
 sub: 14th February, 2025
 coverImage: valentine_25.png

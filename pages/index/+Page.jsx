@@ -12,7 +12,7 @@ export default function Page() {
           href={assetUrl(post.slug)}
           className="flex flex-grow no-underline text-inherit"
         >
-          <article className="rounded-xl overflow-hidden border w-full">
+          <article className="rounded-xl overflow-hidden border border-brand-border/50 bg-canvas/80 w-full">
             <img
               src={assetUrl(
                 `post-images/${post.coverImage === 'undefined' || !post.coverImage ? 'lg.png' : post.coverImage}`,

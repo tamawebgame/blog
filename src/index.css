@@ -1,17 +1,38 @@
+@import "./theme.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Kumbh Sans Variable";
-  font-size: 16px;
-  @apply bg-gradient-to-t from-orange-100 to-white bg-fixed text-orange-950 fill-slate-950 border-orange-400 min-h-dvh;
-
-  .article img {
-    max-width: 200px;
-    display: inline;
-    margin: 0;
+@layer base {
+  body {
+    font-family: "Kumbh Sans Variable";
+    font-size: 16px;
+    @apply bg-gradient-to-t from-brand to-canvas bg-fixed text-brand-foreground fill-brand-foreground border-brand-border min-h-dvh;
   }
+}
+
+.prose.article :where(img):not(:where([class~="not-prose"] *)) {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  margin: 0;
+  vertical-align: top;
+  border-radius: 0.375rem;
+}
+
+.prose.article .article-image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: flex-start;
+  margin: 0.75em 0;
+}
+
+.prose.article .article-image-row img {
+  flex: 0 0 auto;
+  display: block;
 }
 
 .markdown,

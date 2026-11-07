@@ -1,6 +1,7 @@
 import Markdown from 'react-markdown';
 import { useData } from 'vike-react/useData';
 import { assetUrl } from '../../src/lib/assetUrl.js';
+import { remarkGroupImages } from '../../src/lib/remarkGroupImages.js';
 
 export default function Page() {
   const { post } = useData();
@@ -13,7 +14,7 @@ export default function Page() {
           {post.tags.map((tag) => (
             <li
               key={tag}
-              className="text-[10px] font-bold uppercase tracking-wide px-2 py-1 rounded-md border border-orange-300/60 bg-orange-50/80"
+              className="text-[10px] font-bold uppercase tracking-wide px-2 py-1 rounded-md border border-accent/40 bg-accent/10 text-accent"
             >
               {tag}
             </li>
@@ -22,7 +23,7 @@ export default function Page() {
       )}
       <h1 className="text-5xl font-bold mt-4">{post.title}</h1>
       <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 mb-6 mt-5 text-sm flex-col">
-        <div className="flex items-center gap-3 border p-2 px-4 rounded-md">
+        <div className="flex items-center gap-3 border border-brand-border/50 bg-canvas/60 p-2 px-4 rounded-md">
           <img
             src={assetUrl(`authors/${post.author.image}`)}
             alt=""
@@ -46,8 +47,10 @@ export default function Page() {
         />
       ) : null}
 
-      <div className="prose max-w-none mt-8 article">
-        <Markdown>{post.content}</Markdown>
+      <div className="prose prose-brand max-w-none mt-8 article">
+        <Markdown remarkPlugins={[remarkGroupImages]}>
+          {post.content}
+        </Markdown>
       </div>
     </article>
   );

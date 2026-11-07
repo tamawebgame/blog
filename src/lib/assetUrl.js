@@ -1,4 +1,3 @@
-/** Prefix a public path with Vite `base` (e.g. /blog/). */
 export function assetUrl(relativePath) {
   if (!relativePath) return import.meta.env.BASE_URL || '/';
   if (

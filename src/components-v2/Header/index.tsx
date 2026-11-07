@@ -15,7 +15,7 @@ const Header = () => {
           <a href={home}>Home</a>
           <a href={home}>News</a>
           <a
-            className="flex items-center gap-1 ml-auto"
+            className="flex items-center gap-1 ml-auto text-accent hover:text-accent/80 transition-colors"
             href="https://tamawebgame.github.io/"
           >
             Play Tamaweb <FontAwesomeIcon size="sm" icon={faAngleRight} />

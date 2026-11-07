@@ -27,13 +27,12 @@ export default function Page() {
           <img
             src={assetUrl(`authors/${post.author.image}`)}
             alt=""
-            className="w-9 h-9 rounded-lg object-cover"
-            style={{ imageRendering: 'pixelated' }}
+            className="w-9 h-9 rounded-full object-cover border-2 border-brand-border/50"
           />
           <div className="flex flex-col gap-0 text-base">
             <div>
               <span className="font-semibold">{post.author.name}</span>
-              <span className="opacity-70"> · {post.author.role}</span>
+              {/* <span className="opacity-70"> · {post.author.role}</span> */}
             </div>
             <time className="opacity-70 text-sm">{post.sub}</time>
           </div>

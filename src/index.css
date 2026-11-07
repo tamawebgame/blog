@@ -4,9 +4,8 @@
 
 body {
   font-family: "Kumbh Sans Variable";
-  /* background-color: #FFCF9D; */
   font-size: 16px;
-  @apply bg-orange-100 text-orange-950 fill-slate-950 border-orange-400;
+  @apply bg-gradient-to-t from-orange-100 to-white bg-fixed text-orange-950 fill-slate-950 border-orange-400 min-h-dvh;
 
   .article img {
     max-width: 200px;

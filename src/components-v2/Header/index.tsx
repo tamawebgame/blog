@@ -1,6 +1,7 @@
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { assetUrl } from "../../lib/assetUrl";
+import logo from "../../../assets/images/logo_trans_02.png";
 
 const Header = () => {
   const home = assetUrl("");
@@ -9,7 +10,7 @@ const Header = () => {
     <div className="p-8">
       <div className="flex items-center gap-12 max-w-[1200px] mx-auto">
         <a href={home}>
-          <img src={assetUrl("svg/logo.svg")} className="w-40" alt="Tamaweb" />
+          <img src={logo} className="w-40" alt="Tamaweb" />
         </a>
         <div className="flex items-center gap-6 font-bold w-full">
           <a href={home}>Home</a>

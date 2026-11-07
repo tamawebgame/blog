@@ -27,20 +27,20 @@ export default function Page() {
                   {post.title}
                 </h2>
 
-                {post.preview ? (
+                {post.preview && (
                   <p className="text-sm opacity-70 line-clamp-2 leading-relaxed">
                     {post.preview}
                   </p>
-                ) : null}
+                )}
 
                 <p className="text-sm opacity-60">
-                  {post.author ? (
+                  {post.author && (
                     <>
                       By <span className="font-medium">{post.author.name}</span>
                     </>
-                  ) : null}
-                  {post.author && post.sub ? <span> — </span> : null}
-                  {post.sub ? <time>{post.sub}</time> : null}
+                  )}
+                  {post.author && post.sub && <span> — </span>}
+                  {post.sub && <time>{post.sub}</time>}
                 </p>
               </div>
             </a>

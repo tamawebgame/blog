@@ -39,13 +39,13 @@ export default function Page() {
           </div>
         </div>
       </div>
-      {hasCoverImage ? (
+      {hasCoverImage && (
         <img
           src={assetUrl(`post-images/${post.coverImage}`)}
           alt={post.title}
           className="w-full h-auto object-cover rounded-md max-h-96"
         />
-      ) : null}
+      )}
 
       <div className="prose prose-brand max-w-none mt-8 article">
         <Markdown remarkPlugins={[remarkGroupImages]}>

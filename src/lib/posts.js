@@ -13,6 +13,21 @@ function normalizeTags(value) {
   return tags.length ? tags : ['Game Updates'];
 }
 
+function markdownToPreview(markdown, maxLength = 220) {
+  if (!markdown) return '';
+  const text = markdown
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/!\[[^\]]*]\([^)]*\)/g, ' ')
+    .replace(/\[([^\]]*)]\([^)]*\)/g, '$1')
+    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/[*_~`]/g, '')
+    .replace(/^\s*[-*+]\s+/gm, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (text.length <= maxLength) return text;
+  return `${text.slice(0, maxLength).trimEnd()}…`;
+}
+
 /** @param {string | undefined} label */
 export function parsePublishDate(label) {
   if (!label) return 0;
@@ -57,13 +72,16 @@ function listPostFiles() {
 export function getAllPostsMeta() {
   const posts = listPostFiles().map(parsePostFile);
   posts.sort((a, b) => b.publishTime - a.publishTime);
-  return posts.map(({ title, sub, slug, coverImage, description }) => ({
-    title,
-    sub,
-    slug,
-    coverImage,
-    description,
-  }));
+  return posts.map(
+    ({ title, sub, slug, coverImage, description, author, content }) => ({
+      title,
+      sub,
+      slug,
+      coverImage,
+      preview: description || markdownToPreview(content),
+      author: author ? { name: author.name } : null,
+    }),
+  );
 }
 
 /** @param {string | undefined} slug */

@@ -2,6 +2,7 @@ import Markdown from 'react-markdown';
 import { useData } from 'vike-react/useData';
 import { assetUrl } from '../../src/lib/assetUrl.js';
 import { remarkGroupImages } from '../../src/lib/remarkGroupImages.js';
+import SharePageButton from '../../src/components-v2/SharePageButton/index.jsx';
 
 export default function Page() {
   const { post } = useData();
@@ -36,6 +37,11 @@ export default function Page() {
             </div>
             <time className="opacity-70 text-sm">{post.sub}</time>
           </div>
+          <SharePageButton
+            title={post.title}
+            text={post.description}
+            className="flex items-center justify-center size-10 rounded-full ml-auto border border-brand-foreground/20 text-brand-foreground hover:bg-brand-muted/60 transition-colors"
+          />
         </div>
       </div>
       {hasCoverImage && (
